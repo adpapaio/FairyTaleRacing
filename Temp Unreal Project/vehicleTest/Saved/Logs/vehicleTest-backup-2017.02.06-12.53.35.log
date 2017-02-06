@@ -1,0 +1,1019 @@
+﻿Log file open, 02/03/17 16:15:39
+LogInit:Display: Running engine for game: vehicleTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1212053961) SRandInit(-1212053961).
+LogTaskGraph: Started task graph with 5 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.250892
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.03-21.15.40:699][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.03-21.15.40:699][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.03-21.15.40:790][  0]LogInit: Computer: SEAN-10
+[2017.02.03-21.15.40:790][  0]LogInit: User: Sean
+[2017.02.03-21.15.40:790][  0]LogInit: CPU Page size=65536, Cores=3
+[2017.02.03-21.15.40:790][  0]LogInit: High frequency timer resolution =4.021334 MHz
+[2017.02.03-21.15.40:791][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.02.03-21.15.40:800][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.03-21.15.40:800][  0]LogMemory: Process Physical Memory: 264.71 MB used, 264.71 MB peak
+[2017.02.03-21.15.40:800][  0]LogMemory: Process Virtual Memory: 262.75 MB used, 262.75 MB peak
+[2017.02.03-21.15.40:800][  0]LogMemory: Physical Memory: 6256.73 MB used,  1834.77 MB free, 8091.50 MB total
+[2017.02.03-21.15.40:800][  0]LogMemory: Virtual Memory: 675.67 MB used,  1834.77 MB free, 134217728.00 MB total
+[2017.02.03-21.15.42:367][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.03-21.15.49:180][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.03-21.15.49:229][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.02.03-21.15.49:230][  0]LogD3D11RHI:       2016/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.02.03-21.15.49:232][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.03-21.15.49:232][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.03-21.15.49:232][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.03-21.15.49:255][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.03-21.15.49:255][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.03-21.15.49:255][  0]LogWindows: EnumDisplayDevices:
+[2017.02.03-21.15.49:255][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.02.03-21.15.49:256][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.02.03-21.15.49:256][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.02.03-21.15.49:256][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.02.03-21.15.49:257][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.03-21.15.49:257][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.02.03-21.15.49:257][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.02.03-21.15.49:257][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.02.03-21.15.49:257][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.03-21.15.49:276][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.03-21.15.49:506][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.02.03-21.15.49:606][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Intermediate/Shaders/WorkingDirectory/9108/).
+[2017.02.03-21.15.49:607][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sean/AppData/Local/Temp/UnrealShaderWorkingDir/B6AED1704B14D0744995E29904C426D6/'.
+[2017.02.03-21.15.49:607][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.03-21.15.57:655][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.03-21.15.57:759][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.03-21.15.57:865][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.03-21.15.57:977][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.03-21.15.58:101][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.03-21.15.58:210][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.03-21.15.58:322][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.03-21.15.58:428][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.03-21.15.58:527][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.03-21.15.58:660][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.03-21.15.58:776][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.03-21.15.58:910][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.03-21.15.59:042][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.03-21.15.59:159][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.03-21.15.59:281][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.03-21.15.59:517][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.03-21.15.59:517][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.03-21.15.59:598][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.03-21.15.59:819][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.03-21.15.59:884][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.03-21.15.59:983][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.03-21.16.00:087][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.03-21.16.00:187][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.03-21.16.00:293][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.03-21.16.00:293][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.03-21.16.02:589][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.03-21.16.03:037][  0]LogDerivedDataCache: Loaded boot cache 0.45s 50MB C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.03-21.16.03:037][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.03-21.16.03:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.03-21.16.03:037][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.03-21.16.03:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.03-21.16.03:037][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.03-21.16.03:116][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.03-21.16.03:137][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.03-21.16.17:683][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.03-21.16.17:837][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.03-21.16.19:144][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.03-21.16.19:468][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.03-21.16.19:639][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.03-21.16.19:639][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.03-21.16.19:639][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.03-21.16.29:035][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
+[2017.02.03-21.16.29:378][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.02.03-21.16.29:921][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.357765 seconds
+[2017.02.03-21.16.29:961][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.03-21.16.29:961][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.02.03-21.16.29:961][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.03-21.16.30:237][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.03-21.16.35:651][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.03-21.16.35:697][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.03-21.16.35:697][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.03-21.16.56:100][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.03-21.16.56:215][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.03-21.16.58:174][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.03-21.16.59:880][  0]SourceControl: Info Source control is disabled
+[2017.02.03-21.17.00:594][  0]SourceControl: Info Source control is disabled
+[2017.02.03-21.17.00:833][  0]SourceControl: Info Source control is disabled
+[2017.02.03-21.17.01:005][  0]SourceControl: Info Source control is disabled
+[2017.02.03-21.17.06:463][  0]LogEngine: Initializing Engine...
+[2017.02.03-21.17.06:483][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.03-21.17.08:307][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.03-21.17.08:483][  0]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-21.17.08:534][  0]LogInit: FAudioDevice initialized.
+[2017.02.03-21.17.08:612][  0]LogDerivedDataCache: Saved boot cache 0.07s 50MB C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.03-21.17.08:652][  0]LogInit: Texture streaming: Enabled
+[2017.02.03-21.17.09:448][  0]LogInit: Transaction tracking system initialized
+[2017.02.03-21.17.10:711][  0]BlueprintLog: New page: Editor Load
+[2017.02.03-21.17.14:712][  0]LocalizationService: Info Localization service is disabled
+[2017.02.03-21.17.17:123][  0]LogConsoleResponse:Display: 
+[2017.02.03-21.17.21:452][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Documents/Unreal Projects/vehicleTest/Content/' took 0.02s
+[2017.02.03-21.17.21:452][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.03-21.17.21:495][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.03-21.17.26:383][  0]SourceControl: Info Source control is disabled
+[2017.02.03-21.17.26:417][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.03-21.17.26:443][  0]LightingResults: New page: Lighting Build
+[2017.02.03-21.17.26:679][  0]MapCheck: New page: Map Check
+[2017.02.03-21.17.26:679][  0]LightingResults: New page: Lighting Build
+[2017.02.03-21.17.28:454][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.03-21.17.28:543][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.02.03-21.17.28:549][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.02.03-21.17.28:550][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.02.03-21.17.28:669][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.02.03-21.17.28:701][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.02.03-21.17.29:523][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.03-21.17.29:594][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.03-21.17.29:691][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.432ms to complete.
+[2017.02.03-21.17.29:691][  0]LogFileHelpers: Loading map 'Template_Default' took 3.281
+[2017.02.03-21.17.30:429][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.03-21.17.31:430][  0]LogCollectionManager: Loaded 0 collections in 0.004243 seconds
+[2017.02.03-21.17.31:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/Collections/' took 0.01s
+[2017.02.03-21.17.31:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Documents/Unreal Projects/vehicleTest/Content/Developers/Sean/Collections/' took 0.01s
+[2017.02.03-21.17.31:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Documents/Unreal Projects/vehicleTest/Content/Collections/' took 0.01s
+[2017.02.03-21.17.31:767][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.02.03-21.17.31:796][  0]LogContentBrowser: Native class hierarchy populated in 0.0283 seconds. Added 2190 classes and 428 folders.
+[2017.02.03-21.17.31:977][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.03-21.17.31:993][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.016 s
+[2017.02.03-21.17.31:994][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
+[2017.02.03-21.17.32:144][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.02.03-21.17.34:002][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.02.03-21.17.34:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.02.03-21.17.35:356][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.03-21.17.35:621][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.03-21.17.35:980][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.02.03-21.17.35:981][  0]LogLoad: (Engine Initialization) Total time: 123.78 seconds
+[2017.02.03-21.17.35:981][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.03 seconds
+[2017.02.03-21.17.35:985][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.03-21.17.35:985][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.03-21.17.36:048][  0]LogOcInput: OculusInput pre-init called
+[2017.02.03-21.17.36:225][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.03-21.17.37:078][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.02.03-21.17.37:680][  4]LogAssetRegistry: Asset discovery search completed in 68.3251 seconds
+[2017.02.03-21.17.37:708][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.02.03-21.17.37:708][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.008949 seconds (updated 0 objects)
+[2017.02.03-21.30.24:435][652]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-21.30.24:527][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-21.30.24:616][652]PIE: New page: PIE session: Untitled_1 (Feb 3, 2017, 11:30:24 AM)
+[2017.02.03-21.30.24:627][652]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.02.03-21.30.24:716][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088653s)
+[2017.02.03-21.30.24:716][652]LogAIModule: Creating AISystem for world Untitled_1
+[2017.02.03-21.30.24:730][652]LogPlayLevel: PIE: World Init took: (0.014121s)
+[2017.02.03-21.30.24:737][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.109537s)
+[2017.02.03-21.30.24:898][652]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-21.30.24:912][652]LogInit: FAudioDevice initialized.
+[2017.02.03-21.30.25:356][652]LogLoad: Game class is 'GameModeBase'
+[2017.02.03-21.30.25:527][652]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.02.03-16.30.25
+[2017.02.03-21.30.25:560][652]LogWorld: Bringing up level for play took: 0.023899
+[2017.02.03-21.30.25:945][652]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.02.03-21.30.26:038][652]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 2.074
+[2017.02.03-21.30.31:902][ 65]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-21.30.32:076][ 65]Cmd: MAP LOAD FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.03-21.30.32:077][ 65]LightingResults: New page: Lighting Build
+[2017.02.03-21.30.32:078][ 65]LoadErrors: New page: Loading map: swanCarLevel.umap
+[2017.02.03-21.30.32:078][ 65]MapCheck: New page: Map Check
+[2017.02.03-21.30.32:078][ 65]LightingResults: New page: Lighting Build
+[2017.02.03-21.30.32:228][ 65]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.03-21.30.32:275][ 65]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.03-21.30.32:346][ 65]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.288ms to complete.
+[2017.02.03-21.30.32:346][ 65]LogFileHelpers: Loading map 'swanCarLevel' took 0.294
+[2017.02.03-21.30.35:425][329]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-21.30.35:449][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-21.30.35:449][329]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 11:30:35 AM)
+[2017.02.03-21.30.35:449][329]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-21.30.35:454][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004497s)
+[2017.02.03-21.30.35:455][329]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-21.30.35:455][329]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2017.02.03-21.30.35:455][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.005979s)
+[2017.02.03-21.30.35:488][329]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-21.30.35:501][329]LogInit: FAudioDevice initialized.
+[2017.02.03-21.30.35:535][329]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-21.30.35:538][329]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-16.30.35
+[2017.02.03-21.30.35:538][329]LogWorld: Bringing up level for play took: 0.001225
+[2017.02.03-21.30.35:670][329]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.295
+[2017.02.03-21.30.51:842][920]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 111 classes and 0 folders.
+[2017.02.03-21.31.21:702][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanFW" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset" SILENT=true
+[2017.02.03-21.31.21:883][396]LogSavePackage: Save=47.40ms
+[2017.02.03-21.31.21:885][396]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanFW2ADF16424CE8B0FA7C3A2DA0E3D50604.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset'
+[2017.02.03-21.31.21:927][396]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset
+[2017.02.03-21.31.24:605][663]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-21.31.24:635][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-21.31.24:635][663]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 11:31:24 AM)
+[2017.02.03-21.31.24:635][663]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-21.31.24:638][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002896s)
+[2017.02.03-21.31.24:639][663]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-21.31.24:639][663]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2017.02.03-21.31.24:639][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.004297s)
+[2017.02.03-21.31.24:689][663]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-21.31.24:702][663]LogInit: FAudioDevice initialized.
+[2017.02.03-21.31.24:733][663]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-21.31.24:736][663]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-16.31.24
+[2017.02.03-21.31.24:736][663]LogWorld: Bringing up level for play took: 0.001197
+[2017.02.03-21.31.24:739][663]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.774
+[2017.02.03-21.59.00:777][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanFW" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset" SILENT=true
+[2017.02.03-21.59.00:817][ 39]LogSavePackage: Save=15.98ms
+[2017.02.03-21.59.00:817][ 39]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanFW7F8E22BF441C33C506F272BE5CFA5C94.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset'
+[2017.02.03-21.59.00:820][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset
+[2017.02.03-21.59.01:271][ 83]BlueprintLog: New page: Compile swanFW
+[2017.02.03-21.59.03:834][321]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-21.59.03:860][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-21.59.03:860][321]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 11:59:03 AM)
+[2017.02.03-21.59.03:860][321]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-21.59.03:868][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007320s)
+[2017.02.03-21.59.03:870][321]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-21.59.03:871][321]LogPlayLevel: PIE: World Init took: (0.003087s)
+[2017.02.03-21.59.03:871][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.010750s)
+[2017.02.03-21.59.03:904][321]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-21.59.03:920][321]LogInit: FAudioDevice initialized.
+[2017.02.03-21.59.03:954][321]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-21.59.03:958][321]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-16.59.03
+[2017.02.03-21.59.03:958][321]LogWorld: Bringing up level for play took: 0.001760
+[2017.02.03-21.59.03:962][321]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.003
+[2017.02.03-21.59.39:725][ 10]BlueprintLog: New page: Compile swanFW
+[2017.02.03-21.59.40:154][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanFW" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset" SILENT=true
+[2017.02.03-21.59.40:168][ 36]LogSavePackage: Save=7.57ms
+[2017.02.03-21.59.40:168][ 36]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanFW20AF2CDD4E49C2AEF147B3AA7555FCBA.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset'
+[2017.02.03-21.59.40:238][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset
+[2017.02.03-21.59.41:983][230]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-21.59.42:005][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-21.59.42:006][230]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 11:59:42 AM)
+[2017.02.03-21.59.42:006][230]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-21.59.42:008][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002649s)
+[2017.02.03-21.59.42:009][230]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-21.59.42:009][230]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2017.02.03-21.59.42:010][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.003797s)
+[2017.02.03-21.59.42:040][230]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-21.59.42:052][230]LogInit: FAudioDevice initialized.
+[2017.02.03-21.59.42:084][230]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-21.59.42:087][230]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-16.59.42
+[2017.02.03-21.59.42:087][230]LogWorld: Bringing up level for play took: 0.001132
+[2017.02.03-21.59.42:089][230]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.125
+[2017.02.03-22.00.33:562][708]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.00.33:588][708]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.03-22.00.33:599][708]LogPlayLevel: [PlayLevel] Compiling swanCarBP before play...
+[2017.02.03-22.00.34:004][708]LogPlayLevel: PlayLevel: Blueprint regeneration took 415 ms (1 blueprints)
+[2017.02.03-22.00.34:004][708]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:00:34 PM)
+[2017.02.03-22.00.34:004][708]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.00.34:006][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002508s)
+[2017.02.03-22.00.34:008][708]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.00.34:008][708]LogPlayLevel: PIE: World Init took: (0.001740s)
+[2017.02.03-22.00.34:008][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.004494s)
+[2017.02.03-22.00.34:044][708]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.00.34:056][708]LogInit: FAudioDevice initialized.
+[2017.02.03-22.00.34:090][708]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.00.34:093][708]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.00.34
+[2017.02.03-22.00.34:093][708]LogWorld: Bringing up level for play took: 0.001149
+[2017.02.03-22.00.34:105][708]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.141
+[2017.02.03-22.01.44:603][ 76]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.01.44:631][ 76]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.03-22.01.44:631][ 76]LogPlayLevel: [PlayLevel] Compiling swanCarBP before play...
+[2017.02.03-22.01.45:135][ 76]LogPlayLevel: PlayLevel: Blueprint regeneration took 504 ms (1 blueprints)
+[2017.02.03-22.01.45:136][ 76]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:01:45 PM)
+[2017.02.03-22.01.45:136][ 76]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.01.45:138][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002374s)
+[2017.02.03-22.01.45:139][ 76]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.01.45:140][ 76]LogPlayLevel: PIE: World Init took: (0.001388s)
+[2017.02.03-22.01.45:140][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.004011s)
+[2017.02.03-22.01.45:176][ 76]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.01.45:189][ 76]LogInit: FAudioDevice initialized.
+[2017.02.03-22.01.45:222][ 76]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.01.45:225][ 76]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.01.45
+[2017.02.03-22.01.45:225][ 76]LogWorld: Bringing up level for play took: 0.001126
+[2017.02.03-22.01.45:227][ 76]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.263
+[2017.02.03-22.03.05:955][882]BlueprintLog: New page: Compile swanCarBP
+[2017.02.03-22.03.07:404][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanCarBP" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarBP.uasset" SILENT=true
+[2017.02.03-22.03.07:465][936]LogSavePackage: Save=48.00ms
+[2017.02.03-22.03.07:465][936]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanCarBP24478AF541AC8AA399167A8943C0CD9B.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarBP.uasset'
+[2017.02.03-22.03.07:481][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarBP.uasset
+[2017.02.03-22.03.08:886][102]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.03.08:913][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.03.08:913][102]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:03:08 PM)
+[2017.02.03-22.03.08:913][102]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.03.08:916][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002386s)
+[2017.02.03-22.03.08:917][102]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.03.08:917][102]LogPlayLevel: PIE: World Init took: (0.001460s)
+[2017.02.03-22.03.08:917][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.004124s)
+[2017.02.03-22.03.08:950][102]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.03.08:962][102]LogInit: FAudioDevice initialized.
+[2017.02.03-22.03.08:995][102]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.03.08:997][102]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.03.08
+[2017.02.03-22.03.08:998][102]LogWorld: Bringing up level for play took: 0.001114
+[2017.02.03-22.03.09:000][102]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.036
+[2017.02.03-22.03.32:921][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanCarBP" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarBP.uasset" SILENT=true
+[2017.02.03-22.03.32:966][892]LogSavePackage: Save=39.11ms
+[2017.02.03-22.03.32:966][892]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanCarBPDB7A14464235F7F415EED4B50DCCF6E1.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarBP.uasset'
+[2017.02.03-22.03.32:970][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarBP.uasset
+[2017.02.03-22.03.33:234][922]BlueprintLog: New page: Compile swanCarBP
+[2017.02.03-22.03.35:428][136]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.03.35:454][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.03.35:455][136]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:03:35 PM)
+[2017.02.03-22.03.35:455][136]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.03.35:457][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002238s)
+[2017.02.03-22.03.35:458][136]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.03.35:458][136]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2017.02.03-22.03.35:458][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.003512s)
+[2017.02.03-22.03.35:491][136]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.03.35:503][136]LogInit: FAudioDevice initialized.
+[2017.02.03-22.03.35:534][136]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.03.35:537][136]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.03.35
+[2017.02.03-22.03.35:537][136]LogWorld: Bringing up level for play took: 0.001114
+[2017.02.03-22.03.35:539][136]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.425
+[2017.02.03-22.03.57:378][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanFW" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset" SILENT=true
+[2017.02.03-22.03.57:394][720]LogSavePackage: Save=7.78ms
+[2017.02.03-22.03.57:394][720]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanFW613789D24C3E14643C211BB7096AC9BF.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset'
+[2017.02.03-22.03.57:398][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset
+[2017.02.03-22.04.00:604][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanFW" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset" SILENT=true
+[2017.02.03-22.04.00:617][103]LogSavePackage: Save=6.46ms
+[2017.02.03-22.04.00:617][103]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanFW988DFBD74B0AEC2DB7B03294C415662F.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset'
+[2017.02.03-22.04.00:621][103]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset
+[2017.02.03-22.04.01:005][149]BlueprintLog: New page: Compile swanFW
+[2017.02.03-22.04.02:957][358]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.04.02:984][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.04.02:984][358]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:04:02 PM)
+[2017.02.03-22.04.02:984][358]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.04.02:986][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002226s)
+[2017.02.03-22.04.02:986][358]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.04.02:987][358]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2017.02.03-22.04.02:987][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.003463s)
+[2017.02.03-22.04.03:019][358]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.04.03:031][358]LogInit: FAudioDevice initialized.
+[2017.02.03-22.04.03:060][358]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.04.03:063][358]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.04.03
+[2017.02.03-22.04.03:063][358]LogWorld: Bringing up level for play took: 0.001196
+[2017.02.03-22.04.03:065][358]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.899
+[2017.02.03-22.04.13:451][591]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.04.13:478][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.04.13:478][591]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:04:13 PM)
+[2017.02.03-22.04.13:478][591]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.04.13:480][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002305s)
+[2017.02.03-22.04.13:481][591]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.04.13:482][591]LogPlayLevel: PIE: World Init took: (0.001382s)
+[2017.02.03-22.04.13:482][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.003988s)
+[2017.02.03-22.04.13:517][591]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.04.13:529][591]LogInit: FAudioDevice initialized.
+[2017.02.03-22.04.13:562][591]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.04.13:564][591]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.04.13
+[2017.02.03-22.04.13:565][591]LogWorld: Bringing up level for play took: 0.001113
+[2017.02.03-22.04.13:567][591]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.398
+[2017.02.03-22.04.28:793][404]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.04.28:819][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.04.28:820][404]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:04:28 PM)
+[2017.02.03-22.04.28:820][404]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.04.28:822][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002250s)
+[2017.02.03-22.04.28:823][404]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.04.28:823][404]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2017.02.03-22.04.28:823][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.003472s)
+[2017.02.03-22.04.28:857][404]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.04.28:869][404]LogInit: FAudioDevice initialized.
+[2017.02.03-22.04.28:902][404]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.04.28:905][404]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.04.28
+[2017.02.03-22.04.28:905][404]LogWorld: Bringing up level for play took: 0.001154
+[2017.02.03-22.04.28:907][404]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.943
+[2017.02.03-22.05.18:203][284]BlueprintLog: New page: Compile swanFW
+[2017.02.03-22.05.18:761][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanFW" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset" SILENT=true
+[2017.02.03-22.05.18:775][332]LogSavePackage: Save=7.58ms
+[2017.02.03-22.05.18:776][332]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanFW9EB8F491493F066EA5B8E0822285F33B.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset'
+[2017.02.03-22.05.18:779][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanFW.uasset
+[2017.02.03-22.05.20:236][505]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.05.20:263][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.05.20:263][505]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:05:20 PM)
+[2017.02.03-22.05.20:263][505]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.05.20:266][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002234s)
+[2017.02.03-22.05.20:266][505]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.05.20:266][505]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2017.02.03-22.05.20:267][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.003416s)
+[2017.02.03-22.05.20:298][505]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.05.20:311][505]LogInit: FAudioDevice initialized.
+[2017.02.03-22.05.20:344][505]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.05.20:346][505]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.05.20
+[2017.02.03-22.05.20:347][505]LogWorld: Bringing up level for play took: 0.001140
+[2017.02.03-22.05.20:349][505]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.385
+[2017.02.03-22.06.22:390][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.02.03-22.06.34:014][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.02.03-22.07.10:850][372]LogSavePackage: Save=32.38ms
+[2017.02.03-22.07.10:850][372]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanCarLevel_Auto1079DD9D340298079B517C482DA6E6B13.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/Autosaves/Game/SwanCar/swanCarLevel_Auto1.umap'
+[2017.02.03-22.07.10:854][372]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/Autosaves/Game/SwanCar/swanCarLevel_Auto1.umap
+[2017.02.03-22.07.10:868][372]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/swanCarLevel' took 0.088
+[2017.02.03-22.07.10:868][372]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
+[2017.02.03-22.07.12:297][490]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.07.13:911][490]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.07.13:978][490]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.07.14:009][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.02.03-22.07.20:962][ 10]MaterialEditorStats: Info Base pass shader with static lighting: 56 instructions
+[2017.02.03-22.07.20:962][ 10]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2017.02.03-22.07.20:962][ 10]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.03-22.07.20:962][ 10]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.02.03-22.08.09:041][510]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.08.09:079][510]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.08.12:088][849]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.08.12:149][849]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.08.12:176][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.02.03-22.08.18:874][631]MaterialEditorStats: Info Base pass shader with static lighting: 56 instructions
+[2017.02.03-22.08.18:874][631]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2017.02.03-22.08.18:874][631]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.03-22.08.18:874][631]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.02.03-22.08.31:167][755]LogMaterialEditor: Applying material fancy_mat
+[2017.02.03-22.08.32:003][755]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.08.32:063][755]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.08.32:110][755]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.08.32:218][755]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.08.32:299][755]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.08.32:800][814]LogMaterialEditor: Saving and Compiling material fancy_mat
+[2017.02.03-22.08.45:288][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_mat" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset" SILENT=true
+[2017.02.03-22.08.45:324][814]LogSavePackage: Save=24.79ms
+[2017.02.03-22.08.45:325][814]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_matAE965F38447BE5190F123E94F1F48AD0.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset'
+[2017.02.03-22.08.45:328][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset
+[2017.02.03-22.08.45:334][814]MaterialEditorStats: Info Base pass shader with static lighting: 89 instructions
+[2017.02.03-22.08.45:334][814]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2017.02.03-22.08.45:334][814]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.03-22.08.45:334][814]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.02.03-22.09.05:845][154]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.09.05:885][154]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.09.08:478][424]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.09.08:526][424]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.09.12:993][954]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.09.13:045][954]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.09.15:612][257]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.09.15:663][257]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.09.21:697][968]LogMaterialEditor: Applying material fancy_mat
+[2017.02.03-22.09.22:542][968]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.09.22:600][968]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.09.22:642][968]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.09.22:738][968]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.09.22:822][968]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.09.24:178][114]LogMaterialEditor: Saving and Compiling material fancy_mat
+[2017.02.03-22.09.36:014][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_mat" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset" SILENT=true
+[2017.02.03-22.09.36:039][114]LogSavePackage: Save=18.01ms
+[2017.02.03-22.09.36:039][114]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_mat663C95194B2FC1D75D1C3F8E6D0CC9C4.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset'
+[2017.02.03-22.09.36:042][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset
+[2017.02.03-22.09.36:060][114]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2017.02.03-22.09.36:060][114]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2017.02.03-22.09.36:060][114]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.03-22.09.36:060][114]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.02.03-22.09.52:770][849]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.09.52:797][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.09.52:797][849]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:09:52 PM)
+[2017.02.03-22.09.52:797][849]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.09.52:803][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005298s)
+[2017.02.03-22.09.52:805][849]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.09.52:805][849]LogPlayLevel: PIE: World Init took: (0.002131s)
+[2017.02.03-22.09.52:805][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.007701s)
+[2017.02.03-22.09.52:839][849]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.09.52:853][849]LogInit: FAudioDevice initialized.
+[2017.02.03-22.09.52:883][849]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.09.52:885][849]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.09.52
+[2017.02.03-22.09.52:886][849]LogWorld: Bringing up level for play took: 0.001138
+[2017.02.03-22.09.52:888][849]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.924
+[2017.02.03-22.10.03:125][ 43]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.10.03:163][ 43]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.10.05:163][281]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.10.05:209][281]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.10.06:295][407]LogMaterialEditor: Applying material fancy_mat
+[2017.02.03-22.10.07:240][407]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.10.07:312][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.10.07:343][407]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.10.07:438][407]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.10.07:515][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.10.08:497][521]LogMaterialEditor: Saving and Compiling material fancy_mat
+[2017.02.03-22.10.20:947][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_mat" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset" SILENT=true
+[2017.02.03-22.10.20:972][521]LogSavePackage: Save=18.71ms
+[2017.02.03-22.10.20:972][521]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_mat832B585E4CD2762669070CACF2BFE3EC.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset'
+[2017.02.03-22.10.20:976][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset
+[2017.02.03-22.10.20:986][521]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2017.02.03-22.10.20:986][521]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2017.02.03-22.10.20:986][521]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.03-22.10.20:986][521]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.02.03-22.10.25:039][770]LogMaterialEditor: Saving and Compiling material fancy_mat
+[2017.02.03-22.10.25:052][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_mat" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset" SILENT=true
+[2017.02.03-22.10.25:065][770]LogSavePackage: Save=7.40ms
+[2017.02.03-22.10.25:065][770]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_matE98F0D0D42BBB73A0D178ABA72F94436.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset'
+[2017.02.03-22.10.25:067][770]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset
+[2017.02.03-22.10.29:183][188]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.10.29:209][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.10.29:209][188]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:10:29 PM)
+[2017.02.03-22.10.29:209][188]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.10.29:212][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002244s)
+[2017.02.03-22.10.29:213][188]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.10.29:213][188]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2017.02.03-22.10.29:213][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.003490s)
+[2017.02.03-22.10.29:246][188]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.10.29:258][188]LogInit: FAudioDevice initialized.
+[2017.02.03-22.10.29:289][188]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.10.29:292][188]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.10.29
+[2017.02.03-22.10.29:292][188]LogWorld: Bringing up level for play took: 0.001092
+[2017.02.03-22.10.29:294][188]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.67
+[2017.02.03-22.10.57:581][190]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
+[2017.02.03-22.11.07:248][187]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.11.07:301][187]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.11.08:194][289]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.11.08:252][289]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.11.09:029][379]LogMaterialEditor: Applying material fancy_mat
+[2017.02.03-22.11.10:107][379]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.11.10:164][379]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.11.10:194][379]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.11.10:299][379]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.11.10:384][379]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.11.10:576][397]LogMaterialEditor: Saving and Compiling material fancy_mat
+[2017.02.03-22.11.23:215][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_mat" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset" SILENT=true
+[2017.02.03-22.11.23:244][397]LogSavePackage: Save=22.26ms
+[2017.02.03-22.11.23:244][397]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_matD880114E4C6FF73F6C4B6189D0181061.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset'
+[2017.02.03-22.11.23:249][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset
+[2017.02.03-22.11.23:259][397]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2017.02.03-22.11.23:259][397]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2017.02.03-22.11.23:259][397]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.03-22.11.23:259][397]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.02.03-22.12.21:224][824]LogMaterialEditor: Saving and Compiling material fancy_mat
+[2017.02.03-22.12.21:237][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_mat" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset" SILENT=true
+[2017.02.03-22.12.21:251][824]LogSavePackage: Save=8.00ms
+[2017.02.03-22.12.21:251][824]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_matA6D6F9C249FB28058CDD5E8C8CD2677E.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset'
+[2017.02.03-22.12.21:253][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset
+[2017.02.03-22.12.29:851][638]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
+[2017.02.03-22.12.29:984][638]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
+[2017.02.03-22.12.30:024][638]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.12.30:051][638]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.02.03-22.12.36:913][409]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
+[2017.02.03-22.12.36:959][409]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.12.38:996][650]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
+[2017.02.03-22.12.39:043][650]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.12.40:030][767]LogMaterialEditor: Applying material fancy_floor
+[2017.02.03-22.12.40:978][767]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
+[2017.02.03-22.12.41:056][767]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.12.41:090][767]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
+[2017.02.03-22.12.41:189][767]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
+[2017.02.03-22.12.41:272][767]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.12.43:740][ 47]LogMaterialEditor: Saving and Compiling material fancy_floor
+[2017.02.03-22.12.55:509][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_floor" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_floor.uasset" SILENT=true
+[2017.02.03-22.12.55:534][ 47]LogSavePackage: Save=21.44ms
+[2017.02.03-22.12.55:534][ 47]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_floor223BD71C41FF501D16F5B681277FA00E.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_floor.uasset'
+[2017.02.03-22.12.55:543][ 47]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_floor.uasset
+[2017.02.03-22.12.55:552][ 47]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2017.02.03-22.12.55:552][ 47]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2017.02.03-22.12.55:552][ 47]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.03-22.12.55:552][ 47]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.02.03-22.13.12:355][308]LogMaterialEditor: Saving and Compiling material fancy_floor
+[2017.02.03-22.13.12:370][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_floor" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_floor.uasset" SILENT=true
+[2017.02.03-22.13.12:391][308]LogSavePackage: Save=8.33ms
+[2017.02.03-22.13.12:391][308]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_floorFA8A8DA7421B41C75F127691906A451E.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_floor.uasset'
+[2017.02.03-22.13.12:393][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_floor.uasset
+[2017.02.03-22.13.17:222][773]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.13.17:250][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.13.17:250][773]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:13:17 PM)
+[2017.02.03-22.13.17:250][773]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.13.17:253][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002953s)
+[2017.02.03-22.13.17:254][773]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.13.17:254][773]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2017.02.03-22.13.17:255][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.004461s)
+[2017.02.03-22.13.17:288][773]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.13.17:300][773]LogInit: FAudioDevice initialized.
+[2017.02.03-22.13.17:336][773]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.13.17:339][773]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.13.17
+[2017.02.03-22.13.17:339][773]LogWorld: Bringing up level for play took: 0.001174
+[2017.02.03-22.13.17:341][773]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.623
+[2017.02.03-22.13.28:930][ 52]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.13.28:970][ 52]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.13.29:919][162]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.13.29:970][162]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.13.31:376][328]LogMaterialEditor: Applying material fancy_mat
+[2017.02.03-22.13.32:371][328]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.13.32:447][328]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.13.32:477][328]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.13.32:584][328]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.02.03-22.13.32:665][328]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.03-22.13.33:035][370]LogMaterialEditor: Saving and Compiling material fancy_mat
+[2017.02.03-22.13.46:218][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/fancy_mat" FILE="../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset" SILENT=true
+[2017.02.03-22.13.46:250][370]LogSavePackage: Save=21.35ms
+[2017.02.03-22.13.46:250][370]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/fancy_matFF99CD044C5C9BB478917F95000D0EE4.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset'
+[2017.02.03-22.13.46:254][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/fancy_mat.uasset
+[2017.02.03-22.13.46:260][370]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2017.02.03-22.13.46:260][370]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2017.02.03-22.13.46:260][370]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.03-22.13.46:260][370]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.02.03-22.13.51:239][931]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.03-22.13.51:266][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.03-22.13.51:267][931]PIE: New page: PIE session: swanCarLevel (Feb 3, 2017, 12:13:51 PM)
+[2017.02.03-22.13.51:267][931]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.03-22.13.51:269][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002604s)
+[2017.02.03-22.13.51:270][931]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.03-22.13.51:271][931]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2017.02.03-22.13.51:271][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.004208s)
+[2017.02.03-22.13.51:304][931]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.03-22.13.51:316][931]LogInit: FAudioDevice initialized.
+[2017.02.03-22.13.51:346][931]LogLoad: Game class is 'swanCarGM_C'
+[2017.02.03-22.13.51:349][931]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.03-17.13.51
+[2017.02.03-22.13.51:349][931]LogWorld: Bringing up level for play took: 0.001227
+[2017.02.03-22.13.51:351][931]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.613
+[2017.02.03-22.17.59:579][986]LogSavePackage: Save=35.21ms
+[2017.02.03-22.17.59:579][986]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanCarLevel_Auto27404D6BB423960B5E375EC8AC517530D.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/Autosaves/Game/SwanCar/swanCarLevel_Auto2.umap'
+[2017.02.03-22.17.59:581][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/Autosaves/Game/SwanCar/swanCarLevel_Auto2.umap
+[2017.02.03-22.17.59:584][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/swanCarLevel' took 0.087
+[2017.02.03-22.17.59:584][986]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.087
+[2017.02.04-02.45.54:399][697]LogSavePackage: Save=47.62ms
+[2017.02.04-02.45.54:399][697]LogSavePackage: Moving '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/swanCarLevel27B7C23E47C7D979D8A773B19B6DCF37.tmp' to '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarLevel.umap'
+[2017.02.04-02.45.54:420][697]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/SwanCar/swanCarLevel.umap
+[2017.02.04-02.45.54:499][697]LogFileHelpers: Saving map 'swanCarLevel' took 2.977
+[2017.02.04-02.45.59:802][835]Cmd: QUIT_EDITOR
+[2017.02.04-02.46.00:620][835]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.04-02.46.00:764][835]LogExit: Preparing to exit.
+[2017.02.04-02.46.02:167][835]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/vehicleTest/Content/' was aborted.
+[2017.02.04-02.46.02:400][835]LogExit: Editor shut down
+[2017.02.04-02.46.02:402][835]LogExit: Transaction tracking system shut down
+[2017.02.04-02.46.04:507][835]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.04-02.46.04:508][835]LogExit: Object subsystem successfully closed.
+[2017.02.04-02.46.04:893][835]LogD3D11RHI: Shutdown
+[2017.02.04-02.46.04:907][835]LogD3D11RHI: CleanupD3DDevice
+[2017.02.04-02.46.05:305][835]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.04-02.46.06:050][835]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.02.04-02.46.06:050][835]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE1F43E9D-40AE-F81B-AE7D-3EB6ED1B2B41%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=5f8588b64c80dfe303c2e68935ad8a8b%7Cd29e504878984abdb3d4551042c692a9%7C451c2618-ce6a-407c-96a0-1fb1b0973c87&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.02.04-02.46.06:103][835]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2017.02.04-02.46.06:109][835]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2017.02.04-02.46.06:109][835]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2017.02.04-02.46.06:152][835]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2017.02.04-02.46.06:152][835]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.02.04-02.46.06:158][835]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.02.04-02.46.06:161][835]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.02.04-02.46.06:161][835]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.02.04-02.46.06:161][835]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.02.04-02.46.06:185][835]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.02.04-02.46.06:194][835]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.02.04-02.46.06:194][835]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.02.04-02.46.06:194][835]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.02.04-02.46.06:221][835]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/vehicleTest/Content/Collections/' was aborted.
+[2017.02.04-02.46.06:221][835]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/vehicleTest/Content/Developers/Sean/Collections/' was aborted.
+[2017.02.04-02.46.06:221][835]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/vehicleTest/Saved/Collections/' was aborted.
+[2017.02.04-02.46.06:221][835]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.02.04-02.46.06:243][835]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.02.04-02.46.06:243][835]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.02.04-02.46.06:260][835]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.02.04-02.46.06:260][835]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.02.04-02.46.06:260][835]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.02.04-02.46.06:260][835]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.02.04-02.46.06:260][835]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.02.04-02.46.06:267][835]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.02.04-02.46.06:271][835]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.02.04-02.46.06:279][835]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.02.04-02.46.06:283][835]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.02.04-02.46.06:287][835]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.02.04-02.46.06:299][835]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.02.04-02.46.06:324][835]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.02.04-02.46.06:361][835]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.02.04-02.46.06:361][835]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.02.04-02.46.06:361][835]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.02.04-02.46.06:361][835]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.02.04-02.46.06:361][835]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.02.04-02.46.06:361][835]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.02.04-02.46.06:381][835]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.02.04-02.46.06:400][835]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.02.04-02.46.06:411][835]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.02.04-02.46.06:411][835]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.02.04-02.46.06:411][835]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.02.04-02.46.06:411][835]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.02.04-02.46.06:756][835]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.02.04-02.46.06:756][835]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.02.04-02.46.06:756][835]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.02.04-02.46.06:756][835]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.02.04-02.46.06:756][835]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.02.04-02.46.06:794][835]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.02.04-02.46.06:813][835]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.02.04-02.46.06:815][835]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.02.04-02.46.06:845][835]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.02.04-02.46.06:845][835]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.02.04-02.46.06:855][835]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.02.04-02.46.06:865][835]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.02.04-02.46.06:865][835]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.02.04-02.46.06:880][835]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.02.04-02.46.06:888][835]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.02.04-02.46.06:888][835]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.02.04-02.46.06:902][835]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.02.04-02.46.06:906][835]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.02.04-02.46.06:906][835]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.02.04-02.46.06:907][835]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.02.04-02.46.06:907][835]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.02.04-02.46.06:907][835]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.02.04-02.46.06:933][835]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.02.04-02.46.06:944][835]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.02.04-02.46.06:979][835]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.02.04-02.46.06:979][835]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.02.04-02.46.07:031][835]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.02.04-02.46.07:049][835]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.02.04-02.46.07:071][835]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.02.04-02.46.07:110][835]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.02.04-02.46.07:110][835]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.02.04-02.46.07:112][835]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.02.04-02.46.07:113][835]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.02.04-02.46.07:113][835]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.02.04-02.46.07:116][835]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.02.04-02.46.07:133][835]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.02.04-02.46.07:133][835]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.02.04-02.46.07:133][835]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.02.04-02.46.07:140][835]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.02.04-02.46.07:187][835]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.02.04-02.46.07:205][835]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.02.04-02.46.07:230][835]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.02.04-02.46.07:271][835]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.02.04-02.46.07:277][835]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.02.04-02.46.07:277][835]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.02.04-02.46.07:472][835]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.02.04-02.46.07:504][835]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.02.04-02.46.07:504][835]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.02.04-02.46.07:504][835]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.02.04-02.46.07:504][835]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.02.04-02.46.07:509][835]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.02.04-02.46.07:522][835]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.02.04-02.46.07:522][835]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.02.04-02.46.07:522][835]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.02.04-02.46.07:522][835]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.02.04-02.46.07:522][835]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.02.04-02.46.07:531][835]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.02.04-02.46.07:531][835]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.02.04-02.46.07:596][835]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.02.04-02.46.07:596][835]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.02.04-02.46.07:596][835]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.02.04-02.46.07:596][835]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.02.04-02.46.07:601][835]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.02.04-02.46.07:607][835]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.02.04-02.46.07:607][835]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.02.04-02.46.07:607][835]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.02.04-02.46.07:607][835]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.02.04-02.46.07:645][835]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.02.04-02.46.07:675][835]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.02.04-02.46.07:680][835]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.02.04-02.46.07:680][835]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.02.04-02.46.07:682][835]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.02.04-02.46.07:682][835]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.02.04-02.46.07:706][835]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.02.04-02.46.07:725][835]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.02.04-02.46.07:750][835]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.02.04-02.46.07:757][835]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.02.04-02.46.07:757][835]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.02.04-02.46.07:764][835]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.02.04-02.46.07:764][835]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.02.04-02.46.07:764][835]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.02.04-02.46.07:773][835]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.02.04-02.46.07:789][835]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.02.04-02.46.07:790][835]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.02.04-02.46.07:808][835]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.02.04-02.46.07:810][835]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.02.04-02.46.07:820][835]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.02.04-02.46.07:920][835]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.02.04-02.46.08:021][835]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.02.04-02.46.08:021][835]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.02.04-02.46.08:032][835]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.02.04-02.46.08:042][835]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.02.04-02.46.08:064][835]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.02.04-02.46.08:064][835]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.02.04-02.46.08:071][835]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.02.04-02.46.08:071][835]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.02.04-02.46.08:071][835]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.02.04-02.46.08:071][835]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.02.04-02.46.08:097][835]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.02.04-02.46.08:101][835]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.02.04-02.46.08:201][835]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.02.04-02.46.08:222][835]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.02.04-02.46.08:222][835]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.02.04-02.46.08:222][835]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.02.04-02.46.08:276][835]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.02.04-02.46.08:303][835]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.02.04-02.46.08:321][835]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.02.04-02.46.08:365][835]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.02.04-02.46.08:365][835]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.02.04-02.46.08:370][835]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.02.04-02.46.08:370][835]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.02.04-02.46.08:370][835]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.02.04-02.46.08:370][835]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.02.04-02.46.08:370][835]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.02.04-02.46.08:370][835]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.02.04-02.46.08:370][835]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.02.04-02.46.08:371][835]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Sean/Documents/Unreal Projects/vehicleTest/Content/' was aborted.
+[2017.02.04-02.46.08:372][835]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.02.04-02.46.08:377][835]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.02.04-02.46.08:519][835]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.02.04-02.46.08:520][835]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.02.04-02.46.08:524][835]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.02.04-02.46.08:551][835]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.02.04-02.46.08:556][835]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.02.04-02.46.08:575][835]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.02.04-02.46.08:575][835]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.02.04-02.46.08:597][835]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.02.04-02.46.08:678][835]LogDerivedDataCache: Shutdown
+[2017.02.04-02.46.08:678][835]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.02.04-02.46.08:682][835]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.02.04-02.46.08:706][835]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.02.04-02.46.08:714][835]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.02.04-02.46.08:738][835]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.02.04-02.46.08:738][835]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.02.04-02.46.08:747][835]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.02.04-02.46.08:747][835]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.02.04-02.46.08:773][835]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.02.04-02.46.08:773][835]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.02.04-02.46.08:773][835]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.02.04-02.46.08:773][835]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.02.04-02.46.08:777][835]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.02.04-02.46.08:780][835]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.02.04-02.46.08:780][835]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.02.04-02.46.08:780][835]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.02.04-02.46.08:788][835]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.02.04-02.46.08:796][835]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.02.04-02.46.08:803][835]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.02.04-02.46.08:807][835]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.02.04-02.46.08:813][835]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.02.04-02.46.08:817][835]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.02.04-02.46.08:818][835]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.02.04-02.46.08:818][835]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.02.04-02.46.08:818][835]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.02.04-02.46.08:818][835]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.02.04-02.46.08:818][835]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.02.04-02.46.08:818][835]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.02.04-02.46.08:818][835]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.02.04-02.46.08:818][835]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.02.04-02.46.08:822][835]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.02.04-02.46.08:822][835]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.02.04-02.46.08:822][835]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.02.04-02.46.08:822][835]LogOnline:Display: Unloading online subsystem: NULL
+[2017.02.04-02.46.08:854][835]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.02.04-02.46.08:862][835]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.02.04-02.46.08:862][835]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.02.04-02.46.08:912][835]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.04-02.46.08:913][835]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.04-02.46.08:913][835]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.04-02.46.08:913][835]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.04-02.46.08:945][835]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.04-02.46.08:968][835]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.04-02.46.08:968][835]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.04-02.46.08:968][835]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.04-02.46.08:978][835]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.04-02.46.08:978][835]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.04-02.46.08:978][835]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.04-02.46.08:986][835]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.04-02.46.08:989][835]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.04-02.46.08:994][835]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.04-02.46.09:012][835]LogExit: Exiting.
+[2017.02.04-02.46.09:024][835]Log file closed, 02/03/17 21:46:09
