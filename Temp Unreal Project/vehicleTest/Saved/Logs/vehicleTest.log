@@ -1,9 +1,9 @@
-﻿Log file open, 02/27/17 00:53:53
+﻿Log file open, 02/27/17 22:44:25
 LogInit:Display: Running engine for game: vehicleTest
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-832313174) SRandInit(-832313174).
+LogInit:Display: RandInit(1224318919) SRandInit(1224318919).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.145667
+LogStats: Stats thread started at 0.152940
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -138,599 +138,200 @@ LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.14
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.02.27-05.53.54:279][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.27-05.53.54:279][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.02.27-05.53.54:329][  0]LogInit: Computer: ARISTOTELIS
-[2017.02.27-05.53.54:329][  0]LogInit: User: Aris
-[2017.02.27-05.53.54:329][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.02.27-05.53.54:329][  0]LogInit: High frequency timer resolution =2.046953 MHz
-[2017.02.27-05.53.54:330][  0]LogMemory: Memory total: Physical=5.2GB (6GB approx)
-[2017.02.27-05.53.54:330][  0]LogMemory: Platform Memory Stats for Windows
-[2017.02.27-05.53.54:330][  0]LogMemory: Process Physical Memory: 261.20 MB used, 261.20 MB peak
-[2017.02.27-05.53.54:330][  0]LogMemory: Process Virtual Memory: 262.14 MB used, 262.14 MB peak
-[2017.02.27-05.53.54:330][  0]LogMemory: Physical Memory: 3503.70 MB used,  1832.55 MB free, 5336.26 MB total
-[2017.02.27-05.53.54:330][  0]LogMemory: Virtual Memory: 651.02 MB used,  1832.55 MB free, 134217728.00 MB total
-[2017.02.27-05.53.54:382][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.02.27-05.53.55:943][  0]LogD3D11RHI: D3D11 adapters:
-[2017.02.27-05.53.55:963][  0]LogD3D11RHI:    0. 'AMD Radeon HD 8610G' (Feature Level 11_0)
-[2017.02.27-05.53.55:963][  0]LogD3D11RHI:       738/0/2432 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.02.27-05.53.55:966][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.02.27-05.53.55:966][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.02.27-05.53.55:966][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.02.27-05.53.55:975][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.02.27-05.53.55:975][  0]LogD3D11RHI:     GPU DeviceId: 0x990f (for the marketing name, search the web for "GPU Device Id")
-[2017.02.27-05.53.55:975][  0]LogWindows: EnumDisplayDevices:
-[2017.02.27-05.53.55:976][  0]LogWindows:    0. 'AMD Radeon HD 8610G' (P:1 D:1)
-[2017.02.27-05.53.55:976][  0]LogWindows:    1. 'AMD Radeon HD 8610G' (P:0 D:0)
-[2017.02.27-05.53.55:976][  0]LogWindows:    2. 'AMD Radeon HD 8610G' (P:0 D:0)
-[2017.02.27-05.53.55:977][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.02.27-05.53.55:977][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 8610G
-[2017.02.27-05.53.55:977][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
-[2017.02.27-05.53.55:977][  0]LogD3D11RHI:      Driver Date: 8-3-2015
-[2017.02.27-05.53.55:977][  0]LogRHI: Texture pool is 516 MB (70% of 738 MB)
-[2017.02.27-05.53.55:991][  0]LogD3D11RHI: Async texture creation enabled
-[2017.02.27-05.53.56:009][  0]LogD3D11RHI: GPU Timing Frequency: 50.000000 (Debug: 2 1)
-[2017.02.27-05.53.56:011][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/Shaders/WorkingDirectory/5720/).
-[2017.02.27-05.53.56:011][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aris/AppData/Local/Temp/UnrealShaderWorkingDir/76A3C1BF4B31F6ECB90FF999C7DA4FA1/'.
-[2017.02.27-05.53.56:011][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.02.27-05.53.59:504][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.02.27-05.53.59:679][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.02.27-05.53.59:859][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.02.27-05.54.00:037][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.02.27-05.54.00:226][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.02.27-05.54.00:404][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.02.27-05.54.00:569][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.02.27-05.54.00:756][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.02.27-05.54.00:931][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.02.27-05.54.01:151][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.02.27-05.54.01:349][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.02.27-05.54.01:568][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.02.27-05.54.01:730][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.02.27-05.54.01:887][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.02.27-05.54.02:048][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.02.27-05.54.02:406][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.02.27-05.54.02:406][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.02.27-05.54.02:536][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.02.27-05.54.02:811][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.02.27-05.54.02:944][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.02.27-05.54.03:141][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.02.27-05.54.03:327][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.02.27-05.54.03:521][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.02.27-05.54.03:758][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.02.27-05.54.03:758][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.02.27-05.54.05:353][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.02.27-05.54.07:965][  0]LogDerivedDataCache: Loaded boot cache 2.61s 50MB C:/Users/Aris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.02.27-05.54.07:965][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.02.27-05.54.07:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.02.27-05.54.07:966][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.02.27-05.54.07:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.02.27-05.54.07:966][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.02.27-05.54.08:012][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.02.27-05.54.08:026][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.02.27-05.54.08:896][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.27-05.54.08:906][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.02.27-05.54.09:706][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.02.27-05.54.09:883][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.02.27-05.54.10:067][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.02.27-05.54.10:067][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.02.27-05.54.10:067][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.02.27-05.54.13:367][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
-[2017.02.27-05.54.13:504][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
-[2017.02.27-05.54.13:696][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.102656 seconds
-[2017.02.27-05.54.13:711][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.02.27-05.54.13:711][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.02.27-05.54.13:711][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.02.27-05.54.13:949][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.02.27-05.54.16:887][  0]LogSlate: Using Freetype 2.6.0
-[2017.02.27-05.54.16:900][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.27-05.54.16:900][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.27-05.54.58:274][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.02.27-05.54.58:413][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.02.27-05.54.59:708][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.02.27-05.55.01:266][  0]SourceControl: Info Source control is disabled
-[2017.02.27-05.55.01:270][  0]SourceControl: Info Source control is disabled
-[2017.02.27-05.55.01:463][  0]SourceControl: Info Source control is disabled
-[2017.02.27-05.55.01:655][  0]SourceControl: Info Source control is disabled
-[2017.02.27-05.55.07:102][  0]LogEngine: Initializing Engine...
-[2017.02.27-05.55.07:104][  0]LogHMD: Failed to initialize OpenVR with code 100
-[2017.02.27-05.55.07:972][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.02.27-05.55.08:003][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-05.55.08:045][  0]LogInit: FAudioDevice initialized.
-[2017.02.27-05.55.08:145][  0]LogDerivedDataCache: Saved boot cache 0.10s 50MB C:/Users/Aris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.02.27-05.55.08:188][  0]LogInit: Texture streaming: Enabled
-[2017.02.27-05.55.09:837][  0]LogInit: Transaction tracking system initialized
-[2017.02.27-05.55.11:247][  0]BlueprintLog: New page: Editor Load
-[2017.02.27-05.55.14:994][  0]LocalizationService: Info Localization service is disabled
-[2017.02.27-05.55.17:798][  0]LogConsoleResponse:Display: 
-[2017.02.27-05.55.19:011][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/' took 0.04s
-[2017.02.27-05.55.19:011][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.02.27-05.55.19:011][  0]LogCook:Display: Mobile HDR setting 1
-[2017.02.27-05.55.23:207][  0]SourceControl: Info Source control is disabled
-[2017.02.27-05.55.23:207][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.02.27-05.55.23:208][  0]LightingResults: New page: Lighting Build
-[2017.02.27-05.55.23:370][  0]MapCheck: New page: Map Check
-[2017.02.27-05.55.23:370][  0]LightingResults: New page: Lighting Build
-[2017.02.27-05.55.27:350][  0]LogMaterial: Missing cached shader map for material def_surf_mat_001, compiling. 
-[2017.02.27-05.55.27:955][  0]LogMaterial: Missing cached shader map for material def_surf_mat, compiling. 
-[2017.02.27-05.55.28:099][  0]LogMaterial: Missing cached shader map for material yellow_mat, compiling. 
-[2017.02.27-05.55.28:311][  0]LogMaterial: Missing cached shader map for material white_mat, compiling. 
-[2017.02.27-05.55.28:918][  0]LogTexture:Display: Building textures: GOLD-P_1 (AutoDXT)
-[2017.02.27-05.55.34:537][  0]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
-[2017.02.27-05.55.35:059][  0]LogTexture:Display: Building textures: wood_panels (BGRA8)
-[2017.02.27-05.55.35:147][  0]LogMaterial: Missing cached shader map for material wood_mat, compiling. 
-[2017.02.27-05.55.35:358][  0]LogMaterial: Missing cached shader map for material white_mat, compiling. 
-[2017.02.27-05.55.35:578][  0]LogMaterial: Missing cached shader map for material grey_mat, compiling. 
-[2017.02.27-05.55.35:805][  0]LogTexture:Display: Building textures: body3 (AutoDXT)
-[2017.02.27-05.55.35:819][  0]LogMaterial: Missing cached shader map for material fancy_floor, compiling. 
-[2017.02.27-05.55.36:078][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2017.02.27-05.55.36:100][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2017.02.27-05.55.36:102][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2017.02.27-05.55.36:105][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2017.02.27-05.55.36:106][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
-[2017.02.27-05.55.36:107][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
-[2017.02.27-05.55.36:116][  0]LogMaterial: Missing cached shader map for material blue_mat, compiling. 
-[2017.02.27-05.55.36:319][  0]LogMaterial: Missing cached shader map for material black_mat, compiling. 
-[2017.02.27-05.55.36:863][  0]LogMaterial: Missing cached shader map for material Rubber_001, compiling. 
-[2017.02.27-05.55.37:018][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2017.02.27-05.55.37:186][  0]LogMaterial: Missing cached shader map for material Chrome, compiling. 
-[2017.02.27-05.55.37:345][  0]LogMaterial: Missing cached shader map for material red_mat, compiling. 
-[2017.02.27-05.55.37:948][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2017.02.27-05.56.14:122][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
-[2017.02.27-05.56.14:185][  0]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
-[2017.02.27-05.56.14:249][  0]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
-[2017.02.27-05.56.14:291][  0]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
-[2017.02.27-05.56.14:350][  0]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
-[2017.02.27-05.56.14:397][  0]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
-[2017.02.27-05.56.14:442][  0]LogTexture:Display: Building textures: Texture2D_2 (BGRA8)
-[2017.02.27-05.56.14:485][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
-[2017.02.27-05.56.14:535][  0]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
-[2017.02.27-05.56.14:581][  0]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
-[2017.02.27-05.56.14:637][  0]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
-[2017.02.27-05.56.14:691][  0]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
-[2017.02.27-05.56.14:750][  0]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
-[2017.02.27-05.56.14:794][  0]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2017.02.27-05.56.14:839][  0]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
-[2017.02.27-05.56.14:905][  0]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
-[2017.02.27-05.56.15:066][  0]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-05.56.26:860][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.02.27-05.56.27:232][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.02.27-05.56.27:417][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 184.911ms to complete.
-[2017.02.27-05.56.27:417][  0]LogFileHelpers: Loading map 'swanCarLevel' took 64.210
-[2017.02.27-05.56.27:858][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.02.27-05.56.35:893][  0]LogCollectionManager: Loaded 1 collections in 0.028251 seconds
-[2017.02.27-05.56.37:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Collections/' took 0.02s
-[2017.02.27-05.56.37:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Developers/Aris/Collections/' took 0.02s
-[2017.02.27-05.56.37:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Collections/' took 0.01s
-[2017.02.27-05.56.37:396][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000016 seconds
-[2017.02.27-05.56.37:396][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
-[2017.02.27-05.56.39:282][  0]LogContentBrowser: Native class hierarchy populated in 1.2999 seconds. Added 2190 classes and 428 folders.
-[2017.02.27-05.56.42:725][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.02.27-05.56.42:725][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.02.27-05.56.43:166][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.4410 seconds. Added 13 classes and 0 folders.
-[2017.02.27-05.56.44:396][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.02.27-05.56.58:502][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
-[2017.02.27-05.56.58:995][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2017.02.27-05.57.11:643][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.02.27-05.57.12:059][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.02.27-05.57.12:310][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2017.02.27-05.57.12:311][  0]LogLoad: (Engine Initialization) Total time: 202.47 seconds
-[2017.02.27-05.57.12:311][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.09 seconds
-[2017.02.27-05.57.12:311][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.02.27-05.57.12:311][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.02.27-05.57.12:345][  0]LogOcInput: OculusInput pre-init called
-[2017.02.27-05.57.13:572][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.02.27-05.57.14:733][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
-[2017.02.27-05.57.17:178][  0]LogRenderer: Reallocating scene render targets to support 816x372 NumSamples 1 (Frame:2).
-[2017.02.27-05.57.19:583][  6]LogAssetRegistry: Asset discovery search completed in 186.1007 seconds
-[2017.02.27-05.57.19:603][  6]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.020116 seconds (found 0 objects)
-[2017.02.27-05.57.19:603][  6]LogCollectionManager: Fixed up redirectors for 1 collections in 0.020241 seconds (updated 0 objects)
-[2017.02.27-05.57.35:516][125]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-05.57.35:612][125]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-05.57.35:646][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-05.57.35:823][125]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 7:57:35 PM)
-[2017.02.27-05.57.35:830][125]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-05.57.36:447][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.617061s)
-[2017.02.27-05.57.36:450][125]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-05.57.36:472][125]LogPlayLevel: PIE: World Init took: (0.025095s)
-[2017.02.27-05.57.36:495][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.664509s)
-[2017.02.27-05.57.36:660][125]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-05.57.36:697][125]LogInit: FAudioDevice initialized.
-[2017.02.27-05.57.37:079][125]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-05.57.37:487][125]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 60) at 2017.02.27-00.57.37
-[2017.02.27-05.57.37:710][125]LogWorld: Bringing up level for play took: 0.471748
-[2017.02.27-05.57.38:219][125]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
-[2017.02.27-05.57.38:372][125]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 2.439
-[2017.02.27-05.57.38:373][125]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-05.58.38:581][422]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-05.58.38:939][422]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-05.58.50:107][460]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0032 seconds. Added 111 classes and 0 folders.
-[2017.02.27-05.59.28:454][154]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-05.59.28:536][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-05.59.28:536][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-05.59.28:537][154]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 7:59:28 PM)
-[2017.02.27-05.59.28:537][154]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-05.59.29:027][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.490059s)
-[2017.02.27-05.59.29:029][154]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-05.59.29:045][154]LogPlayLevel: PIE: World Init took: (0.017636s)
-[2017.02.27-05.59.29:045][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.508243s)
-[2017.02.27-05.59.29:153][154]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-05.59.29:190][154]LogInit: FAudioDevice initialized.
-[2017.02.27-05.59.29:264][154]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-05.59.29:381][154]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-00.59.29
-[2017.02.27-05.59.29:385][154]LogWorld: Bringing up level for play took: 0.117341
-[2017.02.27-05.59.29:394][154]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.462
-[2017.02.27-05.59.29:406][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-05.59.29:603][154]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1695).
-[2017.02.27-05.59.32:037][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-05.59.33:901][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-05.59.54:513][396]LogTexture:Display: Building textures: TilePatine_N (BC5)
-[2017.02.27-06.00.28:425][915]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.00.28:485][915]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.00.28:485][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.00.28:485][915]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:00:28 PM)
-[2017.02.27-06.00.28:485][915]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.00.28:981][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.495572s)
-[2017.02.27-06.00.28:983][915]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.00.28:983][915]LogPlayLevel: PIE: World Init took: (0.002197s)
-[2017.02.27-06.00.28:983][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.498304s)
-[2017.02.27-06.00.29:073][915]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.00.29:108][915]LogInit: FAudioDevice initialized.
-[2017.02.27-06.00.29:163][915]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.00.29:278][915]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.00.29
-[2017.02.27-06.00.29:281][915]LogWorld: Bringing up level for play took: 0.114935
-[2017.02.27-06.00.29:286][915]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.354
-[2017.02.27-06.00.29:286][915]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.01.37:085][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.01.37:227][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.01.54:398][124]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.01.58:451][193]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.01.58:529][193]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.01.58:529][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.01.58:529][193]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:01:58 PM)
-[2017.02.27-06.01.58:530][193]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.01.59:170][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.640317s)
-[2017.02.27-06.01.59:172][193]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.01.59:172][193]LogPlayLevel: PIE: World Init took: (0.002109s)
-[2017.02.27-06.01.59:173][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.643091s)
-[2017.02.27-06.01.59:271][193]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.01.59:337][193]LogInit: FAudioDevice initialized.
-[2017.02.27-06.01.59:391][193]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.01.59:553][193]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.01.59
-[2017.02.27-06.01.59:561][193]LogWorld: Bringing up level for play took: 0.165922
-[2017.02.27-06.01.59:576][193]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.643
-[2017.02.27-06.01.59:577][193]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.02.13:792][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.02.14:964][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.03.38:583][978]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.03.41:691][142]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.03.41:746][142]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.03.41:746][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.03.41:747][142]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:03:41 PM)
-[2017.02.27-06.03.41:747][142]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.03.42:253][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.505926s)
-[2017.02.27-06.03.42:255][142]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.03.42:255][142]LogPlayLevel: PIE: World Init took: (0.002132s)
-[2017.02.27-06.03.42:256][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.508649s)
-[2017.02.27-06.03.42:329][142]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.03.42:369][142]LogInit: FAudioDevice initialized.
-[2017.02.27-06.03.42:422][142]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.03.42:564][142]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.03.42
-[2017.02.27-06.03.42:570][142]LogWorld: Bringing up level for play took: 0.144492
-[2017.02.27-06.03.42:581][142]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.649
-[2017.02.27-06.03.42:582][142]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.03.46:898][162]LogRenderer: Reallocating scene render targets to support 1368x756 NumSamples 1 (Frame:3928).
-[2017.02.27-06.04.28:171][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.04.28:427][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.06.57:496][295]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.06.57:546][295]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.06.57:546][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.06.57:547][295]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:06:57 PM)
-[2017.02.27-06.06.57:547][295]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.06.57:969][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.422022s)
-[2017.02.27-06.06.57:971][295]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.06.57:971][295]LogPlayLevel: PIE: World Init took: (0.002082s)
-[2017.02.27-06.06.57:972][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.424702s)
-[2017.02.27-06.06.58:038][295]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.06.58:073][295]LogInit: FAudioDevice initialized.
-[2017.02.27-06.06.58:124][295]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.06.58:246][295]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.06.58
-[2017.02.27-06.06.58:250][295]LogWorld: Bringing up level for play took: 0.123449
-[2017.02.27-06.06.58:284][295]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.351
-[2017.02.27-06.06.58:285][295]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.07.10:069][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.07.10:313][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.07.24:795][368]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.07.24:842][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.07.24:843][368]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.27-06.07.24:872][368]LogPlayLevel: [PlayLevel] Compiling turret_top before play...
-[2017.02.27-06.07.25:251][368]LogPlayLevel: PlayLevel: Blueprint regeneration took 408 ms (1 blueprints)
-[2017.02.27-06.07.25:251][368]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:07:25 PM)
-[2017.02.27-06.07.25:251][368]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.07.25:660][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.408585s)
-[2017.02.27-06.07.25:661][368]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.07.25:662][368]LogPlayLevel: PIE: World Init took: (0.001844s)
-[2017.02.27-06.07.25:662][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.410980s)
-[2017.02.27-06.07.25:725][368]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.07.25:758][368]LogInit: FAudioDevice initialized.
-[2017.02.27-06.07.25:803][368]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.07.25:913][368]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.07.25
-[2017.02.27-06.07.25:917][368]LogWorld: Bringing up level for play took: 0.112181
-[2017.02.27-06.07.25:926][368]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.994
-[2017.02.27-06.07.25:926][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.08.19:169][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.08.19:407][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.12.18:664][923]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.12.18:706][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.12.18:706][923]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.27-06.12.18:706][923]LogPlayLevel: [PlayLevel] Compiling turret_top before play...
-[2017.02.27-06.12.20:331][923]LogPlayLevel: PlayLevel: Blueprint regeneration took 1624 ms (1 blueprints)
-[2017.02.27-06.12.20:331][923]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:12:20 PM)
-[2017.02.27-06.12.20:331][923]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.12.20:698][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.366988s)
-[2017.02.27-06.12.20:700][923]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.12.20:700][923]LogPlayLevel: PIE: World Init took: (0.001828s)
-[2017.02.27-06.12.20:701][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.369331s)
-[2017.02.27-06.12.20:760][923]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.12.20:789][923]LogInit: FAudioDevice initialized.
-[2017.02.27-06.12.20:833][923]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.12.20:938][923]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.12.20
-[2017.02.27-06.12.20:941][923]LogWorld: Bringing up level for play took: 0.105576
-[2017.02.27-06.12.20:951][923]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 3.018
-[2017.02.27-06.12.20:952][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.12.48:307][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.12.48:535][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.14.38:992][754]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.14.39:034][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.14.39:034][754]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.27-06.14.39:034][754]LogPlayLevel: [PlayLevel] Compiling turret_top before play...
-[2017.02.27-06.14.39:408][754]LogPlayLevel: PlayLevel: Blueprint regeneration took 373 ms (1 blueprints)
-[2017.02.27-06.14.39:408][754]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:14:39 PM)
-[2017.02.27-06.14.39:408][754]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.14.39:755][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.346159s)
-[2017.02.27-06.14.39:756][754]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.14.39:757][754]LogPlayLevel: PIE: World Init took: (0.001867s)
-[2017.02.27-06.14.39:757][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.348588s)
-[2017.02.27-06.14.39:814][754]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.14.39:844][754]LogInit: FAudioDevice initialized.
-[2017.02.27-06.14.39:888][754]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.14.39:986][754]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.14.39
-[2017.02.27-06.14.39:989][754]LogWorld: Bringing up level for play took: 0.099329
-[2017.02.27-06.14.39:997][754]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.066
-[2017.02.27-06.14.39:998][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.15.27:552][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.15.27:790][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.15.33:843][795]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.15.35:436][875]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.15.35:477][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.15.35:477][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.15.35:478][875]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:15:35 PM)
-[2017.02.27-06.15.35:478][875]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.15.35:825][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.347203s)
-[2017.02.27-06.15.35:827][875]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.15.35:827][875]LogPlayLevel: PIE: World Init took: (0.001773s)
-[2017.02.27-06.15.35:827][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.349501s)
-[2017.02.27-06.15.35:884][875]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.15.35:913][875]LogInit: FAudioDevice initialized.
-[2017.02.27-06.15.35:957][875]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.15.36:056][875]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.15.36
-[2017.02.27-06.15.36:060][875]LogWorld: Bringing up level for play took: 0.100338
-[2017.02.27-06.15.36:068][875]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.136
-[2017.02.27-06.15.36:069][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.15.44:676][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.15.44:907][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.16.10:424][789]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.16.11:775][856]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.16.11:816][856]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.16.11:816][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.16.11:816][856]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:16:11 PM)
-[2017.02.27-06.16.11:817][856]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.16.12:169][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.352796s)
-[2017.02.27-06.16.12:171][856]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.16.12:171][856]LogPlayLevel: PIE: World Init took: (0.001642s)
-[2017.02.27-06.16.12:171][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.354980s)
-[2017.02.27-06.16.12:226][856]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.16.12:294][856]LogInit: FAudioDevice initialized.
-[2017.02.27-06.16.12:336][856]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.16.12:432][856]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.16.12
-[2017.02.27-06.16.12:435][856]LogWorld: Bringing up level for play took: 0.095628
-[2017.02.27-06.16.12:443][856]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.511
-[2017.02.27-06.16.12:444][856]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.16.21:697][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.16.21:932][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.16.50:131][ 18]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.16.50:174][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.16.50:174][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.16.50:175][ 18]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:16:50 PM)
-[2017.02.27-06.16.50:175][ 18]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.16.50:521][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.346215s)
-[2017.02.27-06.16.50:522][ 18]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.16.50:523][ 18]LogPlayLevel: PIE: World Init took: (0.001729s)
-[2017.02.27-06.16.50:523][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.348484s)
-[2017.02.27-06.16.50:583][ 18]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.16.50:611][ 18]LogInit: FAudioDevice initialized.
-[2017.02.27-06.16.50:654][ 18]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.16.50:756][ 18]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.16.50
-[2017.02.27-06.16.50:759][ 18]LogWorld: Bringing up level for play took: 0.102204
-[2017.02.27-06.16.50:768][ 18]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.835
-[2017.02.27-06.16.50:769][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.16.55:981][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.16.56:219][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.17.27:153][892]LogSavePackage: Save=3478.57ms
-[2017.02.27-06.17.27:153][892]LogSavePackage: Moving '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/swanCarLevel_Auto167587C224D1CDE4AA5BE7FB915B45DC7.tmp' to '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/SwanCar/swanCarLevel_Auto1.umap'
-[2017.02.27-06.17.27:173][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/SwanCar/swanCarLevel_Auto1.umap
-[2017.02.27-06.17.27:274][892]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/swanCarLevel' took 4.120
-[2017.02.27-06.17.27:274][892]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.120
-[2017.02.27-06.17.27:277][892]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/turret2/turret_top] ([1] browsable assets)...
-[2017.02.27-06.17.27:356][892]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/turret2/turret_top.turret_top]
-[2017.02.27-06.17.27:356][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/turret2/turret_top]
-[2017.02.27-06.17.27:599][892]LogSavePackage: Save=137.97ms
-[2017.02.27-06.17.27:599][892]LogSavePackage: Moving '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/turret_top_Auto186EDAA0446F851CECB7A27A343BF193B.tmp' to '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/turret2/turret_top_Auto1.uasset'
-[2017.02.27-06.17.27:611][892]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/turret2/turret_top_Auto1.uasset
-[2017.02.27-06.17.27:611][892]LogFileHelpers: Auto-saving content packages took 0.336
-[2017.02.27-06.18.23:523][739]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.18.31:820][309]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.18.33:208][382]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.18.33:251][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.18.33:251][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.18.33:251][382]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:18:33 PM)
-[2017.02.27-06.18.33:251][382]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.18.33:615][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.363609s)
-[2017.02.27-06.18.33:617][382]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.18.33:617][382]LogPlayLevel: PIE: World Init took: (0.001846s)
-[2017.02.27-06.18.33:617][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.365978s)
-[2017.02.27-06.18.33:677][382]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.18.33:706][382]LogInit: FAudioDevice initialized.
-[2017.02.27-06.18.33:749][382]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.18.33:852][382]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.18.33
-[2017.02.27-06.18.33:855][382]LogWorld: Bringing up level for play took: 0.103725
-[2017.02.27-06.18.33:864][382]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.069
-[2017.02.27-06.18.33:865][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.02:583][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.02:819][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.04:059][878]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.19.04:101][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.04:101][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.19.04:102][878]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:19:04 PM)
-[2017.02.27-06.19.04:102][878]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.19.04:464][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.362341s)
-[2017.02.27-06.19.04:466][878]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.19.04:466][878]LogPlayLevel: PIE: World Init took: (0.001645s)
-[2017.02.27-06.19.04:466][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.364500s)
-[2017.02.27-06.19.04:521][878]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.19.04:549][878]LogInit: FAudioDevice initialized.
-[2017.02.27-06.19.04:593][878]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.19.04:689][878]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.19.04
-[2017.02.27-06.19.04:692][878]LogWorld: Bringing up level for play took: 0.096090
-[2017.02.27-06.19.04:700][878]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.768
-[2017.02.27-06.19.04:701][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.08:018][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.08:248][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.26:458][263]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.19.26:499][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.26:499][263]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.27-06.19.26:499][263]LogPlayLevel: [PlayLevel] Compiling turret_top before play...
-[2017.02.27-06.19.26:844][263]LogPlayLevel: PlayLevel: Blueprint regeneration took 344 ms (1 blueprints)
-[2017.02.27-06.19.26:844][263]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:19:26 PM)
-[2017.02.27-06.19.26:844][263]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.19.27:185][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.340235s)
-[2017.02.27-06.19.27:186][263]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.19.27:187][263]LogPlayLevel: PIE: World Init took: (0.001686s)
-[2017.02.27-06.19.27:187][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.342403s)
-[2017.02.27-06.19.27:246][263]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.19.27:274][263]LogInit: FAudioDevice initialized.
-[2017.02.27-06.19.27:317][263]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.19.27:409][263]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.19.27
-[2017.02.27-06.19.27:413][263]LogWorld: Bringing up level for play took: 0.093103
-[2017.02.27-06.19.27:423][263]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.491
-[2017.02.27-06.19.27:424][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.32:866][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.19.33:078][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.20.32:435][181]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.20.32:478][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.20.32:479][181]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.27-06.20.32:479][181]LogPlayLevel: [PlayLevel] Compiling turret_top before play...
-[2017.02.27-06.20.32:555][181]LogBlueprint:Error: [Compiler turret_top] Error This blueprint (self) is not a SceneComponent, therefore ' self ' must have a connection.
-[2017.02.27-06.20.33:063][181]LogBlueprint:Warning: [Compiler turret_top] Warning [1603.22] Compile of turret_top failed. 1 Fatal Issue(s) 0 Warning(s) [in 565 ms] (/Game/turret2/turret_top.turret_top)
-[2017.02.27-06.20.33:063][181]LogBlueprint:Warning: [Compiler turret_top] Warning [1603.22] Compile of turret_top failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/turret2/turret_top.turret_top)
-[2017.02.27-06.20.33:064][181]LogBlueprint:Warning: [Compiler turret_top] Warning [1603.22] Compile of turret_top failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/turret2/turret_top.turret_top)
-[2017.02.27-06.20.33:064][181]LogBlueprint:Warning: [Compiler turret_top] Warning [1603.22] Compile of turret_top failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/turret2/turret_top.turret_top)
-[2017.02.27-06.20.33:071][181]LogBlueprint:Warning: [Compiler turret_top] Warning [1603.23] Compile of turret_top failed. 1 Fatal Issue(s) 4 Warning(s) [in 7 ms] (/Game/turret2/turret_top.turret_top)
-[2017.02.27-06.20.33:072][181]LogBlueprint:Warning: [Compiler turret_top] Warning [1603.23] Compile of turret_top failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/turret2/turret_top.turret_top)
-[2017.02.27-06.20.33:188][181]LogPlayLevel: PlayLevel: Blueprint regeneration took 709 ms (1 blueprints)
-[2017.02.27-06.20.33:188][181]BlueprintLog: Info Blueprint turret_top failed to compile
-[2017.02.27-06.20.46:510][903]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.20.47:797][954]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.20.47:842][954]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.20.47:842][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.20.47:842][954]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:20:47 PM)
-[2017.02.27-06.20.47:842][954]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.20.48:207][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.364367s)
-[2017.02.27-06.20.48:209][954]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.20.48:209][954]LogPlayLevel: PIE: World Init took: (0.002308s)
-[2017.02.27-06.20.48:210][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.367256s)
-[2017.02.27-06.20.48:265][954]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.20.48:293][954]LogInit: FAudioDevice initialized.
-[2017.02.27-06.20.48:340][954]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.20.48:444][954]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.20.48
-[2017.02.27-06.20.48:447][954]LogWorld: Bringing up level for play took: 0.103732
-[2017.02.27-06.20.48:458][954]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.525
-[2017.02.27-06.20.48:459][954]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.21.00:484][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.21.00:740][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.21.13:461][840]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.21.15:149][920]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.21.15:192][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.21.15:192][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.21.15:193][920]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:21:15 PM)
-[2017.02.27-06.21.15:193][920]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.21.15:553][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.360565s)
-[2017.02.27-06.21.15:555][920]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.21.15:555][920]LogPlayLevel: PIE: World Init took: (0.001634s)
-[2017.02.27-06.21.15:555][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.362658s)
-[2017.02.27-06.21.15:611][920]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.21.15:639][920]LogInit: FAudioDevice initialized.
-[2017.02.27-06.21.15:688][920]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.21.15:792][920]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.21.15
-[2017.02.27-06.21.15:796][920]LogWorld: Bringing up level for play took: 0.104026
-[2017.02.27-06.21.15:806][920]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.126
-[2017.02.27-06.21.15:807][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.23.18:347][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.23.18:564][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.24.39:211][130]BlueprintLog: New page: Compile turret_top
-[2017.02.27-06.24.40:315][182]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.24.40:358][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.24.40:359][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.27-06.24.40:359][182]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:24:40 PM)
-[2017.02.27-06.24.40:359][182]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.24.40:722][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.363233s)
-[2017.02.27-06.24.40:724][182]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.24.40:724][182]LogPlayLevel: PIE: World Init took: (0.001851s)
-[2017.02.27-06.24.40:725][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.365611s)
-[2017.02.27-06.24.40:783][182]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.24.40:812][182]LogInit: FAudioDevice initialized.
-[2017.02.27-06.24.40:856][182]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.24.40:955][182]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.24.40
-[2017.02.27-06.24.40:958][182]LogWorld: Bringing up level for play took: 0.098732
-[2017.02.27-06.24.40:968][182]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.036
-[2017.02.27-06.24.40:969][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.25.42:887][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.25.43:171][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.28.28:905][484]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.27-06.28.28:953][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.28.28:953][484]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.27-06.28.28:953][484]LogPlayLevel: [PlayLevel] Compiling turret_top before play...
-[2017.02.27-06.28.29:335][484]LogPlayLevel: PlayLevel: Blueprint regeneration took 382 ms (1 blueprints)
-[2017.02.27-06.28.29:336][484]PIE: New page: PIE session: swanCarLevel (Feb 26, 2017, 8:28:29 PM)
-[2017.02.27-06.28.29:336][484]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
-[2017.02.27-06.28.29:722][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.386143s)
-[2017.02.27-06.28.29:724][484]LogAIModule: Creating AISystem for world swanCarLevel
-[2017.02.27-06.28.29:725][484]LogPlayLevel: PIE: World Init took: (0.002491s)
-[2017.02.27-06.28.29:725][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.389523s)
-[2017.02.27-06.28.29:788][484]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.27-06.28.29:819][484]LogInit: FAudioDevice initialized.
-[2017.02.27-06.28.29:866][484]LogLoad: Game class is 'GameModeBase'
-[2017.02.27-06.28.29:968][484]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-01.28.29
-[2017.02.27-06.28.29:971][484]LogWorld: Bringing up level for play took: 0.102613
-[2017.02.27-06.28.29:982][484]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.05
-[2017.02.27-06.28.29:983][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.29.30:567][373]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.29.30:814][373]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
-[2017.02.27-06.29.33:158][448]LogEditorViewport: Clicking on Actor (LMB): turret_top_C (turret_top2)
-[2017.02.27-06.30.35:355][246]LogSavePackage: Save=3488.50ms
-[2017.02.27-06.30.35:355][246]LogSavePackage: Moving '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/swanCarLevelAB2E21334D856DC32863A5AFA77ED0B0.tmp' to '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap'
-[2017.02.27-06.30.35:403][246]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap
-[2017.02.27-06.30.35:646][246]LogFileHelpers: Saving map 'swanCarLevel' took 4.660
-[2017.02.27-06.30.35:766][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/turret2/turret_top" FILE="../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret2/turret_top.uasset" SILENT=true
-[2017.02.27-06.30.35:925][246]LogSavePackage: Save=91.14ms
-[2017.02.27-06.30.35:925][246]LogSavePackage: Moving '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/turret_top972FEE384A2FDC6BCD1654983E294BBE.tmp' to '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret2/turret_top.uasset'
-[2017.02.27-06.30.35:934][246]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret2/turret_top.uasset
-[2017.02.27-06.31.48:850][369]LogSavePackage: Save=3684.88ms
-[2017.02.27-06.31.48:850][369]LogSavePackage: Moving '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/swanCarLevelAEB5E76642439793A356518B0C95270B.tmp' to '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap'
-[2017.02.27-06.31.48:943][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap
-[2017.02.27-06.31.49:038][369]LogFileHelpers: Saving map 'swanCarLevel' took 4.081
-[2017.02.27-06.31.49:208][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/turret2/turret_top" FILE="../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret2/turret_top.uasset" SILENT=true
+[2017.02.28-03.44.26:679][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.28-03.44.26:679][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.28-03.44.26:711][  0]LogInit: Computer: ARISTOTELIS
+[2017.02.28-03.44.26:711][  0]LogInit: User: Aris
+[2017.02.28-03.44.26:711][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.28-03.44.26:711][  0]LogInit: High frequency timer resolution =2.046953 MHz
+[2017.02.28-03.44.26:712][  0]LogMemory: Memory total: Physical=5.2GB (6GB approx)
+[2017.02.28-03.44.26:712][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.28-03.44.26:712][  0]LogMemory: Process Physical Memory: 261.14 MB used, 261.14 MB peak
+[2017.02.28-03.44.26:712][  0]LogMemory: Process Virtual Memory: 262.11 MB used, 262.11 MB peak
+[2017.02.28-03.44.26:712][  0]LogMemory: Physical Memory: 2987.11 MB used,  2349.14 MB free, 5336.26 MB total
+[2017.02.28-03.44.26:712][  0]LogMemory: Virtual Memory: 651.02 MB used,  2349.14 MB free, 134217728.00 MB total
+[2017.02.28-03.44.26:768][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.28-03.44.28:462][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.28-03.44.28:485][  0]LogD3D11RHI:    0. 'AMD Radeon HD 8610G' (Feature Level 11_0)
+[2017.02.28-03.44.28:485][  0]LogD3D11RHI:       738/0/2432 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.02.28-03.44.28:488][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.28-03.44.28:488][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.28-03.44.28:488][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.28-03.44.28:498][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.28-03.44.28:499][  0]LogD3D11RHI:     GPU DeviceId: 0x990f (for the marketing name, search the web for "GPU Device Id")
+[2017.02.28-03.44.28:499][  0]LogWindows: EnumDisplayDevices:
+[2017.02.28-03.44.28:499][  0]LogWindows:    0. 'AMD Radeon HD 8610G' (P:1 D:1)
+[2017.02.28-03.44.28:499][  0]LogWindows:    1. 'AMD Radeon HD 8610G' (P:0 D:0)
+[2017.02.28-03.44.28:500][  0]LogWindows:    2. 'AMD Radeon HD 8610G' (P:0 D:0)
+[2017.02.28-03.44.28:501][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.02.28-03.44.28:501][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 8610G
+[2017.02.28-03.44.28:501][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
+[2017.02.28-03.44.28:501][  0]LogD3D11RHI:      Driver Date: 8-3-2015
+[2017.02.28-03.44.28:501][  0]LogRHI: Texture pool is 516 MB (70% of 738 MB)
+[2017.02.28-03.44.28:517][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.28-03.44.28:537][  0]LogD3D11RHI: GPU Timing Frequency: 50.000000 (Debug: 2 1)
+[2017.02.28-03.44.28:538][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/Shaders/WorkingDirectory/5464/).
+[2017.02.28-03.44.28:539][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aris/AppData/Local/Temp/UnrealShaderWorkingDir/A3C96F0C4CD9FA4F4879D2A7B9B84487/'.
+[2017.02.28-03.44.28:539][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.28-03.44.31:850][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.28-03.44.32:016][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.28-03.44.32:189][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.28-03.44.32:363][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.28-03.44.32:534][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.28-03.44.32:701][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.28-03.44.32:871][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.28-03.44.33:036][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.28-03.44.33:170][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.28-03.44.33:342][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.28-03.44.33:506][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.28-03.44.33:671][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.28-03.44.33:835][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.28-03.44.34:000][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.28-03.44.34:166][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.28-03.44.34:494][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.28-03.44.34:494][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.28-03.44.34:607][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.28-03.44.34:850][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.28-03.44.34:964][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.28-03.44.35:129][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.28-03.44.35:296][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.28-03.44.35:466][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.28-03.44.35:631][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.28-03.44.35:631][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.28-03.44.36:865][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.28-03.44.37:321][  0]LogDerivedDataCache: Loaded boot cache 0.46s 50MB C:/Users/Aris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.28-03.44.37:321][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.28-03.44.37:321][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.28-03.44.37:321][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.28-03.44.37:321][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.28-03.44.37:321][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.28-03.44.37:367][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.28-03.44.37:382][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.28-03.44.37:966][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.28-03.44.37:976][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.28-03.44.38:562][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.28-03.44.38:688][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.28-03.44.38:822][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.28-03.44.38:822][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.28-03.44.38:822][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.28-03.44.40:365][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
+[2017.02.28-03.44.40:491][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.02.28-03.44.40:641][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.068503 seconds
+[2017.02.28-03.44.40:656][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.28-03.44.40:656][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.02.28-03.44.40:656][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.28-03.44.40:864][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.28-03.44.43:144][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.28-03.44.43:145][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.28-03.44.43:145][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.28-03.44.45:483][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.28-03.44.45:596][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.28-03.44.46:484][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.28-03.44.47:602][  0]SourceControl: Info Source control is disabled
+[2017.02.28-03.44.47:605][  0]SourceControl: Info Source control is disabled
+[2017.02.28-03.44.47:746][  0]SourceControl: Info Source control is disabled
+[2017.02.28-03.44.47:884][  0]SourceControl: Info Source control is disabled
+[2017.02.28-03.44.51:648][  0]LogEngine: Initializing Engine...
+[2017.02.28-03.44.51:649][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.02.28-03.44.52:324][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.28-03.44.52:348][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.28-03.44.52:412][  0]LogInit: FAudioDevice initialized.
+[2017.02.28-03.44.52:502][  0]LogDerivedDataCache: Saved boot cache 0.09s 50MB C:/Users/Aris/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.28-03.44.52:538][  0]LogInit: Texture streaming: Enabled
+[2017.02.28-03.44.53:092][  0]LogInit: Transaction tracking system initialized
+[2017.02.28-03.44.54:131][  0]BlueprintLog: New page: Editor Load
+[2017.02.28-03.44.56:874][  0]LocalizationService: Info Localization service is disabled
+[2017.02.28-03.44.58:771][  0]LogConsoleResponse:Display: 
+[2017.02.28-03.44.59:149][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.28-03.44.59:149][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.28-03.44.59:574][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/' took 0.02s
+[2017.02.28-03.45.01:948][  0]SourceControl: Info Source control is disabled
+[2017.02.28-03.45.01:949][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.28-03.45.01:950][  0]LightingResults: New page: Lighting Build
+[2017.02.28-03.45.02:068][  0]MapCheck: New page: Map Check
+[2017.02.28-03.45.02:068][  0]LightingResults: New page: Lighting Build
+[2017.02.28-03.45.04:892][  0]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.28-03.45.06:020][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.28-03.45.06:022][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.28-03.45.06:151][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 129.034ms to complete.
+[2017.02.28-03.45.06:151][  0]LogFileHelpers: Loading map 'swanCarLevel' took 4.203
+[2017.02.28-03.45.07:125][  0]LogCollectionManager: Loaded 1 collections in 0.004059 seconds
+[2017.02.28-03.45.07:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Collections/' took 0.01s
+[2017.02.28-03.45.07:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Developers/Aris/Collections/' took 0.01s
+[2017.02.28-03.45.07:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Collections/' took 0.01s
+[2017.02.28-03.45.07:293][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000009 seconds
+[2017.02.28-03.45.07:293][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.02.28-03.45.07:324][  0]LogContentBrowser: Native class hierarchy populated in 0.0310 seconds. Added 2190 classes and 428 folders.
+[2017.02.28-03.45.07:448][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.28-03.45.07:448][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.28-03.45.07:450][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0016 seconds. Added 13 classes and 0 folders.
+[2017.02.28-03.45.07:639][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.02.28-03.45.07:739][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.02.28-03.45.07:864][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.02.28-03.45.08:225][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.28-03.45.08:236][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.28-03.45.08:389][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2017.02.28-03.45.08:390][  0]LogLoad: (Engine Initialization) Total time: 45.54 seconds
+[2017.02.28-03.45.08:390][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.44 seconds
+[2017.02.28-03.45.08:390][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.28-03.45.08:390][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.28-03.45.08:731][  0]LogOcInput: OculusInput pre-init called
+[2017.02.28-03.45.08:760][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.28-03.45.09:126][  0]LogRenderer: Reallocating scene render targets to support 816x372 NumSamples 1 (Frame:2).
+[2017.02.28-03.45.11:318][  5]LogAssetRegistry: Asset discovery search completed in 30.8494 seconds
+[2017.02.28-03.45.11:318][  5]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000015 seconds (found 0 objects)
+[2017.02.28-03.45.11:318][  5]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000062 seconds (updated 0 objects)
+[2017.02.28-03.46.58:644][349]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 111 classes and 0 folders.
+[2017.02.28-03.47.47:179][569]BlueprintLog: New page: Compile turret_top
+[2017.02.28-03.47.49:302][601]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.28-03.47.49:353][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.02.28-03.47.49:353][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.28-03.47.49:354][601]PIE: New page: PIE session: swanCarLevel (Feb 27, 2017, 5:47:49 PM)
+[2017.02.28-03.47.49:354][601]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.28-03.47.49:810][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.456383s)
+[2017.02.28-03.47.49:813][601]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.28-03.47.49:813][601]LogPlayLevel: PIE: World Init took: (0.002792s)
+[2017.02.28-03.47.49:814][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.459673s)
+[2017.02.28-03.47.49:873][601]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.28-03.47.49:904][601]LogInit: FAudioDevice initialized.
+[2017.02.28-03.47.50:005][601]LogLoad: Game class is 'GameModeBase'
+[2017.02.28-03.47.50:104][601]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-22.47.50
+[2017.02.28-03.47.50:108][601]LogWorld: Bringing up level for play took: 0.099263
+[2017.02.28-03.47.50:260][601]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.02.28-03.47.50:264][601]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 0.357
+[2017.02.28-03.47.50:265][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.02.28-03.48.05:923][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.02.28-03.48.06:098][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.02.28-03.48.19:957][862]BlueprintLog: New page: Compile turret_top
+[2017.02.28-03.48.21:210][926]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.28-03.48.21:252][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.02.28-03.48.21:252][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.28-03.48.21:252][926]PIE: New page: PIE session: swanCarLevel (Feb 27, 2017, 5:48:21 PM)
+[2017.02.28-03.48.21:252][926]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.02.28-03.48.21:611][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.358212s)
+[2017.02.28-03.48.21:612][926]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.02.28-03.48.21:612][926]LogPlayLevel: PIE: World Init took: (0.001789s)
+[2017.02.28-03.48.21:613][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.360496s)
+[2017.02.28-03.48.21:672][926]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.28-03.48.21:705][926]LogInit: FAudioDevice initialized.
+[2017.02.28-03.48.21:754][926]LogLoad: Game class is 'GameModeBase'
+[2017.02.28-03.48.21:853][926]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.02.27-22.48.21
+[2017.02.28-03.48.21:856][926]LogWorld: Bringing up level for play took: 0.098696
+[2017.02.28-03.48.21:866][926]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel -0.04
+[2017.02.28-03.48.21:867][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.02.28-03.48.22:040][926]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:882).
+[2017.02.28-03.49.36:652][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.02.28-03.49.36:909][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.02.28-03.49.45:676][ 62]LogSavePackage: Save=3720.43ms
+[2017.02.28-03.49.45:676][ 62]LogSavePackage: Moving '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/swanCarLevel918DFC09485704B8560394B82790B971.tmp' to '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap'
+[2017.02.28-03.49.45:720][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap
+[2017.02.28-03.49.45:896][ 62]LogFileHelpers: Saving map 'swanCarLevel' took 4.430
+[2017.02.28-03.49.46:007][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/turret2/turret_top" FILE="../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret2/turret_top.uasset" SILENT=true
+[2017.02.28-03.49.46:143][ 62]LogSavePackage: Save=88.89ms
+[2017.02.28-03.49.46:143][ 62]LogSavePackage: Moving '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/turret_topF4D2A8164A9A6D3DC2A30980B095134B.tmp' to '../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret2/turret_top.uasset'
+[2017.02.28-03.49.46:148][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Aris/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret2/turret_top.uasset
