@@ -1,0 +1,619 @@
+﻿Log file open, 02/28/17 22:55:23
+LogInit:Display: Running engine for game: vehicleTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(702985119) SRandInit(702985119).
+LogTaskGraph: Started task graph with 5 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.229136
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.01-03.55.25:443][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-03.55.25:443][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.01-03.55.25:700][  0]LogInit: Computer: SEAN-10
+[2017.03.01-03.55.25:700][  0]LogInit: User: Sean
+[2017.03.01-03.55.25:700][  0]LogInit: CPU Page size=65536, Cores=3
+[2017.03.01-03.55.25:700][  0]LogInit: High frequency timer resolution =4.021338 MHz
+[2017.03.01-03.55.25:712][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.01-03.55.25:716][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.01-03.55.25:716][  0]LogMemory: Process Physical Memory: 264.00 MB used, 264.00 MB peak
+[2017.03.01-03.55.25:716][  0]LogMemory: Process Virtual Memory: 262.84 MB used, 262.84 MB peak
+[2017.03.01-03.55.25:716][  0]LogMemory: Physical Memory: 6924.16 MB used,  1167.34 MB free, 8091.50 MB total
+[2017.03.01-03.55.25:716][  0]LogMemory: Virtual Memory: 675.67 MB used,  1167.34 MB free, 134217728.00 MB total
+[2017.03.01-03.55.28:036][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.01-03.55.36:317][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.01-03.55.37:419][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.03.01-03.55.37:419][  0]LogD3D11RHI:       2016/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.01-03.55.37:440][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.01-03.55.37:440][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.01-03.55.37:440][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.01-03.55.37:533][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.01-03.55.37:533][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.01-03.55.37:533][  0]LogWindows: EnumDisplayDevices:
+[2017.03.01-03.55.37:533][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.03.01-03.55.37:534][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.01-03.55.37:535][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.01-03.55.37:535][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.01-03.55.37:536][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.01-03.55.37:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.03.01-03.55.37:536][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.03.01-03.55.37:536][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.03.01-03.55.37:536][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.01-03.55.37:583][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.01-03.55.38:338][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.01-03.55.38:542][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Intermediate/Shaders/WorkingDirectory/11644/).
+[2017.03.01-03.55.38:542][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sean/AppData/Local/Temp/UnrealShaderWorkingDir/BBA9016241CEC358FDAF61BD1CFC1758/'.
+[2017.03.01-03.55.38:551][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.01-03.55.54:548][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.01-03.55.54:700][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.01-03.55.54:851][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.01-03.55.55:023][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.01-03.55.55:205][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.01-03.55.55:345][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.01-03.55.55:515][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.01-03.55.55:697][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.01-03.55.55:836][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.01-03.55.56:006][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.01-03.55.56:154][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.01-03.55.56:312][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.01-03.55.56:478][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.01-03.55.56:700][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.01-03.55.56:927][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.01-03.55.57:336][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.01-03.55.57:336][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.01-03.55.57:508][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.01-03.55.57:889][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.01-03.55.57:978][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.01-03.55.58:123][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.01-03.55.58:275][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.01-03.55.58:449][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.01-03.55.58:681][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.01-03.55.58:681][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.01-03.56.02:217][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.01-03.56.02:844][  0]LogDerivedDataCache: Loaded boot cache 0.63s 50MB C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.01-03.56.02:844][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.01-03.56.02:844][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.01-03.56.02:844][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.01-03.56.02:844][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.01-03.56.02:844][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.01-03.56.02:951][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.01-03.56.02:964][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.01-03.56.19:943][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-03.56.20:255][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.01-03.56.22:223][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.01-03.56.22:532][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.01-03.56.22:770][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.01-03.56.22:770][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.01-03.56.22:770][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.01-03.56.49:385][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
+[2017.03.01-03.56.50:009][  0]LogAssetRegistry: FAssetRegistry took 0.0396 seconds to start up
+[2017.03.01-03.56.55:117][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 4.764628 seconds
+[2017.03.01-03.56.55:125][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.01-03.56.55:125][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.03.01-03.56.55:125][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.01-03.56.55:315][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.01-03.57.01:488][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.01-03.57.01:690][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-03.57.01:697][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-03.57.49:846][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.01-03.57.50:353][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.01-03.57.55:734][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.01-03.58.00:328][  0]SourceControl: Info Source control is disabled
+[2017.03.01-03.58.00:509][  0]SourceControl: Info Source control is disabled
+[2017.03.01-03.58.01:394][  0]SourceControl: Info Source control is disabled
+[2017.03.01-03.58.01:957][  0]SourceControl: Info Source control is disabled
+[2017.03.01-03.58.19:105][  0]LogEngine: Initializing Engine...
+[2017.03.01-03.58.19:225][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.01-03.58.26:070][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.01-03.58.29:172][  0]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.01-03.58.29:653][  0]LogInit: FAudioDevice initialized.
+[2017.03.01-03.58.29:740][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.01-03.58.29:872][  0]LogInit: Texture streaming: Enabled
+[2017.03.01-03.58.39:061][  0]LogInit: Transaction tracking system initialized
+[2017.03.01-03.58.43:383][  0]BlueprintLog: New page: Editor Load
+[2017.03.01-03.59.02:405][  0]LocalizationService: Info Localization service is disabled
+[2017.03.01-03.59.12:002][  0]LogConsoleResponse:Display: 
+[2017.03.01-03.59.20:910][  0]LogFileCache: Scanning file cache for directory 'E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/' took 0.19s
+[2017.03.01-03.59.20:910][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.01-03.59.20:963][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.01-03.59.36:917][  0]SourceControl: Info Source control is disabled
+[2017.03.01-03.59.36:960][  0]Cmd: MAP LOAD FILE="E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-03.59.37:027][  0]LightingResults: New page: Lighting Build
+[2017.03.01-03.59.38:262][  0]MapCheck: New page: Map Check
+[2017.03.01-03.59.38:262][  0]LightingResults: New page: Lighting Build
+[2017.03.01-03.59.50:455][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave gunshot...
+[2017.03.01-03.59.51:730][  0]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2017.03.01-03.59.51:934][  0]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.03.01-04.00.33:853][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-04.00.33:854][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-04.00.33:947][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.428ms to complete.
+[2017.03.01-04.00.33:947][  0]LogFileHelpers: Loading map 'swanCarLevel' took 57.002
+[2017.03.01-04.00.34:556][  0]LogCollectionManager: Loaded 1 collections in 0.011428 seconds
+[2017.03.01-04.00.34:737][  0]LogFileCache: Scanning file cache for directory 'E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Saved/Collections/' took 0.01s
+[2017.03.01-04.00.34:737][  0]LogFileCache: Scanning file cache for directory 'E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/Developers/Sean/Collections/' took 0.01s
+[2017.03.01-04.00.34:737][  0]LogFileCache: Scanning file cache for directory 'E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/Collections/' took 0.01s
+[2017.03.01-04.00.34:737][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2017.03.01-04.00.34:737][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.03.01-04.00.34:765][  0]LogContentBrowser: Native class hierarchy populated in 0.0277 seconds. Added 2190 classes and 428 folders.
+[2017.03.01-04.00.34:857][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.01-04.00.34:857][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.01-04.00.34:858][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
+[2017.03.01-04.00.34:993][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.01-04.00.37:792][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.03.01-04.00.38:278][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.03.01-04.00.50:128][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.01-04.00.51:113][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.01-04.00.51:828][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.01-04.00.51:829][  0]LogLoad: (Engine Initialization) Total time: 338.51 seconds
+[2017.03.01-04.00.51:829][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.98 seconds
+[2017.03.01-04.00.51:896][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.01-04.00.51:896][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.01-04.00.52:446][  0]LogOcInput: OculusInput pre-init called
+[2017.03.01-04.00.55:016][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.01-04.00.58:470][  0]LogRenderer: Reallocating scene render targets to support 1176x568 NumSamples 1 (Frame:2).
+[2017.03.01-04.01.06:809][  3]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.024770 seconds (found 0 objects)
+[2017.03.01-04.01.07:190][  5]LogAssetRegistry: Asset discovery search completed in 257.2044 seconds
+[2017.03.01-04.01.07:190][  5]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000001 seconds (updated 0 objects)
+[2017.03.01-05.05.18:877][769]LogAIModule: Creating AISystem for world defaultLevel
+[2017.03.01-05.05.19:041][769]Cmd: MAP LOAD FILE="E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/SwanCar/defaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-05.05.19:042][769]LightingResults: New page: Lighting Build
+[2017.03.01-05.05.19:043][769]LoadErrors: New page: Loading map: defaultLevel.umap
+[2017.03.01-05.05.19:125][769]MapCheck: New page: Map Check
+[2017.03.01-05.05.19:125][769]LightingResults: New page: Lighting Build
+[2017.03.01-05.05.19:492][769]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-05.05.19:648][769]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-05.05.20:201][769]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 553.364ms to complete.
+[2017.03.01-05.05.20:209][769]LogFileHelpers: Loading map 'defaultLevel' took 1.171
+[2017.03.01-05.09.49:389][322]Cmd: MAP LOAD FILE="E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/SwanCar/defaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-05.09.49:389][322]LightingResults: New page: Lighting Build
+[2017.03.01-05.09.49:390][322]LoadErrors: New page: Loading map: defaultLevel.umap
+[2017.03.01-05.09.49:391][322]MapCheck: New page: Map Check
+[2017.03.01-05.09.49:391][322]LightingResults: New page: Lighting Build
+[2017.03.01-05.09.49:479][322]LogAIModule: Creating AISystem for world defaultLevel
+[2017.03.01-05.09.49:552][322]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-05.09.49:656][322]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-05.09.49:750][322]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.034ms to complete.
+[2017.03.01-05.09.49:751][322]LogFileHelpers: Loading map 'defaultLevel' took 0.363
+[2017.03.01-05.09.51:500][422]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.01-05.09.51:527][422]Cmd: MAP LOAD FILE="E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/SwanCar/demolitionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-05.09.51:528][422]LightingResults: New page: Lighting Build
+[2017.03.01-05.09.51:528][422]LoadErrors: New page: Loading map: demolitionLevel.umap
+[2017.03.01-05.09.51:529][422]MapCheck: New page: Map Check
+[2017.03.01-05.09.51:529][422]LightingResults: New page: Lighting Build
+[2017.03.01-05.09.51:800][422]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-05.09.51:902][422]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-05.09.51:982][422]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.928ms to complete.
+[2017.03.01-05.09.51:982][422]LogFileHelpers: Loading map 'demolitionLevel' took 0.456
+[2017.03.01-05.10.01:333][227]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.LightSource.ArrowComponent0 is already used by ArrowComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:333][227]LogUObjectGlobals:Warning: Guid referenced by DirectionalLightComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.LightSource.LightComponent0 is already used by DirectionalLightComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP10.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP10.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP11.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP11.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP12.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP12.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP13.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP13.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP14.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP14.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP15.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP15.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP16.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP16.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP17.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP17.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP18.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP18.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP19.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP19.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP2.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP2.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP20.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP20.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP21.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP21.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:571][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP22.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP22.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP23.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP23.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP24.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP24.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP3.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP3.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP4.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP4.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP5.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP5.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP6.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP6.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP7.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP7.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP8.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP8.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP9.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP9.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:572][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP_722.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP_722.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:573][227]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.tutorialCar1_CarBody_2.SkeletalMeshComponent0 is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.tutorialCar1_CarBody_2.SkeletalMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:579][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP10.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP10.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:579][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP11.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP11.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:579][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP12.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP12.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:579][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP13.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP13.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:580][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP14.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP14.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:580][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP15.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP15.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:580][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP16.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP16.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:580][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP17.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP17.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:580][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP18.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP18.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:580][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP19.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP19.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:580][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP2.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP2.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:580][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP20.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP20.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:586][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP21.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP21.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:586][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP22.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP22.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP23.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP23.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP24.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP24.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP3.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP3.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP4.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP4.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP5.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP5.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP6.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP6.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP7.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP7.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP8.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP8.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP9.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP9.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:587][227]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP_722.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP_722.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.10.01:914][227]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.03.01-05.10.02:062][227]Cmd: MAP LOAD FILE="E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/SwanCar/swanCarLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-05.10.02:062][227]LightingResults: New page: Lighting Build
+[2017.03.01-05.10.02:063][227]LoadErrors: New page: Loading map: swanCarLevel.umap
+[2017.03.01-05.10.02:066][227]MapCheck: New page: Map Check
+[2017.03.01-05.10.02:066][227]LightingResults: New page: Lighting Build
+[2017.03.01-05.10.50:231][227]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-05.10.50:336][227]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-05.10.50:416][227]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.843ms to complete.
+[2017.03.01-05.10.50:416][227]LogFileHelpers: Loading map 'swanCarLevel' took 48.355
+[2017.03.01-05.11.15:167][871]LogAIModule: Creating AISystem for world defaultLevel
+[2017.03.01-05.11.21:468][ 35]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.01-05.11.21:534][ 35]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.03.01-05.11.21:534][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-05.11.21:535][ 35]PIE: New page: PIE session: swanCarLevel (Feb 28, 2017, 7:11:21 PM)
+[2017.03.01-05.11.21:535][ 35]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_swanCarLevel
+[2017.03.01-05.11.22:127][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.592115s)
+[2017.03.01-05.11.22:128][ 35]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.03.01-05.11.22:129][ 35]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2017.03.01-05.11.22:129][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/swanCarLevel.swanCarLevel to /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel (0.594106s)
+[2017.03.01-05.11.22:158][ 35]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.01-05.11.22:172][ 35]LogInit: FAudioDevice initialized.
+[2017.03.01-05.11.22:221][ 35]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.01-05.11.22:334][ 35]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel up for play (max tick rate 0) at 2017.03.01-00.11.22
+[2017.03.01-05.11.22:340][ 35]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	turret_top_BP_C /Game/SwanCar/UEDPIE_0_swanCarLevel.swanCarLevel:PersistentLevel.turret_top_BP_1162
+	Function /Game/turret/turret_top_BP.turret_top_BP_C:ExecuteUbergraph_turret_top_BP:0A0B
+[2017.03.01-05.11.22:341][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.01-05.11.22:341][ 35]LogWorld: Bringing up level for play took: 0.077442
+[2017.03.01-05.11.22:424][ 35]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.03.01-05.11.22:513][ 35]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=17020.000 Z=292.001] for [defaultCarBP_C]
+[2017.03.01-05.11.22:513][ 35]LogGameMode:Warning: Couldn't spawn Pawn of type defaultCarBP_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 17020.000000 292.000671
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.03.01-05.11.22:539][ 35]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_swanCarLevel 1.718
+[2017.03.01-05.11.22:540][ 35]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.03.01-05.11.37:653][ 81]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.03.01-05.11.37:733][ 81]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel' with GeneratedClass '/Game/SwanCar/swanCarLevel.swanCarLevel_C' with ClassGeneratedBy '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarLevel'
+[2017.03.01-05.11.44:524][471]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.01-05.11.44:558][471]Cmd: MAP LOAD FILE="E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/SwanCar/demolitionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-05.11.44:558][471]LightingResults: New page: Lighting Build
+[2017.03.01-05.11.44:558][471]LoadErrors: New page: Loading map: demolitionLevel.umap
+[2017.03.01-05.11.44:575][471]MapCheck: New page: Map Check
+[2017.03.01-05.11.44:575][471]LightingResults: New page: Lighting Build
+[2017.03.01-05.11.44:996][471]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.01-05.11.45:100][471]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-05.11.45:182][471]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.785ms to complete.
+[2017.03.01-05.11.45:182][471]LogFileHelpers: Loading map 'demolitionLevel' took 0.626
+[2017.03.01-05.13.38:310][ 85]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.01-05.13.38:364][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.01-05.13.38:364][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-05.13.38:365][ 85]PIE: New page: PIE session: demolitionLevel (Feb 28, 2017, 7:13:38 PM)
+[2017.03.01-05.13.38:365][ 85]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_demolitionLevel
+[2017.03.01-05.13.38:378][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012945s)
+[2017.03.01-05.13.38:378][ 85]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.01-05.13.38:379][ 85]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2017.03.01-05.13.38:379][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/demolitionLevel.demolitionLevel to /Game/SwanCar/UEDPIE_0_demolitionLevel.demolitionLevel (0.014226s)
+[2017.03.01-05.13.38:401][ 85]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.01-05.13.38:415][ 85]LogInit: FAudioDevice initialized.
+[2017.03.01-05.13.38:453][ 85]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.01-05.13.38:465][ 85]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.01-00.13.38
+[2017.03.01-05.13.38:469][ 85]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	turret_top_BP_C /Game/SwanCar/UEDPIE_0_demolitionLevel.demolitionLevel:PersistentLevel.turret_top_BP_1162
+	Function /Game/turret/turret_top_BP.turret_top_BP_C:ExecuteUbergraph_turret_top_BP:0A0B
+[2017.03.01-05.13.38:469][ 85]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.01-05.13.38:469][ 85]LogWorld: Bringing up level for play took: 0.014766
+[2017.03.01-05.13.38:472][ 85]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_demolitionLevel -0.349
+[2017.03.01-05.13.38:472][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.01-05.15.52:484][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.01-05.15.52:526][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.01-05.17.11:771][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
+[2017.03.01-05.17.11:771][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
+[2017.03.01-05.17.11:771][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
+[2017.03.01-05.17.11:773][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning [4918.46] Compile of Sedan successful, but with 3 Warning(s) [in 6 ms] (/Game/Sedan/Sedan.Sedan)
+[2017.03.01-05.17.11:773][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning [4918.46] Compile of Sedan successful, but with 4 Warning(s) [in 0 ms] (/Game/Sedan/Sedan.Sedan)
+[2017.03.01-05.17.11:773][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning [4918.46] Compile of Sedan successful, but with 5 Warning(s) [in 0 ms] (/Game/Sedan/Sedan.Sedan)
+[2017.03.01-05.17.11:777][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
+[2017.03.01-05.17.11:777][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
+[2017.03.01-05.17.11:778][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
+[2017.03.01-05.17.11:780][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning [4918.46] Compile of Sedan successful, but with 3 Warning(s) [in 4 ms] (/Game/Sedan/Sedan.Sedan)
+[2017.03.01-05.17.11:780][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning [4918.46] Compile of Sedan successful, but with 4 Warning(s) [in 0 ms] (/Game/Sedan/Sedan.Sedan)
+[2017.03.01-05.17.11:780][ 24]LogBlueprint:Warning: [Compiler Sedan] Warning [4918.46] Compile of Sedan successful, but with 5 Warning(s) [in 0 ms] (/Game/Sedan/Sedan.Sedan)
+[2017.03.01-05.17.11:783][ 24]LogBlueprint:Warning: Node '/Game/Sedan/Sedan_AnimBP.Sedan_AnimBP:AnimGraph.AnimGraphNode_ComponentToLocalSpace_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.17.11:783][ 24]LogBlueprint:Warning: Node '/Game/Sedan/Sedan_AnimBP.Sedan_AnimBP:AnimGraph.AnimGraphNode_MeshRefPose_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.17.11:783][ 24]LogBlueprint:Warning: Node '/Game/Sedan/Sedan_AnimBP.Sedan_AnimBP:AnimGraph.AnimGraphNode_Root_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.17.11:783][ 24]LogBlueprint:Warning: Node '/Game/Sedan/Sedan_AnimBP.Sedan_AnimBP:AnimGraph.AnimGraphNode_WheelHandler_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.17.12:824][ 24]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 111 classes and 0 folders.
+[2017.03.01-05.17.29:120][938]BlueprintLog: New page: Compile Sedan
+[2017.03.01-05.17.29:136][938]LogBlueprint:Warning: [Compiler Sedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
+[2017.03.01-05.17.29:136][938]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
+[2017.03.01-05.17.29:136][938]LogBlueprint:Warning: [Compiler Sedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
+[2017.03.01-05.17.29:661][938]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
+[2017.03.01-05.17.29:661][938]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
+[2017.03.01-05.17.29:661][938]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
+[2017.03.01-05.17.29:662][938]LogBlueprint:Warning: [Compiler Sedan] Warning [4936.35] Compile of Sedan successful, but with 3 Warning(s) [in 541 ms] (/Game/Sedan/Sedan.Sedan)
+[2017.03.01-05.17.30:610][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sedan/Sedan" FILE="E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan.uasset" SILENT=true
+[2017.03.01-05.17.32:335][  4]LogSavePackage: Save=1630.03ms
+[2017.03.01-05.17.32:335][  4]LogSavePackage: Moving 'E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Saved/Sedan323B512A45D8B3D83FF6DC81F0EF1A4F.tmp' to 'E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan.uasset'
+[2017.03.01-05.17.32:401][  4]LogSavePackage:Display: Finished SavePackage E:/new/FairyTaleRacing-master/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan.uasset
+[2017.03.01-05.18.17:316][126]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.LightSource.ArrowComponent0 is already used by ArrowComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:316][126]LogUObjectGlobals:Warning: Guid referenced by DirectionalLightComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.LightSource.LightComponent0 is already used by DirectionalLightComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:475][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP10.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP10.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:475][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP11.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP11.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:475][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP12.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP12.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP13.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP13.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP14.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP14.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP15.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP15.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP16.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP16.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP17.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP17.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP18.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP18.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP19.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP19.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP2.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP2.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP20.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP20.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP21.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP21.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP22.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP22.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP23.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP23.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:476][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP24.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP24.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP3.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP3.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP4.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP4.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP5.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP5.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP6.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP6.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP7.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP7.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP8.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP8.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP9.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP9.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP_722.VehicleMesh is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP_722.VehicleMesh, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:477][126]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.tutorialCar1_CarBody_2.SkeletalMeshComponent0 is already used by SkeletalMeshComponent /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.tutorialCar1_CarBody_2.SkeletalMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP10.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP10.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP11.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP11.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP12.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP12.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP13.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP13.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP14.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP14.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP15.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP15.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP16.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP16.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP17.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP17.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:482][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP18.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP18.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP19.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP19.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP2.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP2.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP20.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP20.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP21.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP21.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP22.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP22.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP23.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP23.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP24.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP24.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP3.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP3.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP4.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP4.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP5.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP5.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP6.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP6.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP7.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP7.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP8.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP8.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP9.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP9.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:483][126]LogUObjectGlobals:Warning: Guid referenced by WheeledVehicleMovementComponent4W /Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.swanCarBP_722.MovementComp is already used by WheeledVehicleMovementComponent4W /Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP_722.MovementComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.03.01-05.18.17:853][126]LogAIModule: Creating AISystem for world swanCarLevel
+[2017.03.01-05.18.18:071][126]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'AISedan_C'/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.AISedan2_685''
+[2017.03.01-05.18.18:185][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/SedanController.SedanController:EdGraph_0.K2Node_FunctionEntry_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:188][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/SedanController.SedanController:EdGraph_1.K2Node_FunctionEntry_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:214][126]LogBlueprint:Warning: [Compiler AISedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
+[2017.03.01-05.18.18:215][126]LogBlueprint:Warning: [Compiler AISedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
+[2017.03.01-05.18.18:215][126]LogBlueprint:Warning: [Compiler AISedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
+[2017.03.01-05.18.18:224][126]LogBlueprint:Warning: [Compiler AISedan] Warning [4984.91] Compile of AISedan successful, but with 3 Warning(s) [in 14 ms] (/Game/Sedan/AI/AISedan.AISedan)
+[2017.03.01-05.18.18:225][126]LogBlueprint:Warning: [Compiler AISedan] Warning [4984.91] Compile of AISedan successful, but with 4 Warning(s) [in 0 ms] (/Game/Sedan/AI/AISedan.AISedan)
+[2017.03.01-05.18.18:225][126]LogBlueprint:Warning: [Compiler AISedan] Warning [4984.91] Compile of AISedan successful, but with 5 Warning(s) [in 0 ms] (/Game/Sedan/AI/AISedan.AISedan)
+[2017.03.01-05.18.18:228][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/SedanController.SedanController:EdGraph_2.K2Node_FunctionEntry_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:245][126]LogBlueprint:Warning: [Compiler AISedan] Warning InputAction Event references unknown Action 'Handbrake' for  K2Node_InputAction_3
+[2017.03.01-05.18.18:245][126]LogBlueprint:Warning: [Compiler AISedan] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_20
+[2017.03.01-05.18.18:245][126]LogBlueprint:Warning: [Compiler AISedan] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_12
+[2017.03.01-05.18.18:254][126]LogBlueprint:Warning: [Compiler AISedan] Warning [4984.94] Compile of AISedan successful, but with 3 Warning(s) [in 13 ms] (/Game/Sedan/AI/AISedan.AISedan)
+[2017.03.01-05.18.18:254][126]LogBlueprint:Warning: [Compiler AISedan] Warning [4984.94] Compile of AISedan successful, but with 4 Warning(s) [in 0 ms] (/Game/Sedan/AI/AISedan.AISedan)
+[2017.03.01-05.18.18:255][126]LogBlueprint:Warning: [Compiler AISedan] Warning [4984.94] Compile of AISedan successful, but with 5 Warning(s) [in 0 ms] (/Game/Sedan/AI/AISedan.AISedan)
+[2017.03.01-05.18.18:278][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.EdGraphNode_Comment_1608' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:278][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_AddDelegate_542' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:278][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_CallFunction_1037423' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_CallFunction_1061859' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_CallFunction_1062048' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_CallFunction_1064701' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_CallFunction_1066242' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_CustomEvent_933' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_DynamicCast_3536' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_DynamicCast_3545' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_DynamicCast_6776' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_Event_14305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:279][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/BTT_MoveTo.BTT_MoveTo:EventGraph.K2Node_VariableGet_4589' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:293][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/SedanController.SedanController:EventGraph.K2Node_CallFunction_1133172' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:293][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/SedanController.SedanController:EventGraph.K2Node_Event_15222' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:293][126]LogBlueprint:Warning: Node '/Game/Sedan/AI/SedanController.SedanController:UserConstructionScript.K2Node_FunctionEntry_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.01-05.18.18:331][126]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'CarWaypoint_C'/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.CarWaypoint_2''
+[2017.03.01-05.18.18:332][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:332][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:332][126]LogProperty:Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyGame.MyGame_C''
+[2017.03.01-05.18.18:333][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:334][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:334][126]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyGame.MyGame_C',MemberName="aiPawn",MemberGuid=B181F3AD43C5331EBEAA57B5E66C7522)'
+[2017.03.01-05.18.18:334][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:335][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:335][126]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyGame.MyGame_C',MemberName="swap",MemberGuid=4565F50246F705E0224DA8BB23DF7D6D)'
+[2017.03.01-05.18.18:335][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:336][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:336][126]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyGame.MyGame_C',MemberName="swap",MemberGuid=4565F50246F705E0224DA8BB23DF7D6D)'
+[2017.03.01-05.18.18:337][126]LogLinker: Can't find file '/Game/Blueprints/MyGame'
+[2017.03.01-05.18.18:350][126]LogBlueprint:Warning: [demolitionLevel] 'aiPawn' variable not found. Base class was probably changed.
+[2017.03.01-05.18.18:350][126]LogBlueprint:Warning: [demolitionLevel] 'aiPawn' variable not found. Base class was probably changed.
+[2017.03.01-05.18.18:350][126]LogBlueprint:Warning: [demolitionLevel] 'swap' variable not found. Base class was probably changed.
+[2017.03.01-05.18.18:350][126]LogBlueprint:Warning: [demolitionLevel] 'swap' variable not found. Base class was probably changed.
+[2017.03.01-05.18.18:350][126]LogBlueprint:Warning: [demolitionLevel] 'swap' variable not found. Base class was probably changed.
+[2017.03.01-05.18.18:350][126]LogBlueprint:Warning: [demolitionLevel] 'swap' variable not found. Base class was probably changed.
+[2017.03.01-05.18.21:260][298]LogEditorTransaction: Undo Paste clipboard contents
+[2017.03.01-05.18.21:845][298]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.01-05.18.21:854][298]PIE:Warning: Warning AttachTo: '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.Landscape_0.RootComponent0' is not static , cannot attach '/Game/SwanCar/swanCarLevel.swanCarLevel:PersistentLevel.Landscape_0.LandscapeComponent_886' which is static to it. Aborting.
+[2017.03.01-05.18.34:857][298]LogStats: FPlatformStackWalk::StackWalkAndDump - 13.004 s
+[2017.03.01-05.18.34:857][298]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.01-05.18.34:857][298]LogOutputDevice:Error: 
+[2017.03.01-05.18.34:857][298]LogOutputDevice:Error: Ensure condition failed: Info [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Landscape\Private\Landscape.cpp] [Line: 445]
+[2017.03.01-05.18.34:857][298]LogOutputDevice:Error: 
+[2017.03.01-05.18.34:857][298]LogOutputDevice:Error: Stack: 
+[2017.03.01-05.18.34:857][298]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:185]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:216]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:343]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Landscape.dll!ULandscapeComponent::GetLayerDebugColorKey() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\landscape\private\landscape.cpp:445]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Landscape.dll!ULandscapeComponent::PostEditUndo() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\landscape\private\landscapeedit.cpp:413]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FTransaction::Apply() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\editortransaction.cpp:490]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!UTransBuffer::Undo() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\editortransaction.cpp:855]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:318]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:424]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:211]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:155]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FBaseToolkit::ProcessCommandBindings() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\toolkits\basetoolkit.cpp:77]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!SStandaloneAssetEditorToolkitHost::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\toolkits\sstandaloneasseteditortoolkithost.cpp:335]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Slate.dll!<lambda_2afcd964c763e269e2d1a63f3a72f846>::operator()() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4626]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_2afcd964c763e269e2d1a63f3a72f846> >() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:215]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_2afcd964c763e269e2d1a63f3a72f846>,FKeyEvent>() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:197]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4624]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4539]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1487]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2071]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:814]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:678]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: USER32.dll
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: USER32.dll
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:951]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2811]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launch.cpp:152]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: KERNEL32.DLL
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: ntdll.dll
+[2017.03.01-05.18.34:858][298]LogOutputDevice:Error: 
+[2017.03.01-05.18.34:873][298]LogStats:                SubmitErrorReport -  0.000 s
