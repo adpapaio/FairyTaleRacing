@@ -1432,3 +1432,426 @@ Scale3D: 1.000000 1.000000 1.000000
 [2017.03.06-19.23.26:344][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/turret/turret_top_BP" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret/turret_top_BP.uasset" SILENT=true
 [2017.03.06-19.23.26:402][392]LogSavePackage: Save=39.56ms
 [2017.03.06-19.23.26:402][392]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/turret_top_BP15FC192F42CC487C35A6AEADD93EFCCB.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret/turret_top_BP.uasset'
+[2017.03.06-19.23.26:413][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/turret/turret_top_BP.uasset
+[2017.03.06-19.23.26:417][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/BaseTurret" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset" SILENT=true
+[2017.03.06-19.23.26:445][392]LogSavePackage: Save=24.96ms
+[2017.03.06-19.23.26:445][392]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret666CBC144196FDB1F64941916759D141.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset'
+[2017.03.06-19.23.26:459][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset
+[2017.03.06-19.23.26:463][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/LineOfSight" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/LineOfSight.uasset" SILENT=true
+[2017.03.06-19.23.26:475][392]LogSavePackage: Save=9.19ms
+[2017.03.06-19.23.26:475][392]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/LineOfSight22F31CE04FE1FFEAA13498B8A41DBFC0.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/LineOfSight.uasset'
+[2017.03.06-19.23.26:500][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/LineOfSight.uasset
+[2017.03.06-19.23.26:504][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/MuzzleFlash" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/MuzzleFlash.uasset" SILENT=true
+[2017.03.06-19.23.26:519][392]LogSavePackage: Save=12.48ms
+[2017.03.06-19.23.26:519][392]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/MuzzleFlash83CED98144068F30E03DC4AFE1845B03.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/MuzzleFlash.uasset'
+[2017.03.06-19.23.26:526][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/MuzzleFlash.uasset
+[2017.03.06-19.23.26:529][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/TargetCom" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/TargetCom.uasset" SILENT=true
+[2017.03.06-19.23.26:567][392]LogSavePackage: Save=15.62ms
+[2017.03.06-19.23.26:567][392]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/TargetCom113E4DA446343A7431F15C985C4E35F9.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/TargetCom.uasset'
+[2017.03.06-19.23.26:573][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/TargetCom.uasset
+[2017.03.06-19.23.26:589][392]LogSavePackage: Save=8.92ms
+[2017.03.06-19.23.26:589][392]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/TurretRotation7C85E5FF461C4A438F41C6B4F46A8489.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/TurretRotation.uasset'
+[2017.03.06-19.23.26:595][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/TurretRotation.uasset
+[2017.03.06-19.25.55:737][848]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.26.04:990][954]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.26.10:935][665]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.26.17:326][428]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.26.25:159][345]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.26.35:653][595]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.26.35:658][595]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.30.58:540][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.06-19.30.58:540][958]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.06-19.30.58:540][958]LogPlayLevel: [PlayLevel] Compiling BaseTurret before play...
+[2017.03.06-19.30.58:546][958]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.30.58:657][958]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-19.30.58:694][958]LogPlayLevel: PlayLevel: Blueprint regeneration took 153 ms (1 blueprints)
+[2017.03.06-19.30.58:694][958]PIE: New page: PIE session: demolitionLevel (Mar 6, 2017, 9:30:58 AM)
+[2017.03.06-19.30.58:694][958]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_demolitionLevel
+[2017.03.06-19.30.58:715][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020359s)
+[2017.03.06-19.30.58:715][958]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.06-19.30.58:715][958]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2017.03.06-19.30.58:715][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/demolitionLevel.demolitionLevel to /Game/SwanCar/UEDPIE_0_demolitionLevel.demolitionLevel (0.021198s)
+[2017.03.06-19.30.58:745][958]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.06-19.30.58:755][958]LogInit: FAudioDevice initialized.
+[2017.03.06-19.30.58:787][958]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.06-19.30.58:798][958]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.06-14.30.58
+[2017.03.06-19.30.58:803][958]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.06-19.30.58:803][958]LogWorld: Bringing up level for play took: 0.014109
+[2017.03.06-19.30.58:805][958]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_demolitionLevel 0.863
+[2017.03.06-19.30.58:806][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.06-19.31.23:326][798]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.06-19.31.23:374][798]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.06-19.31.25:761][ 73]LogEditorViewport: Clicking on Actor (LMB): Brush (Arena-Spawn1-Sub)
+[2017.03.06-19.31.33:577][936]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.06-19.31.34:530][ 34]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.06-19.31.35:646][151]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.06-19.34.08:991][  3]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.032
+[2017.03.06-19.34.08:992][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-19.34.08:992][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-19.34.09:136][  3]LogSavePackage: Save=32.58ms
+[2017.03.06-19.34.09:136][  3]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto68433A70C4DD3595BE717A2B2BD3D55EA.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto6.uasset'
+[2017.03.06-19.34.09:138][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto6.uasset
+[2017.03.06-19.34.09:138][  3]LogFileHelpers: Auto-saving content packages took 0.146
+[2017.03.06-20.18.50:888][696]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.18.50:893][696]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.19.15:097][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.031
+[2017.03.06-20.19.15:099][584]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-20.19.15:099][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-20.19.15:140][584]LogSavePackage: Save=16.86ms
+[2017.03.06-20.19.15:140][584]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto77DE84E1D48A834AB57BBF8BD82F0D7FF.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto7.uasset'
+[2017.03.06-20.19.15:141][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto7.uasset
+[2017.03.06-20.19.15:141][584]LogFileHelpers: Auto-saving content packages took 0.043
+[2017.03.06-20.20.22:819][692]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.20.22:832][692]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.29.15:043][516]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.021
+[2017.03.06-20.29.15:044][516]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-20.29.15:044][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-20.29.15:074][516]LogSavePackage: Save=14.09ms
+[2017.03.06-20.29.15:074][516]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto89B1964D34311CDEE5E654185F38D6059.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto8.uasset'
+[2017.03.06-20.29.15:075][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto8.uasset
+[2017.03.06-20.29.15:075][516]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.03.06-20.39.51:006][771]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.39.51:012][771]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.40.26:017][956]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.021
+[2017.03.06-20.40.26:019][956]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-20.40.26:019][956]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-20.40.26:054][956]LogSavePackage: Save=16.82ms
+[2017.03.06-20.40.26:054][956]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto9076947B447BC8A979F50EBB8DA80F971.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto9.uasset'
+[2017.03.06-20.40.26:055][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto9.uasset
+[2017.03.06-20.40.26:055][956]LogFileHelpers: Auto-saving content packages took 0.037
+[2017.03.06-20.44.33:347][250]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.06-20.44.47:992][984]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.44.47:997][984]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.46.00:342][574]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-20.50.26:026][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.033
+[2017.03.06-20.50.26:028][280]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-20.50.26:029][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-20.50.26:073][280]LogSavePackage: Save=23.29ms
+[2017.03.06-20.50.26:073][280]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto0ED9EA2A54BD971471AEA978E53A3AF57.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto0.uasset'
+[2017.03.06-20.50.26:074][280]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto0.uasset
+[2017.03.06-20.50.26:074][280]LogFileHelpers: Auto-saving content packages took 0.047
+[2017.03.06-21.00.03:577][961]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.00.10:363][768]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.00.14:521][264]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.00.19:865][899]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.00.26:655][703]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.00.41:285][452]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.00.41:290][452]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.00.55:291][119]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.00.55:297][119]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.01.21:536][163]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.01.54:912][ 74]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.02.28:301][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.029
+[2017.03.06-21.02.28:302][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-21.02.28:302][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-21.02.28:370][ 59]LogSavePackage: Save=42.77ms
+[2017.03.06-21.02.28:370][ 59]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto12C21E3754D6CF014955088A63546D64B.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto1.uasset'
+[2017.03.06-21.02.28:371][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto1.uasset
+[2017.03.06-21.02.28:371][ 59]LogFileHelpers: Auto-saving content packages took 0.070
+[2017.03.06-21.04.43:387][694]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.12.21:537][384]BlueprintLog: New page: Compile BaseTurret
+[2017.03.06-21.12.21:579][384]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.12.21:756][384]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.12.28:696][  3]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.023
+[2017.03.06-21.12.28:698][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-21.12.28:698][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-21.12.28:746][  3]LogSavePackage: Save=26.56ms
+[2017.03.06-21.12.28:746][  3]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto25BD0E4864F82172B61DE8B9B4A6CBAD1.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto2.uasset'
+[2017.03.06-21.12.28:747][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto2.uasset
+[2017.03.06-21.12.28:747][  3]LogFileHelpers: Auto-saving content packages took 0.050
+[2017.03.06-21.23.20:324][329]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.25.04:957][598]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.037
+[2017.03.06-21.25.04:960][598]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-21.25.04:960][598]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-21.25.05:025][598]LogSavePackage: Save=36.06ms
+[2017.03.06-21.25.05:025][598]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto3EFBCDCEA40FA3DA1D4509D9E45981888.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto3.uasset'
+[2017.03.06-21.25.05:026][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto3.uasset
+[2017.03.06-21.25.05:026][598]LogFileHelpers: Auto-saving content packages took 0.067
+[2017.03.06-21.32.59:954][406]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.35.21:980][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.031
+[2017.03.06-21.35.21:983][196]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.06-21.35.21:983][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.06-21.35.22:062][196]LogSavePackage: Save=59.54ms
+[2017.03.06-21.35.22:062][196]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret_Auto45EC64749420F2E718686BCA489C0B8EA.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto4.uasset'
+[2017.03.06-21.35.22:075][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto4.uasset
+[2017.03.06-21.35.22:075][196]LogFileHelpers: Auto-saving content packages took 0.094
+[2017.03.06-21.37.27:566][243]BlueprintLog: New page: Compile BaseTurret
+[2017.03.06-21.37.27:842][243]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/TurretAI/BaseTurret.BaseTurret_C:TurretLineOfSight_GEN_VARIABLE] BoxElems[0] invalid or has invalid transform
+[2017.03.06-21.37.31:501][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/BaseTurret" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset" SILENT=true
+[2017.03.06-21.37.31:543][557]LogSavePackage: Save=31.38ms
+[2017.03.06-21.37.31:543][557]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BaseTurret5E47465742B76CA8DB5BCCAAFD762643.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset'
+[2017.03.06-21.37.31:547][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset
+[2017.03.06-21.38.05:303][463]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.06-21.38.05:772][464]Cmd: QUIT_EDITOR
+[2017.03.06-21.38.05:884][464]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.06-21.38.05:965][464]LogExit: Preparing to exit.
+[2017.03.06-21.38.07:022][464]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/' was aborted.
+[2017.03.06-21.38.07:169][464]LogExit: Editor shut down
+[2017.03.06-21.38.07:173][464]LogExit: Transaction tracking system shut down
+[2017.03.06-21.38.07:533][464]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.06-21.38.07:534][464]LogExit: Object subsystem successfully closed.
+[2017.03.06-21.38.07:578][464]LogD3D11RHI: Shutdown
+[2017.03.06-21.38.07:578][464]LogD3D11RHI: CleanupD3DDevice
+[2017.03.06-21.38.07:748][464]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.06-21.38.07:765][464]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.03.06-21.38.07:765][464]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDAEAF41D-4730-A323-6708-5CBC34C6EB33%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd8d9cf048bfd28b9bb7a9a49b394d3b%7C%7C953b6e70-6a04-4b6b-a326-609a2a97aa0b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.06-21.38.07:765][464]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDAEAF41D-4730-A323-6708-5CBC34C6EB33%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd8d9cf048bfd28b9bb7a9a49b394d3b%7C%7C953b6e70-6a04-4b6b-a326-609a2a97aa0b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (251)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (250)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module SequencerWidgets (249)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (248)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module SkeletonEditor (247)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (246)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module BlueprintGraph (245)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (244)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (243)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module SynthBenchmark (242)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.03.06-21.38.07:788][464]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.03.06-21.38.07:789][464]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.03.06-21.38.07:794][464]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Collections/' was aborted.
+[2017.03.06-21.38.07:794][464]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Developers/adpapaio/Collections/' was aborted.
+[2017.03.06-21.38.07:794][464]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Collections/' was aborted.
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.03.06-21.38.07:794][464]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.03.06-21.38.07:795][464]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.03.06-21.38.07:814][464]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.03.06-21.38.07:815][464]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.03.06-21.38.07:815][464]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.03.06-21.38.07:815][464]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.03.06-21.38.07:815][464]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.03.06-21.38.07:815][464]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.03.06-21.38.07:815][464]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.03.06-21.38.07:815][464]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.03.06-21.38.07:815][464]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.03.06-21.38.08:702][464]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.03.06-21.38.08:703][464]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.03.06-21.38.08:703][464]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.03.06-21.38.08:703][464]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.03.06-21.38.08:703][464]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.03.06-21.38.08:703][464]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.03.06-21.38.08:703][464]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.03.06-21.38.08:704][464]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.03.06-21.38.08:704][464]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.03.06-21.38.08:704][464]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.03.06-21.38.08:704][464]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.03.06-21.38.08:704][464]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.03.06-21.38.08:704][464]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.03.06-21.38.08:759][464]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.03.06-21.38.08:759][464]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.03.06-21.38.08:759][464]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.03.06-21.38.08:777][464]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.03.06-21.38.08:777][464]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.03.06-21.38.08:777][464]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.03.06-21.38.08:777][464]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.03.06-21.38.08:777][464]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.03.06-21.38.08:778][464]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.03.06-21.38.08:798][464]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.03.06-21.38.08:798][464]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.03.06-21.38.08:800][464]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.03.06-21.38.08:800][464]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.03.06-21.38.08:800][464]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.03.06-21.38.08:800][464]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.03.06-21.38.08:800][464]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.03.06-21.38.08:800][464]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.03.06-21.38.08:803][464]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.03.06-21.38.08:905][464]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.03.06-21.38.08:906][464]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.03.06-21.38.08:907][464]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.03.06-21.38.08:908][464]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.03.06-21.38.08:908][464]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.03.06-21.38.08:913][464]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.03.06-21.38.08:915][464]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.03.06-21.38.08:915][464]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.03.06-21.38.09:017][464]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.03.06-21.38.09:118][464]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.03.06-21.38.09:118][464]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.03.06-21.38.09:118][464]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.03.06-21.38.09:118][464]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.03.06-21.38.09:118][464]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.03.06-21.38.09:118][464]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.03.06-21.38.09:119][464]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.03.06-21.38.09:127][464]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.03.06-21.38.09:127][464]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.03.06-21.38.09:127][464]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.03.06-21.38.09:127][464]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.03.06-21.38.09:127][464]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.03.06-21.38.09:127][464]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.03.06-21.38.09:127][464]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.06-21.38.09:129][464]LogDirectoryWatcher: A directory notification for '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/' was aborted.
+[2017.03.06-21.38.09:131][464]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.06-21.38.09:140][464]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.03.06-21.38.09:423][464]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.03.06-21.38.09:423][464]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.03.06-21.38.09:423][464]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.03.06-21.38.09:423][464]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.03.06-21.38.09:423][464]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.03.06-21.38.09:423][464]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.03.06-21.38.09:438][464]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.03.06-21.38.09:438][464]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.03.06-21.38.09:473][464]LogDerivedDataCache: Shutdown
+[2017.03.06-21.38.09:473][464]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.03.06-21.38.09:473][464]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.03.06-21.38.09:473][464]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.03.06-21.38.09:473][464]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.03.06-21.38.09:474][464]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.03.06-21.38.09:474][464]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.03.06-21.38.09:474][464]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.03.06-21.38.09:474][464]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.03.06-21.38.09:474][464]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.03.06-21.38.09:474][464]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.03.06-21.38.09:475][464]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.03.06-21.38.09:476][464]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.03.06-21.38.09:477][464]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.06-21.38.09:477][464]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.06-21.38.09:477][464]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.06-21.38.09:477][464]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.06-21.38.09:477][464]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.06-21.38.09:477][464]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.06-21.38.09:477][464]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.06-21.38.09:477][464]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.06-21.38.09:477][464]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.06-21.38.09:482][464]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.06-21.38.09:482][464]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.06-21.38.09:482][464]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.06-21.38.09:482][464]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.06-21.38.09:482][464]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.06-21.38.09:482][464]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.06-21.38.09:538][464]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.06-21.38.09:545][464]LogExit: Exiting.
+[2017.03.06-21.38.09:575][464]Log file closed, 03/06/17 16:38:09
