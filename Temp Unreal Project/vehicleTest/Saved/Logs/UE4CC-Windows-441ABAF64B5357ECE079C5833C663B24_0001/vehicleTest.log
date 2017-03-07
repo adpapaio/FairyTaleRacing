@@ -1,0 +1,734 @@
+﻿Log file open, 03/07/17 02:26:33
+LogInit:Display: Running engine for game: vehicleTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1699688426) SRandInit(-1699688426).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.108511
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.07-07.26.33:944][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.07-07.26.33:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.07-07.26.33:969][  0]LogInit: Computer: UMD-CIS239LAB10
+[2017.03.07-07.26.33:970][  0]LogInit: User: scroskey
+[2017.03.07-07.26.33:970][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.03.07-07.26.33:970][  0]LogInit: High frequency timer resolution =3.215207 MHz
+[2017.03.07-07.26.33:970][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.07-07.26.33:970][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.07-07.26.33:970][  0]LogMemory: Process Physical Memory: 265.13 MB used, 265.13 MB peak
+[2017.03.07-07.26.33:970][  0]LogMemory: Process Virtual Memory: 260.34 MB used, 260.34 MB peak
+[2017.03.07-07.26.33:970][  0]LogMemory: Physical Memory: 5943.46 MB used,  10330.57 MB free, 16274.04 MB total
+[2017.03.07-07.26.33:970][  0]LogMemory: Virtual Memory: 675.86 MB used,  10330.57 MB free, 134217728.00 MB total
+[2017.03.07-07.26.33:998][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.07-07.26.40:704][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.07-07.26.40:749][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.03.07-07.26.40:749][  0]LogD3D11RHI:       4058/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.07-07.26.40:751][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.07-07.26.40:752][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.07-07.26.40:752][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.07-07.26.40:759][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.07-07.26.40:759][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.07-07.26.40:759][  0]LogWindows: EnumDisplayDevices:
+[2017.03.07-07.26.40:759][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.03.07-07.26.40:760][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.03.07-07.26.40:760][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.07-07.26.40:760][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.07-07.26.40:760][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.07-07.26.40:760][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.03.07-07.26.40:760][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.03.07-07.26.40:760][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.03.07-07.26.40:760][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.07-07.26.40:782][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.07-07.26.40:798][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.07-07.26.40:799][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/Shaders/WorkingDirectory/6128/).
+[2017.03.07-07.26.40:800][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/scroskey/AppData/Local/Temp/UnrealShaderWorkingDir/541825A84E5128B55E0A449547F0266C/'.
+[2017.03.07-07.26.40:800][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.07-07.26.45:527][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.07-07.26.45:629][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.07-07.26.45:720][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.07-07.26.45:787][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.07-07.26.45:913][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.07-07.26.46:018][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.07-07.26.46:085][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.07-07.26.46:142][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.07-07.26.46:197][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.07-07.26.46:324][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.07-07.26.46:463][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.07-07.26.46:572][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.07-07.26.46:695][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.07-07.26.46:822][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.07-07.26.46:926][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.07-07.26.47:062][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.07-07.26.47:062][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.07-07.26.47:100][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.07-07.26.47:231][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.07-07.26.47:282][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.07-07.26.47:334][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.07-07.26.47:386][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.07-07.26.47:440][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.07-07.26.47:511][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.07-07.26.47:511][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.07-07.26.48:029][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.07-07.26.48:752][  0]LogDerivedDataCache: Loaded boot cache 0.72s 50MB C:/Users/scroskey/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.07-07.26.48:752][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/scroskey/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.07-07.26.48:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.07-07.26.48:752][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.07-07.26.48:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.07-07.26.48:752][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.07-07.26.48:785][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.07-07.26.48:798][  0]LogDerivedDataCache: Using Local data cache path C:/Users/scroskey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.07-07.26.49:157][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.07-07.26.49:163][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.07-07.26.49:492][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.07-07.26.49:534][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.07-07.26.49:581][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.07-07.26.49:581][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.07-07.26.49:581][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.07-07.26.51:613][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
+[2017.03.07-07.26.51:718][  0]LogAssetRegistry: FAssetRegistry took 0.0227 seconds to start up
+[2017.03.07-07.26.51:813][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.044067 seconds
+[2017.03.07-07.26.51:818][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.07-07.26.51:818][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.03.07-07.26.51:818][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.07-07.26.51:899][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.07-07.26.52:990][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.07-07.26.53:012][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.07-07.26.53:012][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.07-07.27.15:813][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.07-07.27.15:891][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.07-07.27.16:768][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.07-07.27.17:602][  0]SourceControl: Info Source control is disabled
+[2017.03.07-07.27.17:660][  0]SourceControl: Info Source control is disabled
+[2017.03.07-07.27.17:714][  0]SourceControl: Info Source control is disabled
+[2017.03.07-07.27.17:759][  0]SourceControl: Info Source control is disabled
+[2017.03.07-07.27.19:867][  0]LogEngine: Initializing Engine...
+[2017.03.07-07.27.19:867][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.07-07.27.20:606][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.07-07.27.20:615][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-07.27.20:639][  0]LogInit: FAudioDevice initialized.
+[2017.03.07-07.27.20:685][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/scroskey/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.07-07.27.20:703][  0]LogInit: Texture streaming: Enabled
+[2017.03.07-07.27.20:942][  0]LogInit: Transaction tracking system initialized
+[2017.03.07-07.27.21:328][  0]BlueprintLog: New page: Editor Load
+[2017.03.07-07.27.22:351][  0]LocalizationService: Info Localization service is disabled
+[2017.03.07-07.27.23:316][  0]LogConsoleResponse:Display: 
+[2017.03.07-07.27.24:553][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.07-07.27.24:553][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.07-07.27.25:308][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/' took 0.02s
+[2017.03.07-07.27.26:143][  0]SourceControl: Info Source control is disabled
+[2017.03.07-07.27.26:143][  0]Cmd: MAP LOAD FILE="../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/demolitionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.07-07.27.26:180][  0]LightingResults: New page: Lighting Build
+[2017.03.07-07.27.26:261][  0]MapCheck: New page: Map Check
+[2017.03.07-07.27.26:261][  0]LightingResults: New page: Lighting Build
+[2017.03.07-07.27.29:985][  0]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-07.27.30:229][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.07-07.27.30:230][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.07-07.27.30:293][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.703ms to complete.
+[2017.03.07-07.27.30:293][  0]LogFileHelpers: Loading map 'demolitionLevel' took 4.150
+[2017.03.07-07.27.30:715][  0]LogCollectionManager: Loaded 1 collections in 0.003458 seconds
+[2017.03.07-07.27.30:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Collections/' took 0.01s
+[2017.03.07-07.27.30:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Developers/scroskey/Collections/' took 0.01s
+[2017.03.07-07.27.30:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Collections/' took 0.01s
+[2017.03.07-07.27.30:809][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2017.03.07-07.27.30:809][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.03.07-07.27.30:818][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2190 classes and 428 folders.
+[2017.03.07-07.27.30:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.07-07.27.30:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.07-07.27.30:864][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.03.07-07.27.30:966][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.03.07-07.27.31:743][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.03.07-07.27.31:822][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.07-07.27.31:941][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.07-07.27.31:946][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.07-07.27.32:012][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.07-07.27.32:012][  0]LogLoad: (Engine Initialization) Total time: 60.28 seconds
+[2017.03.07-07.27.32:012][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.56 seconds
+[2017.03.07-07.27.32:012][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.07-07.27.32:012][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.07-07.27.32:021][  0]LogOcInput: OculusInput pre-init called
+[2017.03.07-07.27.32:052][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.07-07.27.32:398][  0]LogRenderer: Reallocating scene render targets to support 976x576 NumSamples 1 (Frame:2).
+[2017.03.07-07.27.32:524][  1]LogAssetRegistry: Asset discovery search completed in 40.8284 seconds
+[2017.03.07-07.27.32:524][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000006 seconds (found 0 objects)
+[2017.03.07-07.27.32:524][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000016 seconds (updated 0 objects)
+[2017.03.07-07.28.26:375][248]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.03.07-07.30.42:830][226]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.03.07-07.30.58:354][480]LogBlueprint:Warning: [defaultCarBP] 'Health' variable not found. Base class was probably changed.
+[2017.03.07-07.30.58:354][480]LogBlueprint:Warning: [defaultCarBP] 'Health' variable not found. Base class was probably changed.
+[2017.03.07-07.32.15:663][605]LogTexture:Display: Building textures: HDRI_Epic_Courtyard_Daylight (RGBA16F)
+[2017.03.07-07.32.23:759][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:848][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:884][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:888][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:892][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:909][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:913][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:918][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:947][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:950][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:953][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:957][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:963][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:988][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.23:991][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:001][605]LogSavePackage: Save=277.15ms
+[2017.03.07-07.32.24:002][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:002][605]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/BP_LightStudio8A32650B40819FF9B9A13E8277312343.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2017.03.07-07.32.24:016][605]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:018][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.03.07-07.32.24:134][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:139][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:143][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:148][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:152][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:156][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:160][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:165][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:169][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:173][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:177][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:181][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:185][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:190][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:194][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:202][606]LogSavePackage: Save=97.87ms
+[2017.03.07-07.32.24:203][606]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Sedan_FrontWheel7D0D667B43371AEAD83C7EA6FFD1D25F.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan_FrontWheel.uasset'
+[2017.03.07-07.32.24:208][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:212][606]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:212][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan_FrontWheel.uasset
+[2017.03.07-07.32.24:313][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:316][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:319][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:322][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:326][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:328][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:331][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:334][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:337][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:341][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:344][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:347][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:351][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:353][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:355][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:360][607]LogSavePackage: Save=66.62ms
+[2017.03.07-07.32.24:361][607]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Sedan_BackWheel56381122409CF423576B2B8A46297774.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan_BackWheel.uasset'
+[2017.03.07-07.32.24:364][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:367][607]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:367][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan_BackWheel.uasset
+[2017.03.07-07.32.24:450][608]LogBlueprint:Warning: Node '/Game/Sedan/Sedan_AnimBP.Sedan_AnimBP:AnimGraph.AnimGraphNode_ComponentToLocalSpace_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.07-07.32.24:450][608]LogBlueprint:Warning: Node '/Game/Sedan/Sedan_AnimBP.Sedan_AnimBP:AnimGraph.AnimGraphNode_MeshRefPose_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.07-07.32.24:450][608]LogBlueprint:Warning: Node '/Game/Sedan/Sedan_AnimBP.Sedan_AnimBP:AnimGraph.AnimGraphNode_Root_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.07-07.32.24:450][608]LogBlueprint:Warning: Node '/Game/Sedan/Sedan_AnimBP.Sedan_AnimBP:AnimGraph.AnimGraphNode_WheelHandler_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.03.07-07.32.24:484][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:487][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:490][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:492][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:496][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:497][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:500][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:502][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:505][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:506][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:508][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:514][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:516][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:518][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:519][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:525][608]LogSavePackage: Save=54.38ms
+[2017.03.07-07.32.24:525][608]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Sedan_AnimBPF6734C1F4D14336EC9784AA045F4E263.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan_AnimBP.uasset'
+[2017.03.07-07.32.24:527][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:529][608]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.32.24:529][608]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Sedan/Sedan_AnimBP.uasset
+[2017.03.07-07.32.27:761][609]LogTexture:Display: Building textures: T_Concrete_Panels_D (AutoDXT)
+[2017.03.07-07.32.29:306][609]LogTexture:Display: Building textures: T_Concrete_Panels_N (BC5)
+[2017.03.07-07.32.30:075][609]LogTexture:Display: Building textures: T_CobbleStone_Pebble_N (BC5)
+[2017.03.07-07.32.30:630][609]LogTexture:Display: Building textures: T_CobbleStone_Pebble_M (AutoDXT)
+[2017.03.07-07.32.31:421][609]LogTexture:Display: Building textures: T_CobbleStone_Pebble_D (AutoDXT)
+[2017.03.07-07.32.32:778][609]LogTexture:Display: Building textures: T_Ceramic_Tile_N (BC5)
+[2017.03.07-07.32.33:095][609]LogTexture:Display: Building textures: T_Ceramic_Tile_M (DXT1)
+[2017.03.07-07.32.33:898][609]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_N (BC5)
+[2017.03.07-07.32.34:531][609]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_M (AutoDXT)
+[2017.03.07-07.32.36:092][609]LogTexture:Display: Building textures: T_Brick_Hewn_Stone_D (AutoDXT)
+[2017.03.07-07.32.37:504][609]LogTexture:Display: Building textures: T_Brick_Cut_Stone_N (BC5)
+[2017.03.07-07.32.38:104][609]LogTexture:Display: Building textures: T_Brick_Cut_Stone_D (AutoDXT)
+[2017.03.07-07.32.39:727][609]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
+[2017.03.07-07.32.40:277][609]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
+[2017.03.07-07.32.42:006][609]LogTexture:Display: Building textures: T_Lamp_N (BC5)
+[2017.03.07-07.32.42:367][609]LogTexture:Display: Building textures: T_Lamp_M (AutoDXT)
+[2017.03.07-07.32.43:026][609]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.03.07-07.32.43:097][609]LogTexture:Display: Building textures: T_Spark_Core (AutoDXT)
+[2017.03.07-07.32.43:208][609]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.03.07-07.32.43:301][609]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.03.07-07.32.43:340][609]LogTexture:Display: Building textures: T_Dust_Particle_D (AutoDXT)
+[2017.03.07-07.32.43:653][609]LogTexture:Display: Building textures: T_Chair_N (BC5)
+[2017.03.07-07.32.44:053][609]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
+[2017.03.07-07.32.44:708][609]LogTexture:Display: Building textures: T_Wood_Walnut_N (BC5)
+[2017.03.07-07.32.45:178][609]LogTexture:Display: Building textures: T_Wood_Walnut_D (AutoDXT)
+[2017.03.07-07.32.46:688][609]LogTexture:Display: Building textures: T_Wood_Pine_N (BC5)
+[2017.03.07-07.32.47:214][609]LogTexture:Display: Building textures: T_Wood_Pine_D (AutoDXT)
+[2017.03.07-07.32.48:594][609]LogTexture:Display: Building textures: T_Fire_SubUV (AutoDXT)
+[2017.03.07-07.32.48:753][609]LogTexture:Display: Building textures: T_Fire_Tiled_D (AutoDXT)
+[2017.03.07-07.32.48:892][609]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.03.07-07.32.48:988][609]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.07-07.32.49:217][609]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.07-07.32.49:395][609]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.03.07-07.32.49:545][609]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.03.07-07.32.49:588][609]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2017.03.07-07.32.49:593][609]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2017.03.07-07.32.49:617][609]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.07-07.32.49:734][609]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.07-07.32.49:838][609]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.03.07-07.32.49:918][609]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.03.07-07.32.49:952][609]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2017.03.07-07.32.49:955][609]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2017.03.07-07.32.49:958][609]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2017.03.07-07.32.49:983][609]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2017.03.07-07.32.50:141][609]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2017.03.07-07.32.50:170][609]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2017.03.07-07.32.50:194][609]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2017.03.07-07.32.50:403][609]LogTexture:Display: Building textures: T_Tech_Panel_N (BC5)
+[2017.03.07-07.32.50:768][609]LogTexture:Display: Building textures: T_Tech_Panel_M (AutoDXT)
+[2017.03.07-07.32.51:244][609]LogTexture:Display: Building textures: T_Tech_Dot_N (BC5)
+[2017.03.07-07.32.51:272][609]LogTexture:Display: Building textures: T_Tech_Dot_M (AutoDXT)
+[2017.03.07-07.32.51:556][609]LogTexture:Display: Building textures: T_Rock_Sandstone_N (BC5)
+[2017.03.07-07.32.52:083][609]LogTexture:Display: Building textures: T_Rock_Sandstone_D (AutoDXT)
+[2017.03.07-07.32.53:622][609]LogTexture:Display: Building textures: T_Rock_Basalt_N (BC5)
+[2017.03.07-07.32.54:108][609]LogTexture:Display: Building textures: T_Rock_Basalt_D (AutoDXT)
+[2017.03.07-07.32.55:626][609]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
+[2017.03.07-07.32.57:151][609]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
+[2017.03.07-07.32.58:464][609]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2017.03.07-07.32.58:995][609]LogTexture:Display: Building textures: T_Ground_Moss_N (BC5)
+[2017.03.07-07.32.59:549][609]LogTexture:Display: Building textures: T_ground_Moss_D (AutoDXT)
+[2017.03.07-07.33.01:341][609]LogTexture:Display: Building textures: T_Ground_Grass_N (BC5)
+[2017.03.07-07.33.01:906][609]LogTexture:Display: Building textures: T_Ground_Grass_D (AutoDXT)
+[2017.03.07-07.33.03:594][609]LogTexture:Display: Building textures: T_Concrete_Poured_N (BC5)
+[2017.03.07-07.33.04:122][609]LogTexture:Display: Building textures: T_Concrete_Poured_D (AutoDXT)
+[2017.03.07-07.33.05:565][609]LogTexture:Display: Building textures: T_TableRound_N (BC5)
+[2017.03.07-07.33.05:892][609]LogTexture:Display: Building textures: T_TableRound_M (DXT1)
+[2017.03.07-07.33.06:363][609]LogTexture:Display: Building textures: T_Statue_N (BC5)
+[2017.03.07-07.33.06:532][609]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
+[2017.03.07-07.33.07:197][609]LogTexture:Display: Building textures: T_Frame_N (BC5)
+[2017.03.07-07.33.07:525][609]LogTexture:Display: Building textures: T_Frame_M (DXT1)
+[2017.03.07-07.33.08:106][609]LogAIModule: Creating AISystem for world StarterMap
+[2017.03.07-07.33.08:106][609]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.07-07.33.08:279][609]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
+[2017.03.07-07.33.08:331][609]LogTexture:Display: Building textures: S_AudioComponent (BGRA8)
+[2017.03.07-07.33.08:359][609]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.07-07.33.08:523][609]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: StarterMap, Actor: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap_C_1
+[2017.03.07-07.33.08:642][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:666][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:730][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:733][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:735][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:738][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:741][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:747][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:774][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:776][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:779][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:781][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:784][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:806][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:808][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:816][609]LogSavePackage: Save=301.95ms
+[2017.03.07-07.33.08:817][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:817][609]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/StarterMapED68198C4CC84BDE80E33994562A53CC.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Maps/StarterMap.umap'
+[2017.03.07-07.33.08:828][609]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.08:829][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Maps/StarterMap.umap
+[2017.03.07-07.33.08:955][610]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.07-07.33.09:018][610]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.07-07.33.09:025][610]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.07-07.33.09:047][610]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.07-07.33.09:052][610]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2017.03.07-07.33.09:057][610]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2017.03.07-07.33.09:058][610]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.03.07-07.33.09:059][610]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.07-07.33.09:062][610]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.07-07.33.09:101][610]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Minimal_Default, Actor: /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_2
+[2017.03.07-07.33.09:211][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:215][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:224][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:228][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:231][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:233][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:235][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:238][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:248][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:250][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:252][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:254][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:257][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:261][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:264][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:272][610]LogSavePackage: Save=173.47ms
+[2017.03.07-07.33.09:272][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:273][610]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Minimal_Default414F91DE4CD6A4A1346CBC84057B4466.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.03.07-07.33.09:280][610]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:281][610]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.03.07-07.33.09:394][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:398][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:401][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:404][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:406][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:408][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:413][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:416][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:420][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:423][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:425][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:428][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:431][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:433][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:435][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:443][611]LogSavePackage: Save=62.77ms
+[2017.03.07-07.33.09:444][611]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Blueprint_WallSconce72F9E83D474524DA2F1B7BB74D83173B.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2017.03.07-07.33.09:446][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:448][611]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:448][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.03.07-07.33.09:488][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:491][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:495][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:497][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:499][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:500][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:502][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:504][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:509][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:512][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:513][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:515][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:517][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:519][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:520][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:528][612]LogSavePackage: Save=50.12ms
+[2017.03.07-07.33.09:529][612]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Blueprint_Effect_Steam968BD32741BD292D6ECDF3BABE9A5726.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2017.03.07-07.33.09:532][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:534][612]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:534][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.03.07-07.33.09:575][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:585][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:587][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:590][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:591][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:597][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:600][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:602][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:608][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:614][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:615][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:617][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:619][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:620][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:622][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:626][613]LogSavePackage: Save=64.97ms
+[2017.03.07-07.33.09:626][613]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Blueprint_Effect_SparksFE9E7E394028E5448BA1D5B49474392E.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2017.03.07-07.33.09:628][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:630][613]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:630][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.03.07-07.33.09:665][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:667][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:669][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:670][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:672][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:674][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:676][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:679][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:684][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:686][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:688][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:690][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:692][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:695][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:697][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:701][614]LogSavePackage: Save=45.67ms
+[2017.03.07-07.33.09:701][614]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Blueprint_Effect_SmokeF561DA9C417E8195A5AA4E8C5038A2E0.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2017.03.07-07.33.09:705][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:707][614]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:707][614]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.03.07-07.33.09:757][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:761][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:764][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:767][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:770][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:773][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:776][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:779][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:788][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:791][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:795][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:797][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:801][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:804][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:807][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:815][615]LogSavePackage: Save=75.82ms
+[2017.03.07-07.33.09:816][615]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Blueprint_Effect_Fire9A56B7A9417DF6AB27EC4BA9A38A3069.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2017.03.07-07.33.09:820][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:823][615]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:823][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.03.07-07.33.09:949][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:954][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:959][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:963][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:967][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:971][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:975][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:979][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:991][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.09:996][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:000][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:004][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:008][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:012][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:016][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:025][616]LogSavePackage: Save=100.85ms
+[2017.03.07-07.33.10:026][616]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Blueprint_Effect_ExplosionEA2E400A4786B28CBAE7B88F0A79E9B0.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2017.03.07-07.33.10:030][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:034][616]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:034][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.03.07-07.33.10:116][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:128][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:134][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:138][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:142][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:147][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:151][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:154][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:163][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:167][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:170][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:174][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:178][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:182][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:186][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:195][617]LogSavePackage: Save=103.01ms
+[2017.03.07-07.33.10:196][617]LogSavePackage: Moving '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Blueprint_CeilingLightE0CE163948E61AF448882FB4AA3A7677.tmp' to '../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2017.03.07-07.33.10:214][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:218][617]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.07-07.33.10:218][617]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/scroskey/Desktop/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.03.07-07.34.27:257][623]LogBlueprint:Warning: [AICar] 'Health' variable not found. Base class was probably changed.
+[2017.03.07-07.34.27:257][623]LogBlueprint:Warning: [AICar] 'Health' variable not found. Base class was probably changed.
+[2017.03.07-07.35.35:578][348]LogStats: FPlatformStackWalk::StackWalkAndDump - 12.527 s
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: 
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 337]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UEdGraphPin::BreakLinkTo Pin ' ' on node 'DecrementInt' not reciprocally linked with pin 'then' on node 'Shot'
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: Stack: 
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:185]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:216]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:343]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:337]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:353]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphNode::BreakAllNodeLinks() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:163]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FGraphObjectTextFactory::PostProcessConstructedObjects() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:107]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FCustomizableTextObjectFactory::ProcessBuffer() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\factories\editorfactories.cpp:5374]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FEdGraphUtilities::ImportNodesFromText() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:408]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Kismet.dll!FBlueprintEditor::PasteNodesHere() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:5769]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Kismet.dll!FBlueprintEditor::PasteNodes() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:5542]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:318]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:424]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:211]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:155]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphEditorImpl::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\grapheditor\private\sgrapheditorimpl.cpp:66]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Slate.dll!<lambda_2afcd964c763e269e2d1a63f3a72f846>::operator()() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4626]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_2afcd964c763e269e2d1a63f3a72f846> >() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:215]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_2afcd964c763e269e2d1a63f3a72f846>,FKeyEvent>() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:197]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4624]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4539]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1487]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2071]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:814]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:678]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: USER32.dll
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: USER32.dll
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:951]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2811]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launch.cpp:152]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: KERNEL32.DLL
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: ntdll.dll
+[2017.03.07-07.35.35:578][348]LogOutputDevice:Error: 
+[2017.03.07-07.35.35:581][348]LogStats:                SubmitErrorReport -  0.000 s
+[2017.03.07-07.35.40:139][348]LogStats:                    SendNewReport -  4.558 s
+[2017.03.07-07.35.40:139][348]LogStats:             FDebug::EnsureFailed - 17.089 s
+[2017.03.07-07.35.40:154][348]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.014 s
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: 
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 337]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UEdGraphPin::BreakLinkTo Pin 'execute' on node 'Set Health' not reciprocally linked with pin 'then' on node 'Event BeginPlay'
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: Stack: 
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:185]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:216]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:343]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:337]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:353]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Engine.dll!UEdGraphNode::BreakAllNodeLinks() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:163]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FGraphObjectTextFactory::PostProcessConstructedObjects() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:107]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FCustomizableTextObjectFactory::ProcessBuffer() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\factories\editorfactories.cpp:5374]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FEdGraphUtilities::ImportNodesFromText() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:408]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Kismet.dll!FBlueprintEditor::PasteNodesHere() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:5769]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Kismet.dll!FBlueprintEditor::PasteNodes() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:5542]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:318]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:424]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:211]
+[2017.03.07-07.35.40:154][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:155]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphEditorImpl::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\grapheditor\private\sgrapheditorimpl.cpp:66]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Slate.dll!<lambda_2afcd964c763e269e2d1a63f3a72f846>::operator()() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4626]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_2afcd964c763e269e2d1a63f3a72f846> >() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:215]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_2afcd964c763e269e2d1a63f3a72f846>,FKeyEvent>() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:197]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4624]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4539]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1487]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2071]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:814]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:678]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: USER32.dll
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: USER32.dll
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:951]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2811]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\launch.cpp:152]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: KERNEL32.DLL
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: ntdll.dll
+[2017.03.07-07.35.40:155][348]LogOutputDevice:Error: 
+[2017.03.07-07.35.40:159][348]LogStats:                SubmitErrorReport -  0.000 s
