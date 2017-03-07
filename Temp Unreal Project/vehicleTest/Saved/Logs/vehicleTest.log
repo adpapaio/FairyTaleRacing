@@ -5218,3 +5218,195 @@ Make sure 'BaseTurret_C' has been compiled for  K2Node_VariableSet_302
 [2017.03.07-05.59.16:463][792]LogSavePackage: Save=342.15ms
 [2017.03.07-05.59.16:464][792]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/demolitionLevel55901B524DCF406DCD2746A366BF05FE.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/demolitionLevel.umap'
 [2017.03.07-05.59.16:468][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/demolitionLevel.umap
+[2017.03.07-05.59.16:536][792]LogFileHelpers: Saving map 'demolitionLevel' took 0.544
+[2017.03.07-05.59.16:565][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/Sentry" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/Sentry.uasset" SILENT=true
+[2017.03.07-05.59.16:607][792]LogSavePackage: Save=23.65ms
+[2017.03.07-05.59.16:607][792]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Sentry11BE2405447C755A61E833A2D8E8F082.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/Sentry.uasset'
+[2017.03.07-05.59.16:609][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/TurretAI/Sentry.uasset
+[2017.03.07-06.01.02:753][131]LogEditorViewport: Clicking on Actor (LMB): AICar_C (AICar)
+[2017.03.07-06.01.03:823][191]LogEditorViewport: Clicking on Actor (LMB): Sentry_C (Sentry)
+[2017.03.07-06.01.04:404][224]LogEditorViewport: Clicking on Actor (context menu): Sentry_C (Sentry)
+[2017.03.07-06.02.14:925][ 62]LogEditorViewport: Clicking on Actor (LMB): AICar_C (AICar)
+[2017.03.07-06.04.07:545][675]LogEditorViewport: Clicking on Actor (LMB): AICar_C (AICar5)
+[2017.03.07-06.04.09:331][785]LogEditorViewport: Clicking on Actor (LMB): Sentry_C (Sentry2)
+[2017.03.07-06.05.33:668][520]BlueprintLog: New page: Compile demolitionLevel
+[2017.03.07-06.05.37:264][802]LogTemp: Repeting last play command: Simulate
+[2017.03.07-06.05.37:289][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.05.37:289][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.07-06.05.37:289][802]PIE: New page: SIE session: demolitionLevel (Mar 6, 2017, 8:05:37 PM)
+[2017.03.07-06.05.37:290][802]LogPlayLevel: Creating play world package: /Game/base_car/UEDPIE_0_demolitionLevel
+[2017.03.07-06.05.37:318][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028039s)
+[2017.03.07-06.05.37:318][802]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-06.05.37:318][802]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.03.07-06.05.37:319][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/base_car/demolitionLevel.demolitionLevel to /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel (0.028982s)
+[2017.03.07-06.05.37:342][802]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-06.05.37:348][802]LogInit: FAudioDevice initialized.
+[2017.03.07-06.05.37:387][802]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.07-06.05.37:412][802]LogWorld: Bringing World /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.07-01.05.37
+[2017.03.07-06.05.37:417][802]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.07-06.05.37:417][802]LogWorld: Bringing up level for play took: 0.027982
+[2017.03.07-06.05.37:417][802]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.07-06.05.37:419][802]PIE: Info Play in editor start time for /Game/base_car/UEDPIE_0_demolitionLevel -0.77
+[2017.03.07-06.05.37:427][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.05.51:753][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.05.51:823][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.06.18:168][788]LogEditorViewport: Clicking on Actor (LMB): AICar_C (AICar5)
+[2017.03.07-06.06.28:296][638]LogEditorViewport: Clicking on Actor (LMB): Sentry_C (Sentry2)
+[2017.03.07-06.06.49:949][432]BlueprintLog: New page: Compile demolitionLevel
+[2017.03.07-06.06.52:481][615]LogTemp: Repeting last play command: Simulate
+[2017.03.07-06.06.52:504][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.06.52:504][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.07-06.06.52:504][615]PIE: New page: SIE session: demolitionLevel (Mar 6, 2017, 8:06:52 PM)
+[2017.03.07-06.06.52:505][615]LogPlayLevel: Creating play world package: /Game/base_car/UEDPIE_0_demolitionLevel
+[2017.03.07-06.06.52:533][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027984s)
+[2017.03.07-06.06.52:533][615]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-06.06.52:533][615]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.03.07-06.06.52:533][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/base_car/demolitionLevel.demolitionLevel to /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel (0.028849s)
+[2017.03.07-06.06.52:558][615]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-06.06.52:564][615]LogInit: FAudioDevice initialized.
+[2017.03.07-06.06.52:599][615]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.07-06.06.52:612][615]LogWorld: Bringing World /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.07-01.06.52
+[2017.03.07-06.06.52:616][615]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.07-06.06.52:616][615]LogWorld: Bringing up level for play took: 0.014648
+[2017.03.07-06.06.52:616][615]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.07-06.06.52:618][615]PIE: Info Play in editor start time for /Game/base_car/UEDPIE_0_demolitionLevel 0.429
+[2017.03.07-06.06.52:625][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.07.16:841][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.07.16:896][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.07.42:741][332]LogTemp: Repeting last play command: Simulate
+[2017.03.07-06.07.42:764][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.07.42:764][332]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.07-06.07.42:764][332]LogPlayLevel: [PlayLevel] Compiling BaseTurret before play...
+[2017.03.07-06.07.42:837][332]LogPlayLevel: [PlayLevel]   Compiling Sentry as a dependent...
+[2017.03.07-06.07.43:132][332]LogPlayLevel: PlayLevel: Blueprint regeneration took 367 ms (2 blueprints)
+[2017.03.07-06.07.43:132][332]PIE: New page: SIE session: demolitionLevel (Mar 6, 2017, 8:07:43 PM)
+[2017.03.07-06.07.43:133][332]LogPlayLevel: Creating play world package: /Game/base_car/UEDPIE_0_demolitionLevel
+[2017.03.07-06.07.43:159][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026363s)
+[2017.03.07-06.07.43:159][332]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-06.07.43:160][332]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.03.07-06.07.43:160][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/base_car/demolitionLevel.demolitionLevel to /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel (0.027196s)
+[2017.03.07-06.07.43:185][332]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-06.07.43:192][332]LogInit: FAudioDevice initialized.
+[2017.03.07-06.07.43:220][332]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.07-06.07.43:232][332]LogWorld: Bringing World /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.07-01.07.43
+[2017.03.07-06.07.43:236][332]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.07-06.07.43:236][332]LogWorld: Bringing up level for play took: 0.014217
+[2017.03.07-06.07.43:237][332]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.07-06.07.43:238][332]PIE: Info Play in editor start time for /Game/base_car/UEDPIE_0_demolitionLevel 1.05
+[2017.03.07-06.07.43:245][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.08.00:867][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.08.00:942][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.08.02:798][ 16]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.08.02:798][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.07-06.08.02:798][ 16]PIE: New page: PIE session: demolitionLevel (Mar 6, 2017, 8:08:02 PM)
+[2017.03.07-06.08.02:798][ 16]LogPlayLevel: Creating play world package: /Game/base_car/UEDPIE_0_demolitionLevel
+[2017.03.07-06.08.02:825][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026987s)
+[2017.03.07-06.08.02:825][ 16]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-06.08.02:826][ 16]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2017.03.07-06.08.02:826][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/base_car/demolitionLevel.demolitionLevel to /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel (0.027758s)
+[2017.03.07-06.08.02:862][ 16]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-06.08.02:870][ 16]LogInit: FAudioDevice initialized.
+[2017.03.07-06.08.02:897][ 16]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.07-06.08.02:909][ 16]LogWorld: Bringing World /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.07-01.08.02
+[2017.03.07-06.08.02:913][ 16]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.07-06.08.02:913][ 16]LogWorld: Bringing up level for play took: 0.014503
+[2017.03.07-06.08.02:916][ 16]PIE: Info Play in editor start time for /Game/base_car/UEDPIE_0_demolitionLevel 0.727
+[2017.03.07-06.08.02:916][ 16]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.08.32:657][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.08.32:746][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.09.22:548][783]LogEditorViewport: Clicking on Actor (LMB): AICar_C (AICar3)
+[2017.03.07-06.09.24:106][880]LogEditorViewport: Clicking on Actor (LMB): Sentry_C (Sentry3)
+[2017.03.07-06.11.11:796][ 70]LogEditorViewport: Clicking on Actor (LMB): AICar_C (AICar3)
+[2017.03.07-06.12.27:966][669]LogEditorViewport: Clicking on Actor (LMB): AICar_C (AICar4)
+[2017.03.07-06.13.43:701][448]BlueprintLog: New page: Compile demolitionLevel
+[2017.03.07-06.13.49:220][796]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.07-06.13.49:246][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.13.49:246][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.07-06.13.49:246][796]PIE: New page: PIE session: demolitionLevel (Mar 6, 2017, 8:13:49 PM)
+[2017.03.07-06.13.49:246][796]LogPlayLevel: Creating play world package: /Game/base_car/UEDPIE_0_demolitionLevel
+[2017.03.07-06.13.49:276][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029722s)
+[2017.03.07-06.13.49:277][796]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-06.13.49:277][796]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.03.07-06.13.49:277][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/base_car/demolitionLevel.demolitionLevel to /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel (0.030619s)
+[2017.03.07-06.13.49:306][796]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-06.13.49:314][796]LogInit: FAudioDevice initialized.
+[2017.03.07-06.13.49:347][796]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.07-06.13.49:374][796]LogWorld: Bringing World /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.07-01.13.49
+[2017.03.07-06.13.49:383][796]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.07-06.13.49:383][796]LogWorld: Bringing up level for play took: 0.034361
+[2017.03.07-06.13.49:386][796]PIE: Info Play in editor start time for /Game/base_car/UEDPIE_0_demolitionLevel -0.815
+[2017.03.07-06.13.49:386][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.15.12:836][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.15.12:950][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.15.38:706][256]LogActorFactory: Actor Factory created Cube
+[2017.03.07-06.15.39:782][317]LogActorFactory: Actor Factory created Cube
+[2017.03.07-06.16.30:875][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.16.30:875][484]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.07-06.16.30:875][484]LogPlayLevel: [PlayLevel] Compiling BaseTurret before play...
+[2017.03.07-06.16.30:951][484]LogPlayLevel: [PlayLevel]   Compiling Sentry as a dependent...
+[2017.03.07-06.16.31:272][484]LogPlayLevel: PlayLevel: Blueprint regeneration took 397 ms (2 blueprints)
+[2017.03.07-06.16.31:272][484]PIE: New page: SIE session: demolitionLevel (Mar 6, 2017, 8:16:31 PM)
+[2017.03.07-06.16.31:272][484]LogPlayLevel: Creating play world package: /Game/base_car/UEDPIE_0_demolitionLevel
+[2017.03.07-06.16.31:304][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031705s)
+[2017.03.07-06.16.31:305][484]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-06.16.31:305][484]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.03.07-06.16.31:305][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/base_car/demolitionLevel.demolitionLevel to /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel (0.032579s)
+[2017.03.07-06.16.31:335][484]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-06.16.31:345][484]LogInit: FAudioDevice initialized.
+[2017.03.07-06.16.31:375][484]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.07-06.16.31:391][484]LogWorld: Bringing World /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.07-01.16.31
+[2017.03.07-06.16.31:401][484]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.07-06.16.31:401][484]LogWorld: Bringing up level for play took: 0.024784
+[2017.03.07-06.16.31:402][484]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.07-06.16.31:406][484]PIE: Info Play in editor start time for /Game/base_car/UEDPIE_0_demolitionLevel 1.202
+[2017.03.07-06.16.31:430][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.17.23:487][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.17.23:576][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.18.22:709][187]BlueprintLog: New page: Compile BaseTurret
+[2017.03.07-06.18.24:246][244]LogTemp: Repeting last play command: Simulate
+[2017.03.07-06.18.24:271][244]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.18.24:271][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.07-06.18.24:271][244]PIE: New page: SIE session: demolitionLevel (Mar 6, 2017, 8:18:24 PM)
+[2017.03.07-06.18.24:271][244]LogPlayLevel: Creating play world package: /Game/base_car/UEDPIE_0_demolitionLevel
+[2017.03.07-06.18.24:298][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027157s)
+[2017.03.07-06.18.24:298][244]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-06.18.24:299][244]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.03.07-06.18.24:299][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/base_car/demolitionLevel.demolitionLevel to /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel (0.028010s)
+[2017.03.07-06.18.24:327][244]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-06.18.24:333][244]LogInit: FAudioDevice initialized.
+[2017.03.07-06.18.24:361][244]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.07-06.18.24:373][244]LogWorld: Bringing World /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.07-01.18.24
+[2017.03.07-06.18.24:377][244]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.07-06.18.24:377][244]LogWorld: Bringing up level for play took: 0.014624
+[2017.03.07-06.18.24:378][244]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.07-06.18.24:379][244]PIE: Info Play in editor start time for /Game/base_car/UEDPIE_0_demolitionLevel 0.174
+[2017.03.07-06.18.24:395][244]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.19.16:325][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.19.16:424][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.19.17:791][365]LogEditorTransaction: Undo Create Pin Link
+[2017.03.07-06.19.18:573][396]LogEditorTransaction: Undo Delete current selection
+[2017.03.07-06.19.19:236][425]LogEditorTransaction: Undo Move Node
+[2017.03.07-06.19.22:888][615]BlueprintLog: New page: Compile BaseTurret
+[2017.03.07-06.19.24:265][669]LogTemp: Repeting last play command: Simulate
+[2017.03.07-06.19.24:289][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.19.24:289][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.07-06.19.24:289][669]PIE: New page: SIE session: demolitionLevel (Mar 6, 2017, 8:19:24 PM)
+[2017.03.07-06.19.24:289][669]LogPlayLevel: Creating play world package: /Game/base_car/UEDPIE_0_demolitionLevel
+[2017.03.07-06.19.24:317][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027387s)
+[2017.03.07-06.19.24:317][669]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.07-06.19.24:317][669]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2017.03.07-06.19.24:318][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/base_car/demolitionLevel.demolitionLevel to /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel (0.028147s)
+[2017.03.07-06.19.24:342][669]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.07-06.19.24:348][669]LogInit: FAudioDevice initialized.
+[2017.03.07-06.19.24:379][669]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.07-06.19.24:391][669]LogWorld: Bringing World /Game/base_car/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.07-01.19.24
+[2017.03.07-06.19.24:395][669]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.07-06.19.24:395][669]LogWorld: Bringing up level for play took: 0.014528
+[2017.03.07-06.19.24:395][669]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.07-06.19.24:397][669]PIE: Info Play in editor start time for /Game/base_car/UEDPIE_0_demolitionLevel 0.191
+[2017.03.07-06.19.24:413][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.20.08:862][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.20.08:944][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/base_car/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/base_car/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.07-06.20.12:111][338]LogSavePackage: Save=371.96ms
+[2017.03.07-06.20.12:111][338]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/demolitionLevel7883036C4FDF1FE8BC129DBDF8AC1099.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/demolitionLevel.umap'
+[2017.03.07-06.20.12:114][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/demolitionLevel.umap
