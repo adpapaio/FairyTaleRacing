@@ -618,3 +618,1012 @@ LogInit: Object subsystem initialized
 [2017.03.25-16.54.26:023][278]LogEditorTransaction: Undo Delete current selection
 [2017.03.25-16.54.51:397][515]BlueprintLog: New page: Compile RTTH
 [2017.03.25-16.57.24:350][665]BlueprintLog: New page: Compile RTTH
+[2017.03.25-17.02.07:311][652]LogSavePackage: Save=769.79ms
+[2017.03.25-17.02.07:311][652]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/RTTH_Auto1AF8116A04DE93717189C689BB82DC8E3.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Autosaves/Game/Level/RTTH_Auto1.umap'
+[2017.03.25-17.02.07:316][652]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Autosaves/Game/Level/RTTH_Auto1.umap
+[2017.03.25-17.02.07:319][652]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/RTTH' took 0.833
+[2017.03.25-17.02.07:319][652]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.833
+[2017.03.25-17.03.56:060][802]LogSavePackage: Save=744.05ms
+[2017.03.25-17.03.56:060][802]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/RTTH2A6B620E4D4C46A7112C229BB230A31A.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.25-17.03.56:071][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap
+[2017.03.25-17.03.56:183][802]LogFileHelpers: Saving map 'RTTH' took 1.007
+[2017.03.25-17.06.31:257][495]LogEditorViewport: Clicking on Actor (LMB): AICar_C (AICar_1)
+[2017.03.25-17.07.08:920][264]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.07.08:944][264]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.07.08:944][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.07.08:944][264]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:07:08 AM)
+[2017.03.25-17.07.08:944][264]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.07.09:020][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075453s)
+[2017.03.25-17.07.09:020][264]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.07.09:021][264]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2017.03.25-17.07.09:021][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.076583s)
+[2017.03.25-17.07.09:076][264]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.07.09:092][264]LogInit: FAudioDevice initialized.
+[2017.03.25-17.07.09:128][264]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.07.09:187][264]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.07.09
+[2017.03.25-17.07.09:191][264]LogWorld: Bringing up level for play took: 0.060006
+[2017.03.25-17.07.09:192][264]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.07.09:208][264]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 1.045
+[2017.03.25-17.07.09:208][264]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.07.19:015][817]LogBlueprintUserMessages: [Sentry2_954] Killed Car
+[2017.03.25-17.07.20:382][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.07.20:494][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.11.31:068][ 12]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.11.31:093][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.11.31:094][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.11.31:094][ 12]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:11:31 AM)
+[2017.03.25-17.11.31:094][ 12]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.11.31:166][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071854s)
+[2017.03.25-17.11.31:166][ 12]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.11.31:166][ 12]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.03.25-17.11.31:167][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.072958s)
+[2017.03.25-17.11.31:226][ 12]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.11.31:238][ 12]LogInit: FAudioDevice initialized.
+[2017.03.25-17.11.31:271][ 12]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.11.31:322][ 12]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.11.31
+[2017.03.25-17.11.31:325][ 12]LogWorld: Bringing up level for play took: 0.051154
+[2017.03.25-17.11.31:325][ 12]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.11.31:344][ 12]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 1.18
+[2017.03.25-17.11.31:344][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.11.40:548][622]LogBlueprintUserMessages: [Sentry4_2157] Killed Car
+[2017.03.25-17.12.20:040][393]LogBlueprintUserMessages: [Sentry2_954] Player DEAD
+[2017.03.25-17.14.19:170][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.14.19:261][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.16.53:749][ 98]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/RTTH' took 0.032
+[2017.03.25-17.16.53:752][ 98]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TurretAI/BaseTurret] ([1] browsable assets)...
+[2017.03.25-17.16.53:752][ 98]OBJ SavePackage: Finished generating thumbnails for package [/Game/TurretAI/BaseTurret]
+[2017.03.25-17.16.53:918][ 98]LogSavePackage: Save=132.32ms
+[2017.03.25-17.16.53:918][ 98]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/BaseTurret_Auto24374DEAA46C5F161F3B38B9C8386A957.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto2.uasset'
+[2017.03.25-17.16.53:919][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Autosaves/Game/TurretAI/BaseTurret_Auto2.uasset
+[2017.03.25-17.16.53:919][ 98]LogFileHelpers: Auto-saving content packages took 0.169
+[2017.03.25-17.21.11:162][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/BaseTurret" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset" SILENT=true
+[2017.03.25-17.21.11:311][308]LogSavePackage: Save=133.94ms
+[2017.03.25-17.21.11:311][308]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/BaseTurret745E7C4441D49B9645C06FA2B1D37AC1.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset'
+[2017.03.25-17.21.11:314][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset
+[2017.03.25-17.22.52:512][ 96]LogSavePackage: Save=692.21ms
+[2017.03.25-17.22.52:513][ 96]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/RTTH292E98FC499B7A6763E8A68E2583E6EF.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.25-17.22.52:519][ 96]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap
+[2017.03.25-17.22.52:585][ 96]LogFileHelpers: Saving map 'RTTH' took 0.896
+[2017.03.25-17.22.52:588][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/BaseTurret" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset" SILENT=true
+[2017.03.25-17.22.52:733][ 96]LogSavePackage: Save=111.47ms
+[2017.03.25-17.22.52:733][ 96]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/BaseTurret67A1E3764D91CF21A414418A6F9408B9.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset'
+[2017.03.25-17.22.52:735][ 96]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset
+[2017.03.25-17.23.04:758][716]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:338178).
+[2017.03.25-17.23.29:010][126]BlueprintLog: New page: Compile Sentry2
+[2017.03.25-17.25.11:892][261]LogSavePackage: Save=797.47ms
+[2017.03.25-17.25.11:892][261]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/RTTH3D5F58E34614B9BF1D944AB95187AAE9.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.25-17.25.11:899][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap
+[2017.03.25-17.25.11:993][261]LogFileHelpers: Saving map 'RTTH' took 1.037
+[2017.03.25-17.25.12:010][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/Sentry2" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry2.uasset" SILENT=true
+[2017.03.25-17.25.12:059][261]LogSavePackage: Save=27.48ms
+[2017.03.25-17.25.12:059][261]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Sentry202D51ACD441D672C89DD46A77781B641.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry2.uasset'
+[2017.03.25-17.25.12:063][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry2.uasset
+[2017.03.25-17.25.45:344][996]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.25.45:368][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.25.45:368][996]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.25-17.25.45:368][996]LogPlayLevel: [PlayLevel] Compiling BaseTurret before play...
+[2017.03.25-17.25.45:507][996]LogPlayLevel: [PlayLevel]   Compiling Sentry as a dependent...
+[2017.03.25-17.25.45:556][996]LogPlayLevel: [PlayLevel]   Compiling Sentry2 as a dependent...
+[2017.03.25-17.25.46:909][996]LogPlayLevel: PlayLevel: Blueprint regeneration took 1541 ms (3 blueprints)
+[2017.03.25-17.25.46:910][996]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:25:46 AM)
+[2017.03.25-17.25.46:910][996]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.25.47:000][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090369s)
+[2017.03.25-17.25.47:001][996]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.25.47:001][996]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.03.25-17.25.47:001][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.091372s)
+[2017.03.25-17.25.47:071][996]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.25.47:085][996]LogInit: FAudioDevice initialized.
+[2017.03.25-17.25.47:116][996]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.25.47:198][996]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.25.47
+[2017.03.25-17.25.47:206][996]LogWorld: Bringing up level for play took: 0.088397
+[2017.03.25-17.25.47:208][996]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.25.47:236][996]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 1.073
+[2017.03.25-17.25.47:237][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.25.56:625][665]LogBlueprintUserMessages: [Sentry4_2157] Killed Car
+[2017.03.25-17.26.04:532][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.04:613][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.05:848][277]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.26.05:911][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.05:911][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.26.05:911][277]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:26:05 AM)
+[2017.03.25-17.26.05:911][277]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.26.05:978][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067171s)
+[2017.03.25-17.26.05:979][277]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.26.05:979][277]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2017.03.25-17.26.05:979][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.067969s)
+[2017.03.25-17.26.06:052][277]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.26.06:070][277]LogInit: FAudioDevice initialized.
+[2017.03.25-17.26.06:110][277]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.26.06:184][277]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.26.06
+[2017.03.25-17.26.06:190][277]LogWorld: Bringing up level for play took: 0.077256
+[2017.03.25-17.26.06:190][277]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.26.06:210][277]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.046
+[2017.03.25-17.26.06:210][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.15:732][947]LogBlueprintUserMessages: [Sentry4_2157] Killed Car
+[2017.03.25-17.26.15:917][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.15:969][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.17:767][102]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.26.17:789][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.17:789][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.26.17:790][102]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:26:17 AM)
+[2017.03.25-17.26.17:790][102]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.26.17:864][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074255s)
+[2017.03.25-17.26.17:864][102]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.26.17:865][102]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.03.25-17.26.17:865][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.075181s)
+[2017.03.25-17.26.17:917][102]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.26.17:925][102]LogInit: FAudioDevice initialized.
+[2017.03.25-17.26.17:963][102]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.26.18:026][102]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.26.18
+[2017.03.25-17.26.18:034][102]LogWorld: Bringing up level for play took: 0.067568
+[2017.03.25-17.26.18:035][102]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.26.18:071][102]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH -0.093
+[2017.03.25-17.26.18:072][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.25:041][558]LogBlueprintUserMessages: [Sentry_893] Player DEAD
+[2017.03.25-17.26.37:746][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.26.37:840][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.27.40:630][922]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.27.40:654][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.27.40:654][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.27.40:654][922]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:27:40 AM)
+[2017.03.25-17.27.40:654][922]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.27.40:728][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073517s)
+[2017.03.25-17.27.40:728][922]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.27.40:728][922]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.03.25-17.27.40:728][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.074439s)
+[2017.03.25-17.27.40:805][922]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.27.40:823][922]LogInit: FAudioDevice initialized.
+[2017.03.25-17.27.40:859][922]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.27.40:931][922]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.27.40
+[2017.03.25-17.27.40:936][922]LogWorld: Bringing up level for play took: 0.074212
+[2017.03.25-17.27.40:937][922]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.27.40:962][922]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.798
+[2017.03.25-17.27.40:962][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.27.44:134][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.27.44:205][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.27.51:172][658]LogEditorViewport: Clicking on Actor (LMB): Sentry2_C (Sentry5)
+[2017.03.25-17.28.24:281][140]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.25-17.28.25:797][253]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.28.25:820][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.28.25:820][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.28.25:820][253]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:28:25 AM)
+[2017.03.25-17.28.25:820][253]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.28.25:889][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068835s)
+[2017.03.25-17.28.25:890][253]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.28.25:890][253]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.03.25-17.28.25:890][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.069765s)
+[2017.03.25-17.28.25:935][253]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.28.25:944][253]LogInit: FAudioDevice initialized.
+[2017.03.25-17.28.25:978][253]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.28.26:032][253]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.28.26
+[2017.03.25-17.28.26:036][253]LogWorld: Bringing up level for play took: 0.055027
+[2017.03.25-17.28.26:036][253]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.28.26:051][253]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH -0.113
+[2017.03.25-17.28.26:052][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.28.54:604][451]LogBlueprintUserMessages: [Sentry5_1238] Killed Car
+[2017.03.25-17.28.59:688][800]LogBlueprintUserMessages: [Sentry_893] Killed Car
+[2017.03.25-17.29.00:626][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.29.00:690][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.29.07:483][263]LogSavePackage: Save=653.19ms
+[2017.03.25-17.29.07:483][263]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/RTTH77558E464791B932AD8F75AE99F84E3A.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.25-17.29.07:490][263]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap
+[2017.03.25-17.29.07:564][263]LogFileHelpers: Saving map 'RTTH' took 0.871
+[2017.03.25-17.29.11:145][539]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.29.11:168][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.29.11:168][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.29.11:169][539]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:29:11 AM)
+[2017.03.25-17.29.11:169][539]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.29.11:237][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067979s)
+[2017.03.25-17.29.11:237][539]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.29.11:237][539]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2017.03.25-17.29.11:238][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.068869s)
+[2017.03.25-17.29.11:272][539]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.29.11:287][539]LogInit: FAudioDevice initialized.
+[2017.03.25-17.29.11:322][539]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.29.11:372][539]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.29.11
+[2017.03.25-17.29.11:375][539]LogWorld: Bringing up level for play took: 0.050225
+[2017.03.25-17.29.11:376][539]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.29.11:390][539]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH -0.774
+[2017.03.25-17.29.11:391][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.29.20:971][216]LogBlueprintUserMessages: [Sentry_893] Killed Car
+[2017.03.25-17.29.24:510][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.29.24:571][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.31.36:587][218]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.31.36:611][218]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.31.36:611][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.31.36:612][218]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:31:36 AM)
+[2017.03.25-17.31.36:612][218]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.31.36:683][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071760s)
+[2017.03.25-17.31.36:684][218]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.31.36:684][218]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2017.03.25-17.31.36:685][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.072903s)
+[2017.03.25-17.31.36:711][218]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.31.36:719][218]LogInit: FAudioDevice initialized.
+[2017.03.25-17.31.36:752][218]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.31.36:783][218]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.31.36
+[2017.03.25-17.31.36:787][218]LogWorld: Bringing up level for play took: 0.032372
+[2017.03.25-17.31.36:787][218]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.31.36:804][218]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.639
+[2017.03.25-17.31.36:804][218]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.31.47:367][825]LogBlueprintUserMessages: [Sentry2_954] Killed Car
+[2017.03.25-17.31.58:416][489]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.31.58:539][489]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.32.51:098][313]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.32.54:035][387]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.32.54:100][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.32.54:100][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.32.54:100][387]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:32:54 AM)
+[2017.03.25-17.32.54:100][387]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.32.54:169][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069260s)
+[2017.03.25-17.32.54:170][387]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.32.54:170][387]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.03.25-17.32.54:170][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.070245s)
+[2017.03.25-17.32.54:204][387]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.32.54:220][387]LogInit: FAudioDevice initialized.
+[2017.03.25-17.32.54:261][387]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.32.54:307][387]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.32.54
+[2017.03.25-17.32.54:310][387]LogWorld: Bringing up level for play took: 0.046528
+[2017.03.25-17.32.54:310][387]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.32.54:325][387]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.16
+[2017.03.25-17.32.54:325][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.33.00:421][666]LogBlueprintUserMessages: [Sentry2_954] Player DEAD
+[2017.03.25-17.33.06:608][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.33.06:723][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.33.18:579][714]LogEditorViewport: Clicking on Actor (LMB): Sentry2_C (Sentry5)
+[2017.03.25-17.33.23:558][ 22]Cmd: TRANSACTION UNDO
+[2017.03.25-17.33.23:558][ 22]LogEditorTransaction: Undo Set actor rotation
+[2017.03.25-17.33.28:706][329]Cmd: TRANSACTION UNDO
+[2017.03.25-17.33.28:706][329]LogEditorTransaction: Undo Set actor rotation
+[2017.03.25-17.33.35:467][754]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.33.37:309][764]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.33.37:380][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.33.37:380][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.33.37:381][764]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:33:37 AM)
+[2017.03.25-17.33.37:381][764]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.33.37:450][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069714s)
+[2017.03.25-17.33.37:451][764]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.33.37:451][764]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2017.03.25-17.33.37:451][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.070636s)
+[2017.03.25-17.33.37:508][764]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.33.37:518][764]LogInit: FAudioDevice initialized.
+[2017.03.25-17.33.37:554][764]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.33.37:608][764]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.33.37
+[2017.03.25-17.33.37:612][764]LogWorld: Bringing up level for play took: 0.055291
+[2017.03.25-17.33.37:612][764]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.33.37:627][764]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH -0.538
+[2017.03.25-17.33.37:627][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.33.49:758][442]LogBlueprintUserMessages: [Sentry4_2157] Player DEAD
+[2017.03.25-17.33.50:574][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.33.50:661][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.34.48:317][324]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.34.57:744][845]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.35.02:323][ 32]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.35.02:380][ 32]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.35.02:380][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.35.02:380][ 32]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:35:02 AM)
+[2017.03.25-17.35.02:380][ 32]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.35.02:455][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074697s)
+[2017.03.25-17.35.02:455][ 32]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.35.02:455][ 32]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.03.25-17.35.02:456][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.075674s)
+[2017.03.25-17.35.02:508][ 32]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.35.02:517][ 32]LogInit: FAudioDevice initialized.
+[2017.03.25-17.35.02:550][ 32]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.35.02:598][ 32]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.35.02
+[2017.03.25-17.35.02:602][ 32]LogWorld: Bringing up level for play took: 0.048866
+[2017.03.25-17.35.02:602][ 32]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.35.02:617][ 32]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.451
+[2017.03.25-17.35.02:617][ 32]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.35.09:962][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.35.10:069][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.36.09:434][129]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.36.50:437][772]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.36.50:497][772]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.36.50:497][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.36.50:497][772]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:36:50 AM)
+[2017.03.25-17.36.50:497][772]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.36.50:566][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068968s)
+[2017.03.25-17.36.50:566][772]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.36.50:567][772]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2017.03.25-17.36.50:567][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.069938s)
+[2017.03.25-17.36.50:638][772]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.36.50:656][772]LogInit: FAudioDevice initialized.
+[2017.03.25-17.36.50:691][772]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.36.50:756][772]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.36.50
+[2017.03.25-17.36.50:764][772]LogWorld: Bringing up level for play took: 0.069766
+[2017.03.25-17.36.50:765][772]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.36.50:798][772]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.632
+[2017.03.25-17.36.50:799][772]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.02:039][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.02:152][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.03:223][465]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.37.03:247][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.03:248][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.37.03:248][465]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:37:03 AM)
+[2017.03.25-17.37.03:248][465]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.37.03:319][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070930s)
+[2017.03.25-17.37.03:319][465]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.37.03:319][465]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2017.03.25-17.37.03:320][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.071769s)
+[2017.03.25-17.37.03:377][465]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.37.03:386][465]LogInit: FAudioDevice initialized.
+[2017.03.25-17.37.03:419][465]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.37.03:462][465]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.37.03
+[2017.03.25-17.37.03:465][465]LogWorld: Bringing up level for play took: 0.043188
+[2017.03.25-17.37.03:465][465]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.37.03:480][465]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH -0.686
+[2017.03.25-17.37.03:480][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.28:608][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.28:725][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.31:596][181]Cmd: SELECT NONE
+[2017.03.25-17.37.40:010][799]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.37.42:133][839]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.37.42:190][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.42:190][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.37.42:190][839]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:37:42 AM)
+[2017.03.25-17.37.42:190][839]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.37.42:260][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069956s)
+[2017.03.25-17.37.42:260][839]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.37.42:260][839]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2017.03.25-17.37.42:261][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.070876s)
+[2017.03.25-17.37.42:299][839]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.37.42:310][839]LogInit: FAudioDevice initialized.
+[2017.03.25-17.37.42:345][839]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.37.42:418][839]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.37.42
+[2017.03.25-17.37.42:422][839]LogWorld: Bringing up level for play took: 0.074692
+[2017.03.25-17.37.42:423][839]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.37.42:453][839]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.287
+[2017.03.25-17.37.42:454][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.48:790][163]LogBlueprintUserMessages: [Sentry_893] Player DEAD
+[2017.03.25-17.37.49:183][180]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.37.49:266][180]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.38.11:433][722]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.38.18:746][115]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.38.18:802][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.38.18:802][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.38.18:802][115]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:38:18 AM)
+[2017.03.25-17.38.18:802][115]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.38.18:869][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067441s)
+[2017.03.25-17.38.18:870][115]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.38.18:870][115]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2017.03.25-17.38.18:870][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.068263s)
+[2017.03.25-17.38.18:916][115]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.38.18:927][115]LogInit: FAudioDevice initialized.
+[2017.03.25-17.38.18:966][115]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.38.19:007][115]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.38.19
+[2017.03.25-17.38.19:015][115]LogWorld: Bringing up level for play took: 0.046980
+[2017.03.25-17.38.19:016][115]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.38.19:048][115]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.882
+[2017.03.25-17.38.19:048][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.38.29:622][685]LogBlueprintUserMessages: [Sentry_893] Killed Car
+[2017.03.25-17.38.44:313][525]LogBlueprintUserMessages: [Sentry3_530] Killed Car
+[2017.03.25-17.38.45:972][600]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.38.46:050][600]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.39.50:748][ 31]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.39.54:381][186]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.39.54:439][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.39.54:439][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.39.54:439][186]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:39:54 AM)
+[2017.03.25-17.39.54:439][186]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.39.54:537][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097745s)
+[2017.03.25-17.39.54:538][186]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.39.54:538][186]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.03.25-17.39.54:538][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.098787s)
+[2017.03.25-17.39.54:566][186]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.39.54:577][186]LogInit: FAudioDevice initialized.
+[2017.03.25-17.39.54:612][186]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.39.54:664][186]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.39.54
+[2017.03.25-17.39.54:667][186]LogWorld: Bringing up level for play took: 0.053056
+[2017.03.25-17.39.54:668][186]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.39.54:683][186]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.517
+[2017.03.25-17.39.54:683][186]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.40.03:195][596]LogBlueprintUserMessages: [Sentry3_530] Player DEAD
+[2017.03.25-17.40.04:342][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.40.04:443][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.40.35:749][665]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.42.12:709][309]LogEditorTransaction: Undo Straighten Connection(s)
+[2017.03.25-17.43.27:682][250]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.43.30:687][341]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.43.30:746][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.43.30:746][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.43.30:746][341]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:43:30 AM)
+[2017.03.25-17.43.30:746][341]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.43.30:822][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075417s)
+[2017.03.25-17.43.30:822][341]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.43.30:822][341]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2017.03.25-17.43.30:823][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.076430s)
+[2017.03.25-17.43.30:852][341]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.43.30:862][341]LogInit: FAudioDevice initialized.
+[2017.03.25-17.43.30:902][341]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.43.30:983][341]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.43.30
+[2017.03.25-17.43.30:987][341]LogWorld: Bringing up level for play took: 0.082889
+[2017.03.25-17.43.30:988][341]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.43.31:008][341]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.842
+[2017.03.25-17.43.31:009][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.43.43:715][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.43.43:800][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.43.50:675][469]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.43.53:976][583]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.43.54:031][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.43.54:031][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.43.54:031][583]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:43:54 AM)
+[2017.03.25-17.43.54:031][583]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.43.54:100][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069170s)
+[2017.03.25-17.43.54:101][583]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.43.54:101][583]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.03.25-17.43.54:101][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.070061s)
+[2017.03.25-17.43.54:126][583]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.43.54:135][583]LogInit: FAudioDevice initialized.
+[2017.03.25-17.43.54:169][583]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.43.54:220][583]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.43.54
+[2017.03.25-17.43.54:224][583]LogWorld: Bringing up level for play took: 0.052979
+[2017.03.25-17.43.54:224][583]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.43.54:239][583]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.073
+[2017.03.25-17.43.54:239][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.44.08:398][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.44.08:475][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.44.13:757][658]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.44.13:781][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.44.13:781][658]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.25-17.44.13:781][658]LogPlayLevel: [PlayLevel] Compiling BaseTurret before play...
+[2017.03.25-17.44.13:878][658]LogPlayLevel: [PlayLevel]   Compiling Sentry as a dependent...
+[2017.03.25-17.44.13:907][658]LogPlayLevel: [PlayLevel]   Compiling Sentry2 as a dependent...
+[2017.03.25-17.44.15:409][658]LogPlayLevel: PlayLevel: Blueprint regeneration took 1627 ms (3 blueprints)
+[2017.03.25-17.44.15:409][658]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:44:15 AM)
+[2017.03.25-17.44.15:409][658]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.44.15:478][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068487s)
+[2017.03.25-17.44.15:478][658]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.44.15:478][658]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.03.25-17.44.15:478][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.069363s)
+[2017.03.25-17.44.15:512][658]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.44.15:523][658]LogInit: FAudioDevice initialized.
+[2017.03.25-17.44.15:561][658]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.44.15:613][658]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.44.15
+[2017.03.25-17.44.15:617][658]LogWorld: Bringing up level for play took: 0.053936
+[2017.03.25-17.44.15:618][658]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.44.15:637][658]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 1.471
+[2017.03.25-17.44.15:638][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.44.43:888][314]LogBlueprintUserMessages: [Sentry_893] Killed Car
+[2017.03.25-17.44.49:529][639]LogBlueprintUserMessages: [Sentry2_954] Player DEAD
+[2017.03.25-17.44.51:916][773]LogBlueprintUserMessages: [Sentry3_530] Killed Car
+[2017.03.25-17.44.57:268][ 90]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.44.57:319][ 90]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.45.13:051][ 46]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.45.13:111][ 46]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.45.13:111][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.45.13:111][ 46]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:45:13 AM)
+[2017.03.25-17.45.13:111][ 46]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.45.13:180][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068856s)
+[2017.03.25-17.45.13:181][ 46]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.45.13:181][ 46]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.03.25-17.45.13:181][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.069745s)
+[2017.03.25-17.45.13:211][ 46]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.45.13:221][ 46]LogInit: FAudioDevice initialized.
+[2017.03.25-17.45.13:254][ 46]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.45.13:306][ 46]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.45.13
+[2017.03.25-17.45.13:310][ 46]LogWorld: Bringing up level for play took: 0.053250
+[2017.03.25-17.45.13:310][ 46]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.45.13:333][ 46]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 1.167
+[2017.03.25-17.45.13:333][ 46]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.45.22:256][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.45.22:349][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.45.45:188][956]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.45.48:392][ 65]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.45.48:453][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.45.48:453][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.45.48:453][ 65]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:45:48 AM)
+[2017.03.25-17.45.48:453][ 65]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.45.48:523][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069509s)
+[2017.03.25-17.45.48:523][ 65]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.45.48:523][ 65]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.03.25-17.45.48:524][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.070402s)
+[2017.03.25-17.45.48:551][ 65]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.45.48:559][ 65]LogInit: FAudioDevice initialized.
+[2017.03.25-17.45.48:590][ 65]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.45.48:640][ 65]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.45.48
+[2017.03.25-17.45.48:643][ 65]LogWorld: Bringing up level for play took: 0.050380
+[2017.03.25-17.45.48:644][ 65]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.45.48:659][ 65]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.492
+[2017.03.25-17.45.48:659][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.45.57:735][541]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.45.57:815][541]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.46.11:852][483]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.46.15:070][596]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.46.15:129][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.46.15:129][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.46.15:129][596]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:46:15 AM)
+[2017.03.25-17.46.15:129][596]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.46.15:197][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068288s)
+[2017.03.25-17.46.15:198][596]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.46.15:198][596]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.03.25-17.46.15:198][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.069141s)
+[2017.03.25-17.46.15:225][596]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.46.15:233][596]LogInit: FAudioDevice initialized.
+[2017.03.25-17.46.15:266][596]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.46.15:320][596]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.46.15
+[2017.03.25-17.46.15:324][596]LogWorld: Bringing up level for play took: 0.055008
+[2017.03.25-17.46.15:325][596]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.46.15:341][596]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 1.174
+[2017.03.25-17.46.15:341][596]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.46.26:399][151]LogBlueprintUserMessages: [Sentry_893] Killed Car
+[2017.03.25-17.47.11:443][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.11:528][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.21:112][263]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.47.21:138][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.21:138][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.47.21:138][263]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:47:21 AM)
+[2017.03.25-17.47.21:138][263]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.47.21:226][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087744s)
+[2017.03.25-17.47.21:227][263]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.47.21:227][263]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.03.25-17.47.21:227][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.088816s)
+[2017.03.25-17.47.21:265][263]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.47.21:275][263]LogInit: FAudioDevice initialized.
+[2017.03.25-17.47.21:310][263]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.47.21:370][263]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.47.21
+[2017.03.25-17.47.21:374][263]LogWorld: Bringing up level for play took: 0.061287
+[2017.03.25-17.47.21:375][263]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.47.21:391][263]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 1.225
+[2017.03.25-17.47.21:392][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.30:339][726]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.30:423][726]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.44:683][682]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.47.47:494][770]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.47.47:550][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.47:550][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.47.47:550][770]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:47:47 AM)
+[2017.03.25-17.47.47:550][770]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.47.47:617][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067276s)
+[2017.03.25-17.47.47:618][770]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.47.47:618][770]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.03.25-17.47.47:618][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.068146s)
+[2017.03.25-17.47.47:646][770]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.47.47:653][770]LogInit: FAudioDevice initialized.
+[2017.03.25-17.47.47:683][770]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.47.47:733][770]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.47.47
+[2017.03.25-17.47.47:737][770]LogWorld: Bringing up level for play took: 0.051188
+[2017.03.25-17.47.47:737][770]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.47.47:752][770]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH -0.414
+[2017.03.25-17.47.47:752][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.57:248][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.47.57:327][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.48.07:817][ 38]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.48.07:841][ 38]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.48.07:841][ 38]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.25-17.48.07:841][ 38]LogPlayLevel: [PlayLevel] Compiling BaseTurret before play...
+[2017.03.25-17.48.07:939][ 38]LogPlayLevel: [PlayLevel]   Compiling Sentry as a dependent...
+[2017.03.25-17.48.07:977][ 38]LogPlayLevel: [PlayLevel]   Compiling Sentry2 as a dependent...
+[2017.03.25-17.48.09:411][ 38]LogPlayLevel: PlayLevel: Blueprint regeneration took 1570 ms (3 blueprints)
+[2017.03.25-17.48.09:412][ 38]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:48:09 AM)
+[2017.03.25-17.48.09:412][ 38]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.48.09:491][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079064s)
+[2017.03.25-17.48.09:491][ 38]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.48.09:491][ 38]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.03.25-17.48.09:492][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.079947s)
+[2017.03.25-17.48.09:525][ 38]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.48.09:532][ 38]LogInit: FAudioDevice initialized.
+[2017.03.25-17.48.09:570][ 38]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.48.09:627][ 38]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.48.09
+[2017.03.25-17.48.09:631][ 38]LogWorld: Bringing up level for play took: 0.058298
+[2017.03.25-17.48.09:632][ 38]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.48.09:650][ 38]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 1.484
+[2017.03.25-17.48.09:651][ 38]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.48.17:898][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.48.17:941][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.48.54:940][302]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.49.56:276][ 16]BlueprintLog: New page: Compile BaseTurret
+[2017.03.25-17.49.58:631][ 69]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.49.58:694][ 69]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.49.58:695][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.49.58:695][ 69]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:49:58 AM)
+[2017.03.25-17.49.58:695][ 69]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.49.58:764][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069632s)
+[2017.03.25-17.49.58:765][ 69]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.49.58:765][ 69]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.03.25-17.49.58:765][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.070639s)
+[2017.03.25-17.49.58:793][ 69]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.49.58:800][ 69]LogInit: FAudioDevice initialized.
+[2017.03.25-17.49.58:834][ 69]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.49.58:896][ 69]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.49.58
+[2017.03.25-17.49.58:899][ 69]LogWorld: Bringing up level for play took: 0.062576
+[2017.03.25-17.49.58:900][ 69]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.49.58:916][ 69]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.75
+[2017.03.25-17.49.58:917][ 69]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.50.09:131][599]LogBlueprintUserMessages: [Sentry_893] Killed Car
+[2017.03.25-17.50.53:396][155]LogBlueprintUserMessages: [Sentry2_954] Killed Car
+[2017.03.25-17.51.08:301][920]LogBlueprintUserMessages: [Sentry3_530] Killed Car
+[2017.03.25-17.52.20:697][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.52.20:830][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.52.34:217][710]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.52.34:243][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.52.34:243][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.52.34:243][710]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:52:34 AM)
+[2017.03.25-17.52.34:243][710]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.52.34:325][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081972s)
+[2017.03.25-17.52.34:326][710]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.52.34:326][710]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2017.03.25-17.52.34:326][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.082881s)
+[2017.03.25-17.52.34:392][710]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.52.34:409][710]LogInit: FAudioDevice initialized.
+[2017.03.25-17.52.34:447][710]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.52.34:500][710]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.52.34
+[2017.03.25-17.52.34:503][710]LogWorld: Bringing up level for play took: 0.052978
+[2017.03.25-17.52.34:504][710]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.52.34:519][710]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.351
+[2017.03.25-17.52.34:519][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.53.01:030][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.53.01:136][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.53.02:178][ 72]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.53.02:201][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.53.02:201][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.53.02:201][ 72]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:53:02 AM)
+[2017.03.25-17.53.02:201][ 72]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.53.02:287][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085546s)
+[2017.03.25-17.53.02:288][ 72]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.53.02:288][ 72]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2017.03.25-17.53.02:288][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.086409s)
+[2017.03.25-17.53.02:353][ 72]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.53.02:366][ 72]LogInit: FAudioDevice initialized.
+[2017.03.25-17.53.02:407][ 72]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.53.02:459][ 72]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.53.02
+[2017.03.25-17.53.02:462][ 72]LogWorld: Bringing up level for play took: 0.052772
+[2017.03.25-17.53.02:463][ 72]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.53.02:478][ 72]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.311
+[2017.03.25-17.53.02:478][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.53.03:158][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.53.03:269][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.53.08:740][299]LogSavePackage: Save=612.28ms
+[2017.03.25-17.53.08:740][299]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/RTTH6D1BED024F1BD2C694266B8D8F21840D.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.25-17.53.08:757][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap
+[2017.03.25-17.53.08:860][299]LogFileHelpers: Saving map 'RTTH' took 0.874
+[2017.03.25-17.53.08:865][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/BaseTurret" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset" SILENT=true
+[2017.03.25-17.53.09:060][299]LogSavePackage: Save=167.59ms
+[2017.03.25-17.53.09:060][299]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/BaseTurret60ABB29449B468C4D2E315B25BC37576.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset'
+[2017.03.25-17.53.09:064][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/BaseTurret.uasset
+[2017.03.25-17.53.09:091][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/Sentry" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry.uasset" SILENT=true
+[2017.03.25-17.53.09:183][299]LogSavePackage: Save=57.10ms
+[2017.03.25-17.53.09:183][299]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/SentryE69431A742A1426F6427A1B5E929663C.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry.uasset'
+[2017.03.25-17.53.09:187][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry.uasset
+[2017.03.25-17.53.09:208][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/Sentry2" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry2.uasset" SILENT=true
+[2017.03.25-17.53.09:280][299]LogSavePackage: Save=37.95ms
+[2017.03.25-17.53.09:280][299]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Sentry28B740F364DC57817E0EA3687CDF43FA3.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry2.uasset'
+[2017.03.25-17.53.09:283][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/TurretAI/Sentry2.uasset
+[2017.03.25-17.53.47:048][983]LogEditorViewport: Clicking on Actor (LMB): Sentry2_C (Sentry5)
+[2017.03.25-17.55.04:472][775]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.03.25-17.55.24:460][782]Cmd: TRANSACTION UNDO
+[2017.03.25-17.55.24:460][782]LogEditorTransaction: Undo Rotate Bone
+[2017.03.25-17.55.24:474][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.25-17.56.10:661][256]Cmd: TRANSACTION UNDO
+[2017.03.25-17.56.10:661][256]LogEditorTransaction: Undo Rotate Bone
+[2017.03.25-17.56.10:662][256]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.25-17.56.16:976][828]Cmd: TRANSACTION UNDO
+[2017.03.25-17.56.16:976][828]LogEditorTransaction: Undo Rotate Bone
+[2017.03.25-17.56.16:976][828]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.25-17.56.30:495][144]Cmd: TRANSACTION UNDO
+[2017.03.25-17.56.30:495][144]LogEditorTransaction: Undo Rotate Bone
+[2017.03.25-17.56.30:495][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.03.25-17.56.39:286][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/turret/turret_top" FILE="../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/turret/turret_top.uasset" SILENT=true
+[2017.03.25-17.56.39:373][885]LogSavePackage: Save=54.35ms
+[2017.03.25-17.56.39:373][885]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/turret_top939D91A646129926AD1507A3E108727E.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/turret/turret_top.uasset'
+[2017.03.25-17.56.39:376][885]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/turret/turret_top.uasset
+[2017.03.25-17.56.55:711][250]BlueprintLog: New page: Compile Sentry2
+[2017.03.25-17.56.57:479][387]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.56.57:506][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.56.57:506][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.56.57:506][387]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:56:57 AM)
+[2017.03.25-17.56.57:506][387]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.56.57:584][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077957s)
+[2017.03.25-17.56.57:584][387]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.56.57:584][387]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2017.03.25-17.56.57:585][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.078879s)
+[2017.03.25-17.56.57:649][387]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.56.57:665][387]LogInit: FAudioDevice initialized.
+[2017.03.25-17.56.57:701][387]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.56.57:762][387]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.56.57
+[2017.03.25-17.56.57:766][387]LogWorld: Bringing up level for play took: 0.061815
+[2017.03.25-17.56.57:767][387]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.56.57:783][387]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH -0.385
+[2017.03.25-17.56.57:783][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.57.07:505][ 83]LogBlueprintUserMessages: [Sentry_893] Killed Car
+[2017.03.25-17.57.12:585][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.57.12:692][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.57.14:535][557]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.25-17.57.16:018][669]BlueprintLog: New page: Compile Sentry2
+[2017.03.25-17.57.18:046][825]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.25-17.57.18:069][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.57.18:069][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.25-17.57.18:069][825]PIE: New page: PIE session: RTTH (Mar 25, 2017, 9:57:18 AM)
+[2017.03.25-17.57.18:069][825]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_RTTH
+[2017.03.25-17.57.18:138][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068228s)
+[2017.03.25-17.57.18:138][825]LogAIModule: Creating AISystem for world RTTH
+[2017.03.25-17.57.18:138][825]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.03.25-17.57.18:138][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/RTTH.RTTH to /Game/Level/UEDPIE_0_RTTH.RTTH (0.069055s)
+[2017.03.25-17.57.18:188][825]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.25-17.57.18:201][825]LogInit: FAudioDevice initialized.
+[2017.03.25-17.57.18:237][825]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.25-17.57.18:290][825]LogWorld: Bringing World /Game/Level/UEDPIE_0_RTTH.RTTH up for play (max tick rate 0) at 2017.03.25-13.57.18
+[2017.03.25-17.57.18:295][825]LogWorld: Bringing up level for play took: 0.055215
+[2017.03.25-17.57.18:295][825]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.03.25-17.57.18:315][825]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_RTTH 0.147
+[2017.03.25-17.57.18:315][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.57.27:588][633]LogBlueprintUserMessages: [Sentry4_2157] Killed Car
+[2017.03.25-17.57.30:422][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.57.30:483][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/RTTH.RTTH:PersistentLevel' has LevelScriptBlueprint '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH' with GeneratedClass '/Game/Level/RTTH.RTTH_C' with ClassGeneratedBy '/Game/Level/RTTH.RTTH:PersistentLevel.RTTH'
+[2017.03.25-17.57.34:679][ 92]LogSavePackage: Save=632.99ms
+[2017.03.25-17.57.34:679][ 92]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/RTTHCB00052143DEC758016B49883791CC72.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.25-17.57.34:683][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap
+[2017.03.25-17.57.34:745][ 92]LogFileHelpers: Saving map 'RTTH' took 0.834
+[2017.03.25-17.57.55:173][709]LogEditorViewport: Clicking on Actor (LMB): defaultCarBP_C (defaultCarBP)
+[2017.03.25-17.57.59:779][941]LogSavePackage: Save=762.14ms
+[2017.03.25-17.57.59:779][941]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/RTTHEFCC56BC42DCF5148CFBE485894C8DA1.tmp' to '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.25-17.57.59:786][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Level/RTTH.umap
+[2017.03.25-17.57.59:886][941]LogFileHelpers: Saving map 'RTTH' took 1.052
+[2017.03.25-17.58.02:391][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.25-17.58.02:450][187]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.25-17.58.02:788][188]Cmd: QUIT_EDITOR
+[2017.03.25-17.58.03:895][188]LogExit: Preparing to exit.
+[2017.03.25-17.58.04:273][188]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/' was aborted.
+[2017.03.25-17.58.04:372][188]LogExit: Editor shut down
+[2017.03.25-17.58.04:373][188]LogExit: Transaction tracking system shut down
+[2017.03.25-17.58.04:659][188]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.25-17.58.04:659][188]LogExit: Object subsystem successfully closed.
+[2017.03.25-17.58.04:685][188]LogD3D11RHI: Shutdown
+[2017.03.25-17.58.04:685][188]LogD3D11RHI: CleanupD3DDevice
+[2017.03.25-17.58.04:916][188]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.25-17.58.04:939][188]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.25-17.58.04:939][188]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1448D4F4-41F2-9AAC-06AB-83A5C74D6ABD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd8d9cf048bfd28b9bb7a9a49b394d3b%7C494047d02eb044c0b2933fd6473f3065%7C953b6e70-6a04-4b6b-a326-609a2a97aa0b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module SkeletonEditor (247)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (246)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (245)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.03.25-17.58.04:955][188]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.03.25-17.58.04:956][188]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.03.25-17.58.04:956][188]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.03.25-17.58.04:957][188]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.03.25-17.58.04:957][188]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.03.25-17.58.04:957][188]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.03.25-17.58.04:957][188]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Collections/' was aborted.
+[2017.03.25-17.58.04:957][188]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/Developers/adpapaio/Collections/' was aborted.
+[2017.03.25-17.58.04:957][188]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Collections/' was aborted.
+[2017.03.25-17.58.04:957][188]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.03.25-17.58.04:957][188]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.03.25-17.58.04:958][188]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.03.25-17.58.04:980][188]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.03.25-17.58.04:981][188]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.03.25-17.58.04:981][188]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.03.25-17.58.04:981][188]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.03.25-17.58.04:981][188]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.03.25-17.58.04:981][188]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.03.25-17.58.04:981][188]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.03.25-17.58.04:981][188]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.03.25-17.58.04:981][188]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.03.25-17.58.05:032][188]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.03.25-17.58.05:032][188]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.03.25-17.58.05:032][188]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.03.25-17.58.05:032][188]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.03.25-17.58.05:033][188]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.03.25-17.58.05:034][188]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.03.25-17.58.05:034][188]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.03.25-17.58.05:034][188]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.03.25-17.58.05:034][188]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.03.25-17.58.05:089][188]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.03.25-17.58.05:104][188]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.03.25-17.58.05:104][188]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.03.25-17.58.05:104][188]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.03.25-17.58.05:104][188]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.03.25-17.58.05:104][188]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.03.25-17.58.05:105][188]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.03.25-17.58.05:203][188]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.03.25-17.58.05:203][188]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.03.25-17.58.05:203][188]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.03.25-17.58.05:203][188]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.03.25-17.58.05:203][188]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.03.25-17.58.05:204][188]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.03.25-17.58.05:205][188]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.03.25-17.58.05:205][188]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.03.25-17.58.05:205][188]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.03.25-17.58.05:205][188]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.03.25-17.58.05:205][188]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.03.25-17.58.05:206][188]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.03.25-17.58.05:206][188]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.03.25-17.58.05:208][188]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.03.25-17.58.05:210][188]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.03.25-17.58.05:210][188]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.03.25-17.58.05:311][188]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.03.25-17.58.05:412][188]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.03.25-17.58.05:422][188]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.03.25-17.58.05:422][188]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.03.25-17.58.05:422][188]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.03.25-17.58.05:422][188]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.03.25-17.58.05:422][188]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.03.25-17.58.05:422][188]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.03.25-17.58.05:422][188]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.03.25-17.58.05:422][188]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.03.25-17.58.05:428][188]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.03.25-17.58.05:428][188]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.03.25-17.58.05:428][188]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.03.25-17.58.05:428][188]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.03.25-17.58.05:428][188]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.03.25-17.58.05:428][188]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.03.25-17.58.05:428][188]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.25-17.58.05:428][188]LogDirectoryWatcher: A directory notification for '../../../../../../Users/adpapaio/Desktop/FairyTaleRacing/Unreal Project/vehicleTest/Content/' was aborted.
+[2017.03.25-17.58.05:429][188]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.25-17.58.05:430][188]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.03.25-17.58.05:554][188]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.03.25-17.58.05:554][188]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.03.25-17.58.05:554][188]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.03.25-17.58.05:554][188]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.03.25-17.58.05:554][188]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.03.25-17.58.05:554][188]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.03.25-17.58.05:554][188]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.03.25-17.58.05:554][188]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.03.25-17.58.05:609][188]LogDerivedDataCache: Shutdown
+[2017.03.25-17.58.05:609][188]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.03.25-17.58.05:609][188]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.03.25-17.58.05:609][188]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.03.25-17.58.05:609][188]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.25-17.58.05:610][188]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.25-17.58.05:610][188]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.25-17.58.05:612][188]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.25-17.58.05:612][188]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.25-17.58.05:612][188]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.25-17.58.05:612][188]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.25-17.58.05:612][188]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.25-17.58.05:612][188]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.25-17.58.05:616][188]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.25-17.58.05:619][188]LogExit: Exiting.
+[2017.03.25-17.58.05:620][188]Log file closed, 03/25/17 13:58:05
