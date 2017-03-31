@@ -1,0 +1,892 @@
+﻿Log file open, 03/31/17 01:05:12
+LogInit:Display: Running engine for game: vehicleTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(44381476) SRandInit(44381477).
+LogTaskGraph: Started task graph with 5 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096428
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.31-05.05.13:613][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.31-05.05.13:613][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.31-05.05.13:662][  0]LogInit: Computer: SEAN-10
+[2017.03.31-05.05.13:662][  0]LogInit: User: Sean
+[2017.03.31-05.05.13:662][  0]LogInit: CPU Page size=65536, Cores=3
+[2017.03.31-05.05.13:662][  0]LogInit: High frequency timer resolution =4.021338 MHz
+[2017.03.31-05.05.13:663][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.31-05.05.13:663][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.31-05.05.13:663][  0]LogMemory: Process Physical Memory: 265.66 MB used, 265.66 MB peak
+[2017.03.31-05.05.13:663][  0]LogMemory: Process Virtual Memory: 262.77 MB used, 262.77 MB peak
+[2017.03.31-05.05.13:663][  0]LogMemory: Physical Memory: 6009.63 MB used,  2081.88 MB free, 8091.50 MB total
+[2017.03.31-05.05.13:663][  0]LogMemory: Virtual Memory: 675.89 MB used,  2081.88 MB free, 134217728.00 MB total
+[2017.03.31-05.05.14:064][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.31-05.05.20:477][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.31-05.05.20:527][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.03.31-05.05.20:527][  0]LogD3D11RHI:       2016/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.31-05.05.20:551][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.31-05.05.20:551][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.31-05.05.20:551][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.31-05.05.20:559][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.31-05.05.20:559][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.31-05.05.20:559][  0]LogWindows: EnumDisplayDevices:
+[2017.03.31-05.05.20:559][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.03.31-05.05.20:559][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.03.31-05.05.20:560][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.31-05.05.20:560][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.31-05.05.20:560][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.31-05.05.20:560][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.03.31-05.05.20:560][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.03.31-05.05.20:560][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.03.31-05.05.20:560][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.31-05.05.20:577][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.31-05.05.20:589][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.31-05.05.20:589][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Users/Sean/Desktop/vehicleTest/Intermediate/Shaders/WorkingDirectory/10660/).
+[2017.03.31-05.05.20:589][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sean/AppData/Local/Temp/UnrealShaderWorkingDir/15EFDFBC47FE0E2A3719D393DFB214B4/'.
+[2017.03.31-05.05.20:589][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.31-05.05.25:380][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.31-05.05.25:508][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.31-05.05.25:646][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.31-05.05.25:801][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.31-05.05.25:932][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.31-05.05.26:052][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.31-05.05.26:164][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.31-05.05.26:281][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.31-05.05.26:372][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.31-05.05.26:485][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.31-05.05.26:596][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.31-05.05.26:699][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.31-05.05.26:804][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.31-05.05.26:908][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.31-05.05.27:017][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.31-05.05.27:240][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.31-05.05.27:240][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.31-05.05.27:333][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.31-05.05.27:514][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.31-05.05.27:578][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.31-05.05.27:687][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.31-05.05.27:798][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.31-05.05.27:903][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.31-05.05.28:009][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.31-05.05.28:009][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.31-05.05.29:123][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.31-05.05.29:595][  0]LogDerivedDataCache: Loaded boot cache 0.47s 50MB C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.31-05.05.29:595][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.31-05.05.29:595][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sean/Desktop/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.31-05.05.29:595][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.31-05.05.29:595][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Sean/Desktop/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.31-05.05.29:595][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.31-05.05.29:620][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.31-05.05.29:633][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.31-05.05.33:232][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.31-05.05.33:237][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.31-05.05.33:650][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.31-05.05.33:768][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.31-05.05.33:884][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.31-05.05.33:884][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.31-05.05.33:884][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.31-05.05.34:943][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
+[2017.03.31-05.05.35:050][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2017.03.31-05.05.35:136][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.041538 seconds
+[2017.03.31-05.05.35:143][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.31-05.05.35:143][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.03.31-05.05.35:143][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.31-05.05.35:294][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.31-05.05.37:363][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.31-05.05.37:386][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.31-05.05.37:386][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.31-05.05.54:844][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.31-05.05.54:918][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.31-05.05.55:861][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.31-05.05.56:591][  0]SourceControl: Info Source control is disabled
+[2017.03.31-05.05.56:593][  0]SourceControl: Info Source control is disabled
+[2017.03.31-05.05.56:696][  0]SourceControl: Info Source control is disabled
+[2017.03.31-05.05.56:802][  0]SourceControl: Info Source control is disabled
+[2017.03.31-05.05.59:865][  0]LogEngine: Initializing Engine...
+[2017.03.31-05.05.59:865][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.31-05.06.00:251][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.31-05.06.00:274][  0]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.31-05.06.00:297][  0]LogInit: FAudioDevice initialized.
+[2017.03.31-05.06.00:346][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Sean/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.31-05.06.00:361][  0]LogInit: Texture streaming: Enabled
+[2017.03.31-05.06.00:786][  0]LogInit: Transaction tracking system initialized
+[2017.03.31-05.06.01:595][  0]BlueprintLog: New page: Editor Load
+[2017.03.31-05.06.03:553][  0]LocalizationService: Info Localization service is disabled
+[2017.03.31-05.06.04:955][  0]LogConsoleResponse:Display: 
+[2017.03.31-05.06.05:149][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.31-05.06.05:149][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.31-05.06.06:139][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Desktop/vehicleTest/Content/' took 0.02s
+[2017.03.31-05.06.06:978][  0]SourceControl: Info Source control is disabled
+[2017.03.31-05.06.06:978][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/demolitionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.31-05.06.06:978][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/demolitionLevel.umap'
+[2017.03.31-05.06.06:978][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.31-05.06.07:038][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.715ms to complete.
+[2017.03.31-05.06.07:038][  0]LogFileHelpers: Loading map 'demolitionLevel' took 0.060
+[2017.03.31-05.06.07:143][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.31-05.06.07:286][  0]LogCollectionManager: Loaded 1 collections in 0.004402 seconds
+[2017.03.31-05.06.07:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Desktop/vehicleTest/Saved/Collections/' took 0.01s
+[2017.03.31-05.06.07:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Desktop/vehicleTest/Content/Developers/Sean/Collections/' took 0.01s
+[2017.03.31-05.06.07:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Desktop/vehicleTest/Content/Collections/' took 0.01s
+[2017.03.31-05.06.07:425][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2017.03.31-05.06.07:426][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.03.31-05.06.07:440][  0]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2190 classes and 428 folders.
+[2017.03.31-05.06.07:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.31-05.06.07:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.31-05.06.07:521][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2017.03.31-05.06.07:639][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.31-05.06.07:705][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.31-05.06.07:783][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.31-05.06.07:891][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.31-05.06.07:898][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.31-05.06.08:004][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.31-05.06.08:004][  0]LogLoad: (Engine Initialization) Total time: 58.40 seconds
+[2017.03.31-05.06.08:004][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.03.31-05.06.08:004][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.31-05.06.08:004][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.31-05.06.08:013][  0]LogOcInput: OculusInput pre-init called
+[2017.03.31-05.06.08:033][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.31-05.06.08:262][  0]LogRenderer: Reallocating scene render targets to support 1000x568 NumSamples 1 (Frame:2).
+[2017.03.31-05.06.08:404][  2]LogAssetRegistry: Asset discovery search completed in 33.3767 seconds
+[2017.03.31-05.06.08:404][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000006 seconds (found 0 objects)
+[2017.03.31-05.06.08:405][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000031 seconds (updated 0 objects)
+[2017.03.31-05.07.02:007][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Green" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Green.uasset" SILENT=true
+[2017.03.31-05.07.02:041][344]LogSavePackage: Save=31.61ms
+[2017.03.31-05.07.02:041][344]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/Green68751A2C42BB370E97236E9119629334.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Green.uasset'
+[2017.03.31-05.07.02:045][344]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Green.uasset
+[2017.03.31-05.07.23:281][814]LogMetaData: Removing '/Game/base_car/AIDefaultCar/CarWaypoint.CarWaypoint_C' ref from Metadata '/Game/base_car/AIDefaultCar/Sedan/AI/CarWaypoint.PackageMetaData'
+[2017.03.31-05.07.23:281][814]LogMetaData: Removing '/Game/base_car/AIDefaultCar/CarWaypoint.CarWaypoint_C:UserConstructionScript' ref from Metadata '/Game/base_car/AIDefaultCar/Sedan/AI/CarWaypoint.PackageMetaData'
+[2017.03.31-05.07.23:281][814]LogMetaData: Removing '/Game/base_car/AIDefaultCar/CarWaypoint.CarWaypoint_C:Next' ref from Metadata '/Game/base_car/AIDefaultCar/Sedan/AI/CarWaypoint.PackageMetaData'
+[2017.03.31-05.07.23:281][814]LogMetaData: Removing '/Game/base_car/AIDefaultCar/CarWaypoint.CarWaypoint_C:Prev' ref from Metadata '/Game/base_car/AIDefaultCar/Sedan/AI/CarWaypoint.PackageMetaData'
+[2017.03.31-05.07.23:281][814]LogMetaData: Removing '/Game/base_car/AIDefaultCar/CarWaypoint.SKEL_CarWaypoint_C:Prev' ref from Metadata '/Game/base_car/AIDefaultCar/Sedan/AI/CarWaypoint.PackageMetaData'
+[2017.03.31-05.07.23:281][814]LogMetaData: Removing '/Game/base_car/AIDefaultCar/CarWaypoint.SKEL_CarWaypoint_C:Next' ref from Metadata '/Game/base_car/AIDefaultCar/Sedan/AI/CarWaypoint.PackageMetaData'
+[2017.03.31-05.07.23:281][814]LogMetaData: Removing '/Game/base_car/AIDefaultCar/CarWaypoint.SKEL_CarWaypoint_C:UserConstructionScript' ref from Metadata '/Game/base_car/AIDefaultCar/Sedan/AI/CarWaypoint.PackageMetaData'
+[2017.03.31-05.07.23:281][814]LogMetaData: Removing '/Game/base_car/AIDefaultCar/CarWaypoint.SKEL_CarWaypoint_C' ref from Metadata '/Game/base_car/AIDefaultCar/Sedan/AI/CarWaypoint.PackageMetaData'
+[2017.03.31-05.07.23:321][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_car/AIDefaultCar/CarWaypoint" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/CarWaypoint.uasset" SILENT=true
+[2017.03.31-05.07.23:354][814]LogSavePackage: Save=29.76ms
+[2017.03.31-05.07.23:354][814]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/CarWaypointDC6EFEC44DBC1DD12D930EA2585A2139.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/CarWaypoint.uasset'
+[2017.03.31-05.07.23:358][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/CarWaypoint.uasset
+[2017.03.31-05.07.39:302][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Rubber_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Rubber_2.uasset" SILENT=true
+[2017.03.31-05.07.39:322][641]LogSavePackage: Save=18.23ms
+[2017.03.31-05.07.39:322][641]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/Rubber_26F24A97E45739029A321CA90760E5683.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Rubber_2.uasset'
+[2017.03.31-05.07.39:326][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Rubber_2.uasset
+[2017.03.31-05.07.41:716][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/lambert1_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/lambert1_2.uasset" SILENT=true
+[2017.03.31-05.07.41:735][874]LogSavePackage: Save=16.85ms
+[2017.03.31-05.07.41:736][874]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/lambert1_237B7227B459E7117169FE18E8A9E505B.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/lambert1_2.uasset'
+[2017.03.31-05.07.41:739][874]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/lambert1_2.uasset
+[2017.03.31-05.07.45:474][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Chrome_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Chrome_2.uasset" SILENT=true
+[2017.03.31-05.07.45:492][269]LogSavePackage: Save=16.22ms
+[2017.03.31-05.07.45:492][269]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/Chrome_2A98BEC8E4B0F5E9683FFB88A0F4B7008.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Chrome_2.uasset'
+[2017.03.31-05.07.45:496][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Chrome_2.uasset
+[2017.03.31-05.07.50:810][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/grey_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/grey_mat.uasset" SILENT=true
+[2017.03.31-05.07.50:840][760]LogSavePackage: Save=27.72ms
+[2017.03.31-05.07.50:841][760]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/grey_matE73C37E740109BCEF25461905129274E.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/grey_mat.uasset'
+[2017.03.31-05.07.50:844][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/grey_mat.uasset
+[2017.03.31-05.07.51:045][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Destruction/destructibleCube" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Destruction/destructibleCube.uasset" SILENT=true
+[2017.03.31-05.07.51:088][760]LogSavePackage: Save=19.49ms
+[2017.03.31-05.07.51:088][760]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/destructibleCube98ECFCE84CC6E65958C3E183AF11F7D5.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Destruction/destructibleCube.uasset'
+[2017.03.31-05.07.51:091][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Destruction/destructibleCube.uasset
+[2017.03.31-05.07.51:135][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/estateWagon" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/estateWagon.uasset" SILENT=true
+[2017.03.31-05.07.51:603][760]LogSavePackage: Save=387.99ms
+[2017.03.31-05.07.51:603][760]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/estateWagon1483DC674A49BF00437AC689BD33FD20.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/estateWagon.uasset'
+[2017.03.31-05.07.51:609][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/estateWagon.uasset
+[2017.03.31-05.08.01:409][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/black_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/black_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:428][585]LogSavePackage: Save=17.21ms
+[2017.03.31-05.08.01:428][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/black_mat1664463A439636CA30BF0E8132F0E8D7.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/black_mat.uasset'
+[2017.03.31-05.08.01:432][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/black_mat.uasset
+[2017.03.31-05.08.01:435][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/black_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/black_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:462][585]LogSavePackage: Save=5.32ms
+[2017.03.31-05.08.01:462][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/black_matB44D8D334B5F3C840AB8878A9DC004C1.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/black_mat.uasset'
+[2017.03.31-05.08.01:466][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/black_mat.uasset
+[2017.03.31-05.08.01:496][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/blue_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/blue_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:516][585]LogSavePackage: Save=17.48ms
+[2017.03.31-05.08.01:516][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/blue_mat3AC93D9541FAD7DB34209AB53E77540A.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/blue_mat.uasset'
+[2017.03.31-05.08.01:519][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/blue_mat.uasset
+[2017.03.31-05.08.01:523][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/blue_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/blue_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:552][585]LogSavePackage: Save=5.06ms
+[2017.03.31-05.08.01:552][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/blue_mat4E5DA8AE4A6E93DA7BBD39B3F8ACE3BC.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/blue_mat.uasset'
+[2017.03.31-05.08.01:556][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/blue_mat.uasset
+[2017.03.31-05.08.01:584][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/red_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/red_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:604][585]LogSavePackage: Save=17.88ms
+[2017.03.31-05.08.01:604][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/red_mat4FED38014A80683E1AAFB3B89CA10C53.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/red_mat.uasset'
+[2017.03.31-05.08.01:608][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/red_mat.uasset
+[2017.03.31-05.08.01:611][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/red_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/red_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:634][585]LogSavePackage: Save=5.58ms
+[2017.03.31-05.08.01:634][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/red_matE76AD3AB40064B80FADC05B3B25C000C.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/red_mat.uasset'
+[2017.03.31-05.08.01:637][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/red_mat.uasset
+[2017.03.31-05.08.01:665][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/white_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/white_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:684][585]LogSavePackage: Save=16.13ms
+[2017.03.31-05.08.01:684][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/white_matFEA0B6C64C8F91E70B1C09AF0CF31445.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/white_mat.uasset'
+[2017.03.31-05.08.01:686][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/white_mat.uasset
+[2017.03.31-05.08.01:689][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/white_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/white_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:711][585]LogSavePackage: Save=5.01ms
+[2017.03.31-05.08.01:711][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/white_matE918187E47951499C1CC8598FDF75C62.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/white_mat.uasset'
+[2017.03.31-05.08.01:715][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/white_mat.uasset
+[2017.03.31-05.08.01:744][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/wood_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/wood_mat.uasset" SILENT=true
+[2017.03.31-05.08.01:765][585]LogSavePackage: Save=19.03ms
+[2017.03.31-05.08.01:765][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/wood_matD0CE621C4EE074B17958C2AC27DB4A45.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/wood_mat.uasset'
+[2017.03.31-05.08.01:768][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/wood_mat.uasset
+[2017.03.31-05.08.01:781][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/wood_panels" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/wood_panels.uasset" SILENT=true
+[2017.03.31-05.08.01:803][585]LogSavePackage: Save=19.24ms
+[2017.03.31-05.08.01:803][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/wood_panels40F9B5B2442B612A5871F5AD503E9AA0.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/wood_panels.uasset'
+[2017.03.31-05.08.01:806][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/wood_panels.uasset
+[2017.03.31-05.08.02:082][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat7" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat7.uasset" SILENT=true
+[2017.03.31-05.08.02:101][585]LogSavePackage: Save=5.64ms
+[2017.03.31-05.08.02:101][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat77160D6A34BF3EBC49FF1D19673F8E1CB.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat7.uasset'
+[2017.03.31-05.08.02:102][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat7.uasset
+[2017.03.31-05.08.02:105][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat8" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat8.uasset" SILENT=true
+[2017.03.31-05.08.02:124][585]LogSavePackage: Save=5.50ms
+[2017.03.31-05.08.02:124][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat8AD3DD8F74627DB9336575AA805E79039.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat8.uasset'
+[2017.03.31-05.08.02:126][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat8.uasset
+[2017.03.31-05.08.02:128][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/estateWagon" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/estateWagon.uasset" SILENT=true
+[2017.03.31-05.08.02:593][585]LogSavePackage: Save=452.00ms
+[2017.03.31-05.08.02:593][585]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/estateWagonC9AACF684B3BB0DDF53E33A49CDB283D.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/estateWagon.uasset'
+[2017.03.31-05.08.02:601][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/estateWagon.uasset
+[2017.03.31-05.08.48:622][229]LogLinker:Warning: Can't find file '/Game/turret2/def_surf_mat'
+[2017.03.31-05.08.48:622][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/def_surf_mat' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/def_surf_mat_001.uasset.
+[2017.03.31-05.08.48:632][229]LoadErrors:Error: Error /Game/turret/def_surf_mat_001 : Can't find file for asset. /Game/turret2/def_surf_mat
+[2017.03.31-05.08.48:632][229]LogLinker:Warning: Can't find file '/Game/turret2/def_surf_mat'
+[2017.03.31-05.08.48:632][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/def_surf_mat' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/def_surf_mat_001.uasset.
+[2017.03.31-05.08.48:634][229]LogLinker:Warning: Can't find file '/Game/turret2/def_surf_mat'
+[2017.03.31-05.08.48:634][229]LoadErrors: Info Failed to load /Game/turret2/def_surf_mat.def_surf_mat Referenced by def_surf_mat_001
+[2017.03.31-05.08.48:634][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/def_surf_mat' while loading NULL.
+[2017.03.31-05.08.48:646][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_base_BP'
+[2017.03.31-05.08.48:646][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_base_BP' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_baseBP.uasset.
+[2017.03.31-05.08.48:646][229]LoadErrors:Error: Error /Game/turret/turret_baseBP : Can't find file for asset. /Game/turret2/turret_base_BP
+[2017.03.31-05.08.48:646][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_base_BP'
+[2017.03.31-05.08.48:646][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_base_BP' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_baseBP.uasset.
+[2017.03.31-05.08.48:647][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_base_BP'
+[2017.03.31-05.08.48:647][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_base_BP' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_baseBP.uasset.
+[2017.03.31-05.08.48:647][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_base_BP'
+[2017.03.31-05.08.48:647][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_base_BP' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_baseBP.uasset.
+[2017.03.31-05.08.48:647][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_base_BP'
+[2017.03.31-05.08.48:647][229]LoadErrors: Info Failed to load /Game/turret2/turret_base_BP.Default__turret_base_BP_C Referenced by Default__turret_baseBP_C
+[2017.03.31-05.08.48:648][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_base_BP' while loading NULL.
+[2017.03.31-05.08.48:648][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_base_BP'
+[2017.03.31-05.08.48:648][229]LoadErrors: Info Failed to load /Game/turret2/turret_base_BP.turret_base_BP Referenced by turret_baseBP
+[2017.03.31-05.08.48:648][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_base_BP' while loading NULL.
+[2017.03.31-05.08.48:648][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_base_BP'
+[2017.03.31-05.08.48:648][229]LoadErrors: Info Failed to load /Game/turret2/turret_base_BP.turret_base_BP_C Referenced by turret_baseBP_C
+[2017.03.31-05.08.48:648][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_base_BP' while loading NULL.
+[2017.03.31-05.08.48:661][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_top_BP'
+[2017.03.31-05.08.48:661][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_top_BP' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_topBP.uasset.
+[2017.03.31-05.08.48:661][229]LoadErrors:Error: Error /Game/turret/turret_topBP : Can't find file for asset. /Game/turret2/turret_top_BP
+[2017.03.31-05.08.48:662][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_top_BP'
+[2017.03.31-05.08.48:662][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_top_BP' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_topBP.uasset.
+[2017.03.31-05.08.48:662][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_top_BP'
+[2017.03.31-05.08.48:662][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_top_BP' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_topBP.uasset.
+[2017.03.31-05.08.48:662][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_top_BP'
+[2017.03.31-05.08.48:662][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_top_BP' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_topBP.uasset.
+[2017.03.31-05.08.48:663][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_top_BP'
+[2017.03.31-05.08.48:663][229]LoadErrors: Info Failed to load /Game/turret2/turret_top_BP.Default__turret_top_BP_C Referenced by Default__turret_topBP_C
+[2017.03.31-05.08.48:663][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_top_BP' while loading NULL.
+[2017.03.31-05.08.48:663][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_top_BP'
+[2017.03.31-05.08.48:663][229]LoadErrors: Info Failed to load /Game/turret2/turret_top_BP.turret_top_BP Referenced by turret_topBP
+[2017.03.31-05.08.48:663][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_top_BP' while loading NULL.
+[2017.03.31-05.08.48:664][229]LogLinker:Warning: Can't find file '/Game/turret2/turret_top_BP'
+[2017.03.31-05.08.48:664][229]LoadErrors: Info Failed to load /Game/turret2/turret_top_BP.turret_top_BP_C Referenced by turret_topBP_C
+[2017.03.31-05.08.48:664][229]LogLinker:Warning: Can't find file for asset '/Game/turret2/turret_top_BP' while loading NULL.
+[2017.03.31-05.08.49:176][229]LogBlueprint:Warning: [BaseTurret] 'HUD Reference' variable not found. Base class was probably changed.
+[2017.03.31-05.08.49:176][229]LogBlueprint:Warning: [BaseTurret] 'HUD Reference' variable not found. Base class was probably changed.
+[2017.03.31-05.08.49:321][229]LogLinker:Warning: Can't find file '/Game/base_car/demolitionLevel_BuiltData'
+[2017.03.31-05.08.49:322][229]LogLinker:Warning: Can't find file for asset '/Game/base_car/demolitionLevel_BuiltData' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/demolitionLevel.umap.
+[2017.03.31-05.08.49:322][229]LoadErrors:Error: Error /Game/Level/demolitionLevel : Can't find file for asset. /Game/base_car/demolitionLevel_BuiltData
+[2017.03.31-05.08.49:401][229]LogLinker:Warning: Can't find file '/Game/base_car/demolitionLevel_BuiltData'
+[2017.03.31-05.08.49:401][229]LogLinker:Warning: Can't find file for asset '/Game/base_car/demolitionLevel_BuiltData' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/demolitionLevel.umap.
+[2017.03.31-05.08.49:437][229]LogLinker:Warning: Can't find file '/Game/base_car/demolitionLevel_BuiltData'
+[2017.03.31-05.08.49:438][229]LogLinker:Warning: Can't find file for asset '/Game/base_car/demolitionLevel_BuiltData' while loading NULL.
+[2017.03.31-05.08.49:438][229]LogLinker:Warning: Can't find file '/Game/base_car/demolitionLevel_BuiltData'
+[2017.03.31-05.08.49:438][229]LogLinker:Warning: Can't find file for asset '/Game/base_car/demolitionLevel_BuiltData' while loading NULL.
+[2017.03.31-05.08.49:609][229]LogLinker:Warning: Can't find file '/Game/base_car/demolitionLevel_BuiltData'
+[2017.03.31-05.08.49:609][229]LoadErrors: Info Failed to load /Game/base_car/demolitionLevel_BuiltData.demolitionLevel_BuiltData Referenced by PersistentLevel
+[2017.03.31-05.08.49:609][229]LogLinker:Warning: Can't find file for asset '/Game/base_car/demolitionLevel_BuiltData' while loading NULL.
+[2017.03.31-05.08.50:827][229]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.31-05.08.51:798][229]LogAIModule: Creating AISystem for world RTTH
+[2017.03.31-05.08.51:805][229]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor needed to have new flag set bUsedWithSplineMeshes !
+[2017.03.31-05.08.51:833][229]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.03.31-05.08.51:912][229]MapCheck:Warning: Warning M_Basic_Floor Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor was missing the usage flag bUsedWithSplineMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.03.31-05.08.51:946][229]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.31-05.08.53:058][229]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.31-05.08.53:104][229]LogAIModule: Creating AISystem for world WheelsInSky
+[2017.03.31-05.08.53:105][229]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled needed to have new flag set bUsedWithSplineMeshes !
+[2017.03.31-05.08.53:151][229]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2017.03.31-05.08.53:227][229]MapCheck:Warning: Warning M_Brick_Clay_Beveled Material /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled was missing the usage flag bUsedWithSplineMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.03.31-05.08.53:229][229]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.31-05.09.00:944][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/demolitionLevel" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/demolitionLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.31-05.09.01:205][229]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: demolitionLevel, Actor: /Game/Level/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel_C_0
+[2017.03.31-05.09.01:979][229]LogSavePackage: Save=890.24ms
+[2017.03.31-05.09.01:979][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/demolitionLevelF6DC2DE24DBA4C3EF42C919F2950C720.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/demolitionLevel.umap'
+[2017.03.31-05.09.01:986][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/demolitionLevel.umap
+[2017.03.31-05.09.02:035][229]LogFileHelpers: Saving map 'demolitionLevel' took 1.251
+[2017.03.31-05.09.02:187][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/RTTH" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/RTTH.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.31-05.09.02:619][229]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RTTH, Actor: /Game/Level/RTTH.RTTH:PersistentLevel.RTTH_C_1
+[2017.03.31-05.09.04:075][229]LogSavePackage: Save=1667.89ms
+[2017.03.31-05.09.04:075][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/RTTH1F9DDDD14F2960E7F669FABAA21AE6FA.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.31-05.09.04:080][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/RTTH.umap
+[2017.03.31-05.09.04:151][229]LogFileHelpers: Saving map 'RTTH' took 2.113
+[2017.03.31-05.09.04:291][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/WheelsInSky" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/WheelsInSky.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.31-05.09.05:422][229]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: WheelsInSky, Actor: /Game/Level/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky_C_0
+[2017.03.31-05.09.06:023][229]LogSavePackage: Save=616.79ms
+[2017.03.31-05.09.06:023][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/WheelsInSky2F807A5B45D9FBB13A11B184BBA3C1D8.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/WheelsInSky.umap'
+[2017.03.31-05.09.06:027][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/WheelsInSky.umap
+[2017.03.31-05.09.06:043][229]LogFileHelpers: Saving map 'WheelsInSky' took 1.890
+[2017.03.31-05.09.06:045][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat10" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat10.uasset" SILENT=true
+[2017.03.31-05.09.06:064][229]LogSavePackage: Save=5.66ms
+[2017.03.31-05.09.06:064][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat1047A7024749A1C4BC66BD598D23108D19.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat10.uasset'
+[2017.03.31-05.09.06:065][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat10.uasset
+[2017.03.31-05.09.06:069][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat11" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat11.uasset" SILENT=true
+[2017.03.31-05.09.06:091][229]LogSavePackage: Save=5.53ms
+[2017.03.31-05.09.06:091][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat111EA927E947302A27A07198AEE87F8BB2.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat11.uasset'
+[2017.03.31-05.09.06:092][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat11.uasset
+[2017.03.31-05.09.06:095][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat43" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat43.uasset" SILENT=true
+[2017.03.31-05.09.06:115][229]LogSavePackage: Save=5.51ms
+[2017.03.31-05.09.06:115][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat433995C2CE45579225B6829390F17C3EB1.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat43.uasset'
+[2017.03.31-05.09.06:116][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat43.uasset
+[2017.03.31-05.09.06:119][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat44" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat44.uasset" SILENT=true
+[2017.03.31-05.09.06:138][229]LogSavePackage: Save=5.86ms
+[2017.03.31-05.09.06:138][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat441F7B63D94AE1BE98AC9DB299D3B23221.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat44.uasset'
+[2017.03.31-05.09.06:140][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat44.uasset
+[2017.03.31-05.09.06:142][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat51" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat51.uasset" SILENT=true
+[2017.03.31-05.09.06:164][229]LogSavePackage: Save=5.32ms
+[2017.03.31-05.09.06:164][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat51B535E28649B7D303C2A62CABE024D579.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat51.uasset'
+[2017.03.31-05.09.06:166][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat51.uasset
+[2017.03.31-05.09.06:169][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat52" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat52.uasset" SILENT=true
+[2017.03.31-05.09.06:189][229]LogSavePackage: Save=5.70ms
+[2017.03.31-05.09.06:189][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat5289817DA94D6CED1893BB79914A9E53FF.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat52.uasset'
+[2017.03.31-05.09.06:190][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat52.uasset
+[2017.03.31-05.09.06:193][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat53" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat53.uasset" SILENT=true
+[2017.03.31-05.09.06:213][229]LogSavePackage: Save=5.72ms
+[2017.03.31-05.09.06:213][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat5382ABCBB74DDED6BFED2F67B2B10CBEB1.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat53.uasset'
+[2017.03.31-05.09.06:214][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat53.uasset
+[2017.03.31-05.09.06:217][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat74" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat74.uasset" SILENT=true
+[2017.03.31-05.09.06:237][229]LogSavePackage: Save=5.76ms
+[2017.03.31-05.09.06:237][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat7472B9A1AC42EB20BBE3E298A6765A6567.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat74.uasset'
+[2017.03.31-05.09.06:238][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat74.uasset
+[2017.03.31-05.09.06:241][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat75" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat75.uasset" SILENT=true
+[2017.03.31-05.09.06:264][229]LogSavePackage: Save=5.57ms
+[2017.03.31-05.09.06:264][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat75C9031D7A439A52C22E67A987D418AFC0.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat75.uasset'
+[2017.03.31-05.09.06:265][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat75.uasset
+[2017.03.31-05.09.06:268][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat9" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat9.uasset" SILENT=true
+[2017.03.31-05.09.06:288][229]LogSavePackage: Save=5.55ms
+[2017.03.31-05.09.06:288][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat96F56894A44A2D0B60BD526A9AF1ED9A0.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat9.uasset'
+[2017.03.31-05.09.06:289][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat9.uasset
+[2017.03.31-05.09.06:443][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_car/defaultCarBP" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCarBP.uasset" SILENT=true
+[2017.03.31-05.09.06:554][229]LogSavePackage: Save=91.79ms
+[2017.03.31-05.09.06:554][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCarBP3CB3560E4D0294EEAE245C94FE91449E.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCarBP.uasset'
+[2017.03.31-05.09.06:555][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCarBP.uasset
+[2017.03.31-05.09.06:582][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_car/AIDefaultCar/AICar" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset" SILENT=true
+[2017.03.31-05.09.06:711][229]LogSavePackage: Save=110.31ms
+[2017.03.31-05.09.06:712][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/AICar043923CB45E49EDC1DA37BB0025B4EE3.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset'
+[2017.03.31-05.09.06:713][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset
+[2017.03.31-05.09.06:716][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Destruction/destructibleCube" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Destruction/destructibleCube.uasset" SILENT=true
+[2017.03.31-05.09.06:749][229]LogSavePackage: Save=19.39ms
+[2017.03.31-05.09.06:749][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/destructibleCubeDBD207CC4BDDCB2F0A5FFF890356E224.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Destruction/destructibleCube.uasset'
+[2017.03.31-05.09.06:750][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Destruction/destructibleCube.uasset
+[2017.03.31-05.09.06:753][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat13" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat13.uasset" SILENT=true
+[2017.03.31-05.09.06:774][229]LogSavePackage: Save=6.05ms
+[2017.03.31-05.09.06:774][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat1344CCD99648F4F7CB74C94DB0F7B9C863.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat13.uasset'
+[2017.03.31-05.09.06:775][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat13.uasset
+[2017.03.31-05.09.06:779][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat14" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat14.uasset" SILENT=true
+[2017.03.31-05.09.06:817][229]LogSavePackage: Save=22.53ms
+[2017.03.31-05.09.06:817][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat1483FE0D2B41D6CFA0931796BBA17C6392.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat14.uasset'
+[2017.03.31-05.09.06:819][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat14.uasset
+[2017.03.31-05.09.06:822][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat15" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat15.uasset" SILENT=true
+[2017.03.31-05.09.06:844][229]LogSavePackage: Save=5.82ms
+[2017.03.31-05.09.06:844][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat15ED7EF9ED459AE48A9747F59BBF662DA0.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat15.uasset'
+[2017.03.31-05.09.06:845][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat15.uasset
+[2017.03.31-05.09.06:848][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat16" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat16.uasset" SILENT=true
+[2017.03.31-05.09.06:869][229]LogSavePackage: Save=5.68ms
+[2017.03.31-05.09.06:869][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat16C6F5544F4751FEBB962158A4A0C4E0A1.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat16.uasset'
+[2017.03.31-05.09.06:871][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat16.uasset
+[2017.03.31-05.09.06:874][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat17" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat17.uasset" SILENT=true
+[2017.03.31-05.09.06:894][229]LogSavePackage: Save=5.63ms
+[2017.03.31-05.09.06:894][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat17D055DF464003A8284AD08585E44A85E7.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat17.uasset'
+[2017.03.31-05.09.06:896][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat17.uasset
+[2017.03.31-05.09.06:900][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat18" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat18.uasset" SILENT=true
+[2017.03.31-05.09.06:926][229]LogSavePackage: Save=5.52ms
+[2017.03.31-05.09.06:926][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat183D78803740529EFB7BBA1C8849184CF7.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat18.uasset'
+[2017.03.31-05.09.06:928][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat18.uasset
+[2017.03.31-05.09.06:931][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat19" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat19.uasset" SILENT=true
+[2017.03.31-05.09.06:955][229]LogSavePackage: Save=5.59ms
+[2017.03.31-05.09.06:955][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat19DBAAB9F645D709B5635484854B3F6DCB.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat19.uasset'
+[2017.03.31-05.09.06:956][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat19.uasset
+[2017.03.31-05.09.06:960][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat2.uasset" SILENT=true
+[2017.03.31-05.09.06:980][229]LogSavePackage: Save=5.62ms
+[2017.03.31-05.09.06:980][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat29F2DB8D3479D52073AD715BC6FF29465.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat2.uasset'
+[2017.03.31-05.09.06:982][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat2.uasset
+[2017.03.31-05.09.06:985][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat20" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat20.uasset" SILENT=true
+[2017.03.31-05.09.07:006][229]LogSavePackage: Save=5.54ms
+[2017.03.31-05.09.07:006][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat206C31D4DF40A73D051C810187720B01ED.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat20.uasset'
+[2017.03.31-05.09.07:008][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat20.uasset
+[2017.03.31-05.09.07:011][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat3" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat3.uasset" SILENT=true
+[2017.03.31-05.09.07:032][229]LogSavePackage: Save=5.88ms
+[2017.03.31-05.09.07:032][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat30CCBD6B84F6CBD3F6D8032BB2CE369F5.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat3.uasset'
+[2017.03.31-05.09.07:034][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat3.uasset
+[2017.03.31-05.09.07:038][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat4" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat4.uasset" SILENT=true
+[2017.03.31-05.09.07:060][229]LogSavePackage: Save=6.32ms
+[2017.03.31-05.09.07:060][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat43215509D47B981CB97186B9AF29F12AA.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat4.uasset'
+[2017.03.31-05.09.07:062][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat4.uasset
+[2017.03.31-05.09.07:065][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat40" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat40.uasset" SILENT=true
+[2017.03.31-05.09.07:086][229]LogSavePackage: Save=5.57ms
+[2017.03.31-05.09.07:086][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat40F157522E4E23697A985F28B7D524AC08.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat40.uasset'
+[2017.03.31-05.09.07:088][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat40.uasset
+[2017.03.31-05.09.07:091][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat42" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat42.uasset" SILENT=true
+[2017.03.31-05.09.07:115][229]LogSavePackage: Save=5.85ms
+[2017.03.31-05.09.07:115][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat42C6D666D2499BD21BAFB9178A1C2C9E00.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat42.uasset'
+[2017.03.31-05.09.07:117][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat42.uasset
+[2017.03.31-05.09.07:120][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat45" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat45.uasset" SILENT=true
+[2017.03.31-05.09.07:145][229]LogSavePackage: Save=6.92ms
+[2017.03.31-05.09.07:145][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat45C96122584A0D75EE13C891A1F707661A.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat45.uasset'
+[2017.03.31-05.09.07:147][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat45.uasset
+[2017.03.31-05.09.07:151][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat46" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat46.uasset" SILENT=true
+[2017.03.31-05.09.07:188][229]LogSavePackage: Save=9.17ms
+[2017.03.31-05.09.07:188][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat468D187F6E42303E2C8894C7A0C243E49E.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat46.uasset'
+[2017.03.31-05.09.07:200][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat46.uasset
+[2017.03.31-05.09.07:203][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat49" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat49.uasset" SILENT=true
+[2017.03.31-05.09.07:256][229]LogSavePackage: Save=25.77ms
+[2017.03.31-05.09.07:256][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat49D0B5FF4E4B785FAC4E06BEA5374DF202.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat49.uasset'
+[2017.03.31-05.09.07:258][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat49.uasset
+[2017.03.31-05.09.07:261][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat5" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat5.uasset" SILENT=true
+[2017.03.31-05.09.07:295][229]LogSavePackage: Save=7.20ms
+[2017.03.31-05.09.07:295][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat5B7FAD9294ABD8854958AB8A7055ABE7C.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat5.uasset'
+[2017.03.31-05.09.07:297][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat5.uasset
+[2017.03.31-05.09.07:300][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat6" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat6.uasset" SILENT=true
+[2017.03.31-05.09.07:331][229]LogSavePackage: Save=6.75ms
+[2017.03.31-05.09.07:331][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat62094FB3C453665B638B6A787FC368475.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat6.uasset'
+[2017.03.31-05.09.07:333][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat6.uasset
+[2017.03.31-05.09.07:337][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat70" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat70.uasset" SILENT=true
+[2017.03.31-05.09.07:360][229]LogSavePackage: Save=6.36ms
+[2017.03.31-05.09.07:360][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat70C1B5ACDF49CFB8B720D41DA2419AAC6E.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat70.uasset'
+[2017.03.31-05.09.07:362][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat70.uasset
+[2017.03.31-05.09.07:366][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat71" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat71.uasset" SILENT=true
+[2017.03.31-05.09.07:390][229]LogSavePackage: Save=6.44ms
+[2017.03.31-05.09.07:390][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat7142DDBBAB4FB90FEB2C96A4AF07A77786.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat71.uasset'
+[2017.03.31-05.09.07:392][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat71.uasset
+[2017.03.31-05.09.07:395][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat72" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat72.uasset" SILENT=true
+[2017.03.31-05.09.07:420][229]LogSavePackage: Save=7.39ms
+[2017.03.31-05.09.07:420][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat7221EFBAC3484A1A9F58FA2A89E5D523B7.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat72.uasset'
+[2017.03.31-05.09.07:422][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat72.uasset
+[2017.03.31-05.09.07:425][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat73" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat73.uasset" SILENT=true
+[2017.03.31-05.09.07:449][229]LogSavePackage: Save=6.02ms
+[2017.03.31-05.09.07:449][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat7386EC8DC549AD1289119C4CB3B8986F9E.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat73.uasset'
+[2017.03.31-05.09.07:451][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat73.uasset
+[2017.03.31-05.09.07:454][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat76" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat76.uasset" SILENT=true
+[2017.03.31-05.09.07:475][229]LogSavePackage: Save=5.65ms
+[2017.03.31-05.09.07:475][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat76C0AF5F0644ECC8C232794FB52A84C5A0.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat76.uasset'
+[2017.03.31-05.09.07:477][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat76.uasset
+[2017.03.31-05.09.07:479][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/estateCar/mat77" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat77.uasset" SILENT=true
+[2017.03.31-05.09.07:504][229]LogSavePackage: Save=5.31ms
+[2017.03.31-05.09.07:504][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/mat77E8BDC2FE4313BC6ABFA77CACDED60C39.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat77.uasset'
+[2017.03.31-05.09.07:505][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/estateCar/mat77.uasset
+[2017.03.31-05.09.07:535][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/swanCarNew" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/swanCarNew.uasset" SILENT=true
+[2017.03.31-05.09.08:020][229]LogSavePackage: Save=402.25ms
+[2017.03.31-05.09.08:020][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/swanCarNew66FB97A7457EAAA868479198C4D49116.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/swanCarNew.uasset'
+[2017.03.31-05.09.08:026][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/swanCarNew.uasset
+[2017.03.31-05.09.08:029][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/white_mat" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/white_mat.uasset" SILENT=true
+[2017.03.31-05.09.08:048][229]LogSavePackage: Save=5.84ms
+[2017.03.31-05.09.08:048][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/white_mat40DE835E4F75981829E6B699ECADE31D.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/white_mat.uasset'
+[2017.03.31-05.09.08:050][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/white_mat.uasset
+[2017.03.31-05.09.08:053][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/New_material_004" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_004.uasset" SILENT=true
+[2017.03.31-05.09.08:125][229]LogSavePackage: Save=57.17ms
+[2017.03.31-05.09.08:125][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/New_material_004059AFCBE4D9ABDFB3234E383B54F9719.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_004.uasset'
+[2017.03.31-05.09.08:126][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_004.uasset
+[2017.03.31-05.09.08:130][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/New_material_006" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006.uasset" SILENT=true
+[2017.03.31-05.09.08:151][229]LogSavePackage: Save=5.55ms
+[2017.03.31-05.09.08:151][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/New_material_00604F2C70248208060D02C5DB543A1B3D5.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006.uasset'
+[2017.03.31-05.09.08:152][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006.uasset
+[2017.03.31-05.09.08:159][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/New_material_006_001" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006_001.uasset" SILENT=true
+[2017.03.31-05.09.08:191][229]LogSavePackage: Save=15.46ms
+[2017.03.31-05.09.08:191][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/New_material_006_001016BA53B49E86E8210C98195796A6741.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006_001.uasset'
+[2017.03.31-05.09.08:193][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006_001.uasset
+[2017.03.31-05.09.08:196][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SwanCar/New_material_006_002" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006_002.uasset" SILENT=true
+[2017.03.31-05.09.08:217][229]LogSavePackage: Save=5.55ms
+[2017.03.31-05.09.08:217][229]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/New_material_006_0029439408A4B45E0BE22595BBCAFD0AC33.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006_002.uasset'
+[2017.03.31-05.09.08:218][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/SwanCar/New_material_006_002.uasset
+[2017.03.31-05.09.48:854][306]LogLinker:Warning: Can't find file '/Game/base_car/lambert1'
+[2017.03.31-05.09.48:854][306]LogLinker:Warning: Can't find file for asset '/Game/base_car/lambert1' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/defaultCar2_2.uasset.
+[2017.03.31-05.09.48:854][306]LoadErrors:Error: Error /Game/base_car/AIDefaultCar/defaultCar2_2 : Can't find file for asset. /Game/base_car/lambert1
+[2017.03.31-05.09.48:855][306]LogLinker:Warning: Can't find file '/Game/base_car/lambert1'
+[2017.03.31-05.09.48:855][306]LogLinker:Warning: Can't find file for asset '/Game/base_car/lambert1' while loading ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/defaultCar2_2.uasset.
+[2017.03.31-05.09.48:856][306]LogLinker:Warning: Can't find file '/Game/base_car/lambert1'
+[2017.03.31-05.09.48:856][306]LoadErrors: Info Failed to load /Game/base_car/lambert1.lambert1 Referenced by defaultCar2_2
+[2017.03.31-05.09.48:856][306]LogLinker:Warning: Can't find file for asset '/Game/base_car/lambert1' while loading NULL.
+[2017.03.31-05.09.49:189][306]LogMetaData: Removing '/Game/AIDefaultCar/CarWaypoint.CarWaypoint_C' ref from Metadata '/Game/base_car/AIDefaultCar/CarWaypoint.PackageMetaData'
+[2017.03.31-05.09.49:189][306]LogMetaData: Removing '/Game/AIDefaultCar/CarWaypoint.CarWaypoint_C:Next' ref from Metadata '/Game/base_car/AIDefaultCar/CarWaypoint.PackageMetaData'
+[2017.03.31-05.09.49:189][306]LogMetaData: Removing '/Game/AIDefaultCar/CarWaypoint.CarWaypoint_C:Prev' ref from Metadata '/Game/base_car/AIDefaultCar/CarWaypoint.PackageMetaData'
+[2017.03.31-05.09.49:189][306]LogMetaData: Removing '/Game/AIDefaultCar/CarWaypoint.CarWaypoint_C:UserConstructionScript' ref from Metadata '/Game/base_car/AIDefaultCar/CarWaypoint.PackageMetaData'
+[2017.03.31-05.09.49:189][306]LogMetaData: Removing '/Game/AIDefaultCar/CarWaypoint.SKEL_CarWaypoint_C' ref from Metadata '/Game/base_car/AIDefaultCar/CarWaypoint.PackageMetaData'
+[2017.03.31-05.09.49:189][306]LogMetaData: Removing '/Game/AIDefaultCar/CarWaypoint.SKEL_CarWaypoint_C:Prev' ref from Metadata '/Game/base_car/AIDefaultCar/CarWaypoint.PackageMetaData'
+[2017.03.31-05.09.49:189][306]LogMetaData: Removing '/Game/AIDefaultCar/CarWaypoint.SKEL_CarWaypoint_C:Next' ref from Metadata '/Game/base_car/AIDefaultCar/CarWaypoint.PackageMetaData'
+[2017.03.31-05.09.49:189][306]LogMetaData: Removing '/Game/AIDefaultCar/CarWaypoint.SKEL_CarWaypoint_C:UserConstructionScript' ref from Metadata '/Game/base_car/AIDefaultCar/CarWaypoint.PackageMetaData'
+[2017.03.31-05.09.49:239][306]LogMetaData: Removing '/Game/AIDefaultCar/BTT_Move.BTT_Move_C' ref from Metadata '/Game/base_car/AIDefaultCar/BTT_Move.PackageMetaData'
+[2017.03.31-05.09.49:239][306]LogMetaData: Removing '/Game/AIDefaultCar/BTT_Move.BTT_Move_C:ExecuteUbergraph_BTT_Move' ref from Metadata '/Game/base_car/AIDefaultCar/BTT_Move.PackageMetaData'
+[2017.03.31-05.09.49:239][306]LogMetaData: Removing '/Game/AIDefaultCar/BTT_Move.BTT_Move_C:ReceiveExecute' ref from Metadata '/Game/base_car/AIDefaultCar/BTT_Move.PackageMetaData'
+[2017.03.31-05.09.49:239][306]LogMetaData: Removing '/Game/AIDefaultCar/BTT_Move.BTT_Move_C:Route' ref from Metadata '/Game/base_car/AIDefaultCar/BTT_Move.PackageMetaData'
+[2017.03.31-05.09.49:239][306]LogMetaData: Removing '/Game/AIDefaultCar/BTT_Move.SKEL_BTT_Move_C:Route' ref from Metadata '/Game/base_car/AIDefaultCar/BTT_Move.PackageMetaData'
+[2017.03.31-05.09.49:239][306]LogMetaData: Removing '/Game/AIDefaultCar/BTT_Move.SKEL_BTT_Move_C:ReceiveExecute' ref from Metadata '/Game/base_car/AIDefaultCar/BTT_Move.PackageMetaData'
+[2017.03.31-05.09.49:239][306]LogMetaData: Removing '/Game/AIDefaultCar/BTT_Move.SKEL_BTT_Move_C:ExecuteUbergraph_BTT_Move' ref from Metadata '/Game/base_car/AIDefaultCar/BTT_Move.PackageMetaData'
+[2017.03.31-05.09.49:239][306]LogMetaData: Removing '/Game/AIDefaultCar/BTT_Move.SKEL_BTT_Move_C' ref from Metadata '/Game/base_car/AIDefaultCar/BTT_Move.PackageMetaData'
+[2017.03.31-05.09.49:283][306]LogMetaData: Removing '/Game/AIDefaultCar/AI_Run.AI_Run:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/base_car/AIDefaultCar/AI_Run.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.CarController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.CarController_C' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.CarController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.CarController_C:ExecuteUbergraph_CarController' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.CarController_C:UserConstructionScript' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.CarController_C:ReceiveBeginPlay' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.SKEL_CarController_C:ReceiveBeginPlay' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.SKEL_CarController_C:UserConstructionScript' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.SKEL_CarController_C:ExecuteUbergraph_CarController' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:327][306]LogMetaData: Removing '/Game/AIDefaultCar/CarController.SKEL_CarController_C' ref from Metadata '/Game/base_car/AIDefaultCar/CarController.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.BTD_Update_C' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.BTD_Update:PerformConditionCheck.K2Node_FunctionEntry_0' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.BTD_Update:PerformConditionCheck.K2Node_FunctionResult_0' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.BTD_Update_C:ExecuteUbergraph_BTD_Update' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.BTD_Update_C:PerformConditionCheck' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.BTD_Update_C:ReceiveExecutionFinish' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.BTD_Update_C:Waypoint' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.SKEL_BTD_Update_C:Waypoint' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.SKEL_BTD_Update_C:ReceiveExecutionFinish' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.SKEL_BTD_Update_C:PerformConditionCheck' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.SKEL_BTD_Update_C:ExecuteUbergraph_BTD_Update' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:399][306]LogMetaData: Removing '/Game/AIDefaultCar/BTD_Update.SKEL_BTD_Update_C' ref from Metadata '/Game/base_car/AIDefaultCar/BTD_Update.PackageMetaData'
+[2017.03.31-05.09.49:488][306]LogMetaData: Removing '/Game/AIDefaultCar/AICarMovementState.AICarMovementState' ref from Metadata '/Game/base_car/AIDefaultCar/AICarMovementState.PackageMetaData'
+[2017.03.31-05.09.49:531][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:531][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar:UpdateMovement.K2Node_FunctionEntry_7' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:531][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar:MoveToLocation.K2Node_FunctionEntry_6' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:531][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar:MoveCompleted.K2Node_FunctionEntry_8' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:InpAxisEvt_Forward_K2Node_InputAxisEvent_4' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:InpAxisEvt_Right_K2Node_InputAxisEvent_6' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:ExecuteUbergraph_AICar' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:UserConstructionScript' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:ReceiveBeginPlay' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:TargetCom' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:Rolling Stop' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:Destination' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:Distance' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:Started' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:State' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:MoveCompleted' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:AI Health' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:AIHealthVal' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:OurLocation' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.AICar_C:OurRotation' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:OurRotation' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:OurLocation' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:AIHealthVal' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:AI Health' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:MoveCompleted' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:State' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:Started' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:Distance' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:Destination' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:Rolling Stop' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:TargetCom' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:ReceiveBeginPlay' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:UserConstructionScript' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:ExecuteUbergraph_AICar' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:InpAxisEvt_Right_K2Node_InputAxisEvent_6' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C:InpAxisEvt_Forward_K2Node_InputAxisEvent_4' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:532][306]LogMetaData: Removing '/Game/AIDefaultCar/AICar.SKEL_AICar_C' ref from Metadata '/Game/base_car/AIDefaultCar/AICar.PackageMetaData'
+[2017.03.31-05.09.49:609][306]LogMetaData: Removing '/Game/AIDefaultCar/defaultBW_2.defaultBW_2_C' ref from Metadata '/Game/base_car/AIDefaultCar/defaultBW_2.PackageMetaData'
+[2017.03.31-05.09.49:609][306]LogMetaData: Removing '/Game/AIDefaultCar/defaultBW_2.SKEL_defaultBW_2_C' ref from Metadata '/Game/base_car/AIDefaultCar/defaultBW_2.PackageMetaData'
+[2017.03.31-05.09.49:787][306]LogMetaData: Removing '/Game/AIDefaultCar/defaultCarABP_2.defaultCarABP_2_C' ref from Metadata '/Game/base_car/AIDefaultCar/defaultCarABP_2.PackageMetaData'
+[2017.03.31-05.09.49:787][306]LogMetaData: Removing '/Game/AIDefaultCar/defaultCarABP_2.defaultCarABP_2_C:ExecuteUbergraph_defaultCarABP_2' ref from Metadata '/Game/base_car/AIDefaultCar/defaultCarABP_2.PackageMetaData'
+[2017.03.31-05.09.49:787][306]LogMetaData: Removing '/Game/AIDefaultCar/defaultCarABP_2.SKEL_defaultCarABP_2_C:ExecuteUbergraph_defaultCarABP_2' ref from Metadata '/Game/base_car/AIDefaultCar/defaultCarABP_2.PackageMetaData'
+[2017.03.31-05.09.49:787][306]LogMetaData: Removing '/Game/AIDefaultCar/defaultCarABP_2.SKEL_defaultCarABP_2_C' ref from Metadata '/Game/base_car/AIDefaultCar/defaultCarABP_2.PackageMetaData'
+[2017.03.31-05.09.49:832][306]LogMetaData: Removing '/Game/AIDefaultCar/defaultFW_2.defaultFW_2_C' ref from Metadata '/Game/base_car/AIDefaultCar/defaultFW_2.PackageMetaData'
+[2017.03.31-05.09.49:832][306]LogMetaData: Removing '/Game/AIDefaultCar/defaultFW_2.SKEL_defaultFW_2_C' ref from Metadata '/Game/base_car/AIDefaultCar/defaultFW_2.PackageMetaData'
+[2017.03.31-05.09.49:907][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/CarWaypoint" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/CarWaypoint.uasset" SILENT=true
+[2017.03.31-05.09.49:936][306]LogSavePackage: Save=26.71ms
+[2017.03.31-05.09.49:936][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/CarWaypoint483A2E85489D96F9F68A7C9FEE219FCB.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/CarWaypoint.uasset'
+[2017.03.31-05.09.49:939][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/CarWaypoint.uasset
+[2017.03.31-05.09.49:942][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/BTT_Move" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/BTT_Move.uasset" SILENT=true
+[2017.03.31-05.09.49:967][306]LogSavePackage: Save=22.61ms
+[2017.03.31-05.09.49:967][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/BTT_Move3FA3323046281248F95E00AF8A5DFBC8.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/BTT_Move.uasset'
+[2017.03.31-05.09.49:970][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/BTT_Move.uasset
+[2017.03.31-05.09.49:973][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/AI_Run" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AI_Run.uasset" SILENT=true
+[2017.03.31-05.09.50:020][306]LogSavePackage: Save=44.81ms
+[2017.03.31-05.09.50:020][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/AI_Run027673564EA1BF66F73FD396587A34EE.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AI_Run.uasset'
+[2017.03.31-05.09.50:023][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AI_Run.uasset
+[2017.03.31-05.09.50:026][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/CarController" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/CarController.uasset" SILENT=true
+[2017.03.31-05.09.50:045][306]LogSavePackage: Save=16.83ms
+[2017.03.31-05.09.50:045][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/CarControllerF64686794DE41B312DA6A19A73516F2F.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/CarController.uasset'
+[2017.03.31-05.09.50:048][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/CarController.uasset
+[2017.03.31-05.09.50:053][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_car/AIDefaultCar/CarController" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/CarController.uasset" SILENT=true
+[2017.03.31-05.09.50:086][306]LogSavePackage: Save=9.59ms
+[2017.03.31-05.09.50:086][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/CarControllerE6F7F65741ED876D74C271AD10687792.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/CarController.uasset'
+[2017.03.31-05.09.50:090][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/CarController.uasset
+[2017.03.31-05.09.50:093][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/BTD_Update" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/BTD_Update.uasset" SILENT=true
+[2017.03.31-05.09.50:115][306]LogSavePackage: Save=20.31ms
+[2017.03.31-05.09.50:115][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/BTD_UpdateD0337FA34605921048A7E2A25192BAAF.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/BTD_Update.uasset'
+[2017.03.31-05.09.50:118][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/BTD_Update.uasset
+[2017.03.31-05.09.50:121][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/AI_CarData" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AI_CarData.uasset" SILENT=true
+[2017.03.31-05.09.50:129][306]LogSavePackage: Save=5.63ms
+[2017.03.31-05.09.50:129][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/AI_CarData8380C27C48F201F5472B5AB93DB3A13C.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AI_CarData.uasset'
+[2017.03.31-05.09.50:132][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AI_CarData.uasset
+[2017.03.31-05.09.50:135][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/AICarMovementState" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AICarMovementState.uasset" SILENT=true
+[2017.03.31-05.09.50:142][306]LogSavePackage: Save=5.08ms
+[2017.03.31-05.09.50:142][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/AICarMovementState2E6CA4E5414B75A86C2F958434BBFA1C.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AICarMovementState.uasset'
+[2017.03.31-05.09.50:144][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AICarMovementState.uasset
+[2017.03.31-05.09.50:169][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/AICar" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AICar.uasset" SILENT=true
+[2017.03.31-05.09.50:300][306]LogSavePackage: Save=128.86ms
+[2017.03.31-05.09.50:300][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/AICarB8E1A8CB4B240CEAE376759602E51A46.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AICar.uasset'
+[2017.03.31-05.09.50:303][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/AICar.uasset
+[2017.03.31-05.09.50:308][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_car/AIDefaultCar/AICar" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset" SILENT=true
+[2017.03.31-05.09.50:344][306]LogSavePackage: Save=19.18ms
+[2017.03.31-05.09.50:344][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/AICar9C8B23A2432D53DB349A34AA890BD851.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset'
+[2017.03.31-05.09.50:348][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset
+[2017.03.31-05.09.50:351][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/defaultBW_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultBW_2.uasset" SILENT=true
+[2017.03.31-05.09.50:359][306]LogSavePackage: Save=6.65ms
+[2017.03.31-05.09.50:359][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultBW_2481D0EE24EA9A347F081DBA9A2E0F45E.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultBW_2.uasset'
+[2017.03.31-05.09.50:362][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultBW_2.uasset
+[2017.03.31-05.09.50:387][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/defaultCar2_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset" SILENT=true
+[2017.03.31-05.09.50:647][306]LogSavePackage: Save=258.56ms
+[2017.03.31-05.09.50:647][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCar2_269EC61C64C8E2A7141488CAECB380E7B.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset'
+[2017.03.31-05.09.50:652][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset
+[2017.03.31-05.09.50:654][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/defaultCar2_PhysicsAsset_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_PhysicsAsset_2.uasset" SILENT=true
+[2017.03.31-05.09.50:666][306]LogSavePackage: Save=9.11ms
+[2017.03.31-05.09.50:666][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCar2_PhysicsAsset_2086459E242B91DCE3814A2B49D79CB60.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_PhysicsAsset_2.uasset'
+[2017.03.31-05.09.50:670][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_PhysicsAsset_2.uasset
+[2017.03.31-05.09.50:673][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/defaultCar2_Skeleton_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_Skeleton_2.uasset" SILENT=true
+[2017.03.31-05.09.50:681][306]LogSavePackage: Save=6.03ms
+[2017.03.31-05.09.50:681][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCar2_Skeleton_299AD37254E3110A4AA97FF8229BAD9DD.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_Skeleton_2.uasset'
+[2017.03.31-05.09.50:685][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_Skeleton_2.uasset
+[2017.03.31-05.09.50:720][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/defaultCarABP_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCarABP_2.uasset" SILENT=true
+[2017.03.31-05.09.50:746][306]LogSavePackage: Save=23.25ms
+[2017.03.31-05.09.50:746][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCarABP_2EBFB1A554E1928E7CC410DB7ABA40E35.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCarABP_2.uasset'
+[2017.03.31-05.09.50:749][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCarABP_2.uasset
+[2017.03.31-05.09.50:752][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/defaultFW_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultFW_2.uasset" SILENT=true
+[2017.03.31-05.09.50:763][306]LogSavePackage: Save=7.79ms
+[2017.03.31-05.09.50:763][306]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultFW_272AC02CE427A14C50BD1F0B85DE02810.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultFW_2.uasset'
+[2017.03.31-05.09.50:766][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultFW_2.uasset
+[2017.03.31-05.10.06:605][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretAI/BaseTurret" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/TurretAI/BaseTurret.uasset" SILENT=true
+[2017.03.31-05.10.06:848][532]LogSavePackage: Save=211.99ms
+[2017.03.31-05.10.06:848][532]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/BaseTurret449BEFCC49393F34AAFB7D829A875579.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/TurretAI/BaseTurret.uasset'
+[2017.03.31-05.10.06:851][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/TurretAI/BaseTurret.uasset
+[2017.03.31-05.10.06:854][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGame" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Blueprints/MyGame.uasset" SILENT=true
+[2017.03.31-05.10.06:892][532]LogSavePackage: Save=18.24ms
+[2017.03.31-05.10.06:892][532]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/MyGameD904EAB34949DDA5611AE087B6C47EFD.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Blueprints/MyGame.uasset'
+[2017.03.31-05.10.06:894][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Blueprints/MyGame.uasset
+[2017.03.31-05.10.06:920][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/turret/turret_top_BP" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_top_BP.uasset" SILENT=true
+[2017.03.31-05.10.07:037][532]LogSavePackage: Save=96.27ms
+[2017.03.31-05.10.07:037][532]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/turret_top_BP39119F4242A61B7F730332920B650AAF.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_top_BP.uasset'
+[2017.03.31-05.10.07:040][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/turret/turret_top_BP.uasset
+[2017.03.31-05.10.07:150][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/demolitionLevel" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/demolitionLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.31-05.10.07:319][532]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: demolitionLevel, Actor: /Game/Level/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel_C_1
+[2017.03.31-05.10.07:992][532]LogSavePackage: Save=764.68ms
+[2017.03.31-05.10.07:992][532]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/demolitionLevel6BE882F94441BB631A00CFAB2CEF2EC9.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/demolitionLevel.umap'
+[2017.03.31-05.10.07:997][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/demolitionLevel.umap
+[2017.03.31-05.10.08:039][532]LogFileHelpers: Saving map 'demolitionLevel' took 0.995
+[2017.03.31-05.10.08:167][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/RTTH" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/RTTH.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.31-05.10.08:457][532]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: RTTH, Actor: /Game/Level/RTTH.RTTH:PersistentLevel.RTTH_C_0
+[2017.03.31-05.10.09:681][532]LogSavePackage: Save=1386.47ms
+[2017.03.31-05.10.09:681][532]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/RTTH32CD3D814B9D595FBAF5D6BF4A9DEB1D.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/RTTH.umap'
+[2017.03.31-05.10.09:686][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Level/RTTH.umap
+[2017.03.31-05.10.09:745][532]LogFileHelpers: Saving map 'RTTH' took 1.704
+[2017.03.31-05.10.44:896][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Chrome" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Chrome.uasset" SILENT=true
+[2017.03.31-05.10.44:915][678]LogSavePackage: Save=16.45ms
+[2017.03.31-05.10.44:915][678]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/Chrome14E43C6544F9037DDC13AF89B0FFF94B.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Chrome.uasset'
+[2017.03.31-05.10.44:919][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Chrome.uasset
+[2017.03.31-05.10.45:172][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_car/defaultCar2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset" SILENT=true
+[2017.03.31-05.10.45:439][678]LogSavePackage: Save=191.58ms
+[2017.03.31-05.10.45:439][678]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCar2ED334E504E72D24CD7D57DA0B43D4D0B.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset'
+[2017.03.31-05.10.45:443][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset
+[2017.03.31-05.10.45:446][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/defaultCar2_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset" SILENT=true
+[2017.03.31-05.10.45:669][678]LogSavePackage: Save=178.30ms
+[2017.03.31-05.10.45:669][678]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCar2_2756179AB4758BD45DF8927B7D5DCCBF6.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset'
+[2017.03.31-05.10.45:672][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset
+[2017.03.31-05.10.48:983][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Rubber_001" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Rubber_001.uasset" SILENT=true
+[2017.03.31-05.10.49:003][ 15]LogSavePackage: Save=17.58ms
+[2017.03.31-05.10.49:003][ 15]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/Rubber_0015A51CF5A4C1ECFE80DA660808CD20283.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Rubber_001.uasset'
+[2017.03.31-05.10.49:007][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/Textures/Rubber_001.uasset
+[2017.03.31-05.10.49:256][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_car/defaultCar2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset" SILENT=true
+[2017.03.31-05.10.49:432][ 15]LogSavePackage: Save=165.64ms
+[2017.03.31-05.10.49:432][ 15]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCar2B99B228D4C7FBD4C6F66469AE5475F08.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset'
+[2017.03.31-05.10.49:436][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset
+[2017.03.31-05.10.49:438][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIDefaultCar/defaultCar2_2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset" SILENT=true
+[2017.03.31-05.10.49:615][ 15]LogSavePackage: Save=166.17ms
+[2017.03.31-05.10.49:615][ 15]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCar2_25C936C824CF7675F29BDBF8746A83BC3.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset'
+[2017.03.31-05.10.49:619][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/AIDefaultCar/defaultCar2_2.uasset
+[2017.03.31-05.10.55:732][313]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.03.31-05.10.56:504][313]LogRenderer: Reallocating scene render targets to support 1144x888 NumSamples 1 (Frame:22229).
+[2017.03.31-05.11.09:677][997]LogMaterial:Warning: Material /Game/Characters/vertexColor.vertexColor needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.31-05.11.09:705][997]LogMaterial: Missing cached shader map for material vertexColor, compiling. 
+[2017.03.31-05.11.09:750][997]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.31-05.12.37:385][370]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Concrete_Grime.M_Concrete_Grime needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.31-05.12.37:442][370]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2017.03.31-05.12.37:512][370]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.31-05.12.43:439][685]LogMaterial:Warning: Material /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.31-05.12.43:465][685]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2017.03.31-05.12.43:544][685]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.31-05.13.01:160][704]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Metal_Rust.M_Metal_Rust needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.31-05.13.01:194][704]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2017.03.31-05.13.01:257][704]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.31-05.13.12:144][232]LogMaterial:Warning: Material /Game/StarterContent/Props/Materials/M_Rock.M_Rock needed to have new flag set bUsedWithSkeletalMesh !
+[2017.03.31-05.13.12:193][232]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2017.03.31-05.13.12:243][232]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.31-05.14.01:391][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/base_car/defaultCar2" FILE="../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset" SILENT=true
+[2017.03.31-05.14.01:598][208]LogSavePackage: Save=195.95ms
+[2017.03.31-05.14.01:598][208]LogSavePackage: Moving '../../../../../../Users/Sean/Desktop/vehicleTest/Saved/defaultCar2D3D6E90D440F5510881514848A11A706.tmp' to '../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset'
+[2017.03.31-05.14.01:605][208]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sean/Desktop/vehicleTest/Content/base_car/defaultCar2.uasset
+[2017.03.31-05.14.08:287][597]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 111 classes and 0 folders.
+[2017.03.31-05.16.02:330][201]LogMaterial: Missing cached shader map for material blue_mat, compiling. 
+[2017.03.31-05.16.02:345][201]LogMaterial:Warning: Failed to compile Material /Game/Textures/blue_mat.blue_mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.31-05.16.02:345][201]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.31-05.16.02:358][201]LogMaterial: Missing cached shader map for material blue_mat, compiling. 
+[2017.03.31-05.16.02:359][201]LogMaterial:Warning: Failed to compile Material /Game/Textures/blue_mat.blue_mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.31-05.16.02:359][201]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.31-05.16.02:479][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MovementComp' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:480][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'VehicleMesh' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:480][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_estateWagonBP_C_1' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:482][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_estateWagonBP_C_0' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:482][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_estateWagonABP_C_3' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_estateWagonABP_C_2' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_estateRW_C_5' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_estateRW_C_4' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_estateFW_C_7' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_estateFW_C_6' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_estateFW_C_256' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_estateFW_C_255' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_estateRW_C_254' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_estateRW_C_253' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_estateWagonABP_C_9' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_estateWagonABP_C_8' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:483][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_estateWagonBP_C_252' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:484][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MovementComp' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:484][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'VehicleMesh' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:484][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'estateWagonABP_C_1' or package '/Engine/Transient'.
+[2017.03.31-05.16.02:484][201]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.

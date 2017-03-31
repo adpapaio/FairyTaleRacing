@@ -1,0 +1,650 @@
+﻿Log file open, 03/01/17 16:36:54
+LogInit:Display: Running engine for game: vehicleTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1299191273) SRandInit(1299191273).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088358
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogFileManager:Warning: Error deleting file: ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Logs/vehicleTest-backup-2017.03.01-04.25.58.log (Error Code 5)
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.01-21.36.56:610][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-21.36.56:610][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.01-21.36.57:752][  0]LogInit: Computer: LENOVO-PC
+[2017.03.01-21.36.57:752][  0]LogInit: User: Luke
+[2017.03.01-21.36.57:752][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.01-21.36.57:752][  0]LogInit: High frequency timer resolution =2.533205 MHz
+[2017.03.01-21.36.57:753][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.01-21.36.57:753][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.01-21.36.57:753][  0]LogMemory: Process Physical Memory: 263.50 MB used, 263.50 MB peak
+[2017.03.01-21.36.57:753][  0]LogMemory: Process Virtual Memory: 262.79 MB used, 262.79 MB peak
+[2017.03.01-21.36.57:753][  0]LogMemory: Physical Memory: 5652.42 MB used,  10643.85 MB free, 16296.27 MB total
+[2017.03.01-21.36.57:753][  0]LogMemory: Virtual Memory: 676.42 MB used,  10643.85 MB free, 134217728.00 MB total
+[2017.03.01-21.36.59:074][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.01-21.37.05:456][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.01-21.37.05:499][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.03.01-21.37.05:499][  0]LogD3D11RHI:       4064/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.01-21.37.05:529][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.01-21.37.05:529][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.01-21.37.05:531][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.01-21.37.05:531][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.01-21.37.05:531][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.01-21.37.05:542][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.01-21.37.05:542][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.03.01-21.37.05:542][  0]LogWindows: EnumDisplayDevices:
+[2017.03.01-21.37.05:542][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.03.01-21.37.05:543][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.01-21.37.05:543][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.01-21.37.05:543][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.01-21.37.05:543][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.03.01-21.37.05:543][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.01-21.37.05:543][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.01-21.37.05:547][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.01-21.37.05:564][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.01-21.37.06:085][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.01-21.37.06:254][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/Shaders/WorkingDirectory/23280/).
+[2017.03.01-21.37.06:255][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luke/AppData/Local/Temp/UnrealShaderWorkingDir/BEB85B97499524C2A68792B6CE74F043/'.
+[2017.03.01-21.37.06:266][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.01-21.37.12:676][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.01-21.37.12:745][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.01-21.37.12:810][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.01-21.37.12:875][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.01-21.37.12:993][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.01-21.37.13:059][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.01-21.37.13:124][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.01-21.37.13:190][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.01-21.37.13:245][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.01-21.37.13:346][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.01-21.37.13:446][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.01-21.37.13:563][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.01-21.37.13:683][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.01-21.37.13:781][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.01-21.37.13:879][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.01-21.37.14:113][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.01-21.37.14:113][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.01-21.37.14:160][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.01-21.37.14:379][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.01-21.37.14:415][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.01-21.37.14:478][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.01-21.37.14:539][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.01-21.37.14:600][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.01-21.37.14:686][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.01-21.37.14:686][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.01-21.37.16:497][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.01-21.37.17:150][  0]LogDerivedDataCache: Loaded boot cache 0.65s 50MB C:/Users/Luke/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.01-21.37.17:150][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Luke/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.01-21.37.17:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.01-21.37.17:150][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.01-21.37.17:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.01-21.37.17:150][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.01-21.37.17:273][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.01-21.37.17:288][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.01-21.37.32:205][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.01-21.37.32:464][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.01-21.37.33:748][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.01-21.37.33:953][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.01-21.37.34:122][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.01-21.37.34:122][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.01-21.37.34:122][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.01-21.37.37:430][  0]LogConfig:Warning: Failed to saved backup for config[TemplateDefs]
+[2017.03.01-21.37.43:094][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
+[2017.03.01-21.37.43:408][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.03.01-21.37.43:680][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/5a627529.bin
+[2017.03.01-21.37.43:696][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.44:196][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.44:696][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.45:197][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.45:697][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.46:198][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.46:699][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.47:200][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.47:700][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.48:201][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin', retrying in .5s...
+[2017.03.01-21.37.48:702][  0]LogFileManager:Error: Error moving file '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Intermediate/AssetRegistryCache/1d5167fa.bin'.
+[2017.03.01-21.37.48:753][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 5.097868 seconds
+[2017.03.01-21.37.48:765][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.01-21.37.48:765][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.03.01-21.37.48:765][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.01-21.37.48:841][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.01-21.37.53:790][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.01-21.37.53:867][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-21.37.53:867][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.01-21.38.42:533][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.01-21.38.43:140][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.01-21.38.50:349][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.01-21.38.54:931][  0]SourceControl: Info Source control is disabled
+[2017.03.01-21.38.55:919][  0]SourceControl: Info Source control is disabled
+[2017.03.01-21.38.56:335][  0]SourceControl: Info Source control is disabled
+[2017.03.01-21.38.56:469][  0]SourceControl: Info Source control is disabled
+[2017.03.01-21.39.03:192][  0]LogEngine: Initializing Engine...
+[2017.03.01-21.39.03:242][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.01-21.39.04:936][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.01-21.39.05:611][  0]LogInit: XAudio2 using 'SAMSUNG (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-21.39.05:837][  0]LogInit: FAudioDevice initialized.
+[2017.03.01-21.39.05:897][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Luke/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.01-21.39.05:904][  0]LogInit: Texture streaming: Enabled
+[2017.03.01-21.39.09:350][  0]LogInit: Transaction tracking system initialized
+[2017.03.01-21.39.10:671][  0]BlueprintLog: New page: Editor Load
+[2017.03.01-21.39.15:362][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2017.03.01-21.39.15:366][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2017.03.01-21.39.15:367][  0]LocalizationService: Info Localization service is disabled
+[2017.03.01-21.39.17:796][  0]LogConsoleResponse:Display: 
+[2017.03.01-21.39.19:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/' took 0.03s
+[2017.03.01-21.39.19:795][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.01-21.39.19:806][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.01-21.39.23:984][  0]SourceControl: Info Source control is disabled
+[2017.03.01-21.39.24:055][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/SwanCar/demolitionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.01-21.39.24:093][  0]LightingResults: New page: Lighting Build
+[2017.03.01-21.39.24:570][  0]MapCheck: New page: Map Check
+[2017.03.01-21.39.24:570][  0]LightingResults: New page: Lighting Build
+[2017.03.01-21.39.29:004][  0]LogMaterial: Missing cached shader map for material Rubber_001, compiling. 
+[2017.03.01-21.39.29:872][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.03.01-21.39.29:902][  0]LogMaterial: Missing cached shader map for material Chrome, compiling. 
+[2017.03.01-21.39.29:933][  0]LogMaterial: Missing cached shader map for material red_mat, compiling. 
+[2017.03.01-21.39.31:974][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.01-21.39.31:976][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.01-21.39.31:977][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.01-21.39.31:978][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.01-21.39.31:979][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.03.01-21.39.31:980][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2017.03.01-21.39.31:991][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Luke/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/5/PHYSX_E0ABF0F6AB54442DB426ADA8972E7237_PHYSXPC_43D53E3D43C23801AD2236AFDB89BDDE__1_0_0_0_13315_0.udd.
+[2017.03.01-21.39.31:991][  0]LogMaterial: Missing cached shader map for material fancy_mat, compiling. 
+[2017.03.01-21.39.32:144][  0]LogTexture:Display: Building textures: T_Smoke_Tiled_D (AutoDXT)
+[2017.03.01-21.39.32:509][  0]LogTexture:Display: Building textures: T_Smoke_SubUV (AutoDXT)
+[2017.03.01-21.39.35:617][  0]LogTexture:Display: Building textures: T_Explosion_SubUV (AutoDXT)
+[2017.03.01-21.39.37:031][  0]LogTexture:Display: Building textures: T_Burst_M (AutoDXT)
+[2017.03.01-21.39.37:148][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.03.01-21.39.37:284][  0]LogMaterial: Missing cached shader map for material def_surf_mat, compiling. 
+[2017.03.01-21.39.37:351][  0]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.01-21.39.42:767][  0]LogEditorServer: Finished looking for orphan Actors (0.009 secs)
+[2017.03.01-21.39.43:093][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.01-21.39.43:411][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 313.005ms to complete.
+[2017.03.01-21.39.43:412][  0]LogFileHelpers: Loading map 'demolitionLevel' took 19.363
+[2017.03.01-21.39.48:268][  0]LogCollectionManager: Loaded 1 collections in 0.007678 seconds
+[2017.03.01-21.39.50:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Collections/' took 0.01s
+[2017.03.01-21.39.50:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Developers/Luke/Collections/' took 0.01s
+[2017.03.01-21.39.50:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/Collections/' took 0.01s
+[2017.03.01-21.39.50:715][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000006 seconds
+[2017.03.01-21.39.50:715][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000002 seconds
+[2017.03.01-21.39.51:362][  0]LogContentBrowser: Native class hierarchy populated in 0.1650 seconds. Added 2190 classes and 428 folders.
+[2017.03.01-21.39.51:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.01-21.39.51:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.01-21.39.51:754][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0013 seconds. Added 13 classes and 0 folders.
+[2017.03.01-21.39.51:979][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.03.01-21.39.53:674][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.03.01-21.39.53:990][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.03.01-21.39.55:483][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.01-21.39.58:337][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.03.01-21.39.58:337][  0]LogLoad: (Engine Initialization) Total time: 186.99 seconds
+[2017.03.01-21.39.58:337][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.83 seconds
+[2017.03.01-21.39.58:358][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.01-21.39.58:358][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.01-21.39.58:920][  0]LogOcInput: OculusInput pre-init called
+[2017.03.01-21.40.00:556][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.01-21.40.04:199][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.03.01-21.40.15:315][  5]LogAudioDerivedData:Display: Building compressed audio format OGG wave gun-gunshot-02...
+[2017.03.01-21.40.15:575][  6]LogAssetRegistry: Asset discovery search completed in 152.1892 seconds
+[2017.03.01-21.40.15:575][  6]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000011 seconds (found 0 objects)
+[2017.03.01-21.40.15:575][  6]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000038 seconds (updated 0 objects)
+[2017.03.01-21.57.09:766][586]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.01-21.57.09:793][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.01-21.57.09:793][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.01-21.57.09:793][586]PIE: New page: PIE session: demolitionLevel (Mar 1, 2017, 11:57:09 AM)
+[2017.03.01-21.57.09:793][586]LogPlayLevel: Creating play world package: /Game/SwanCar/UEDPIE_0_demolitionLevel
+[2017.03.01-21.57.10:544][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.751052s)
+[2017.03.01-21.57.10:545][586]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.03.01-21.57.10:545][586]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2017.03.01-21.57.10:545][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SwanCar/demolitionLevel.demolitionLevel to /Game/SwanCar/UEDPIE_0_demolitionLevel.demolitionLevel (0.752212s)
+[2017.03.01-21.57.10:572][586]LogInit: XAudio2 using 'SAMSUNG (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.01-21.57.10:582][586]LogInit: FAudioDevice initialized.
+[2017.03.01-21.57.10:630][586]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.03.01-21.57.10:640][586]LogWorld: Bringing World /Game/SwanCar/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.03.01-16.57.10
+[2017.03.01-21.57.10:644][586]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	turret_top_BP_C /Game/SwanCar/UEDPIE_0_demolitionLevel.demolitionLevel:PersistentLevel.turret_top_BP_1162
+	Function /Game/turret/turret_top_BP.turret_top_BP_C:ExecuteUbergraph_turret_top_BP:0CEA
+[2017.03.01-21.57.10:644][586]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'ExecuteUbergraph_turret_top_BP' from node: Set YRot in graph: EventGraph in object: turret_top_BP with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2017.03.01-21.57.10:644][586]LogWorld: Bringing up level for play took: 0.011959
+[2017.03.01-21.57.10:715][586]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.03.01-21.57.10:717][586]PIE: Info Play in editor start time for /Game/SwanCar/UEDPIE_0_demolitionLevel 0.716
+[2017.03.01-21.57.10:718][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.01-21.58.00:738][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.01-21.58.00:912][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/SwanCar/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/SwanCar/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.03.01-21.59.40:240][810]LogMaterial: Missing cached shader map for material Rubber_001, compiling. 
+[2017.03.01-21.59.40:440][810]LogMaterial: Missing cached shader map for material Chrome, compiling. 
+[2017.03.01-21.59.42:506][810]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.03.01-21.59.59:871][464]Cmd: EDIT CUT
+[2017.03.01-22.00.00:388][464]LogEditorActor: Deleted Actor: Brush
+[2017.03.01-22.00.00:504][464]LogEditorActor: Deleted 1 Actors (0.148 secs)
+[2017.03.01-22.00.00:504][464]Cmd: TRANSACTION UNDO
+[2017.03.01-22.00.00:504][464]LogEditorTransaction: Undo Cut
+[2017.03.01-22.00.03:372][552]Cmd: TRANSACTION UNDO
+[2017.03.01-22.00.03:372][552]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_defaultFW_C_7' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_defaultFW_C_6' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_defaultCarBP_C_5' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_defaultCarBP_C_4' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_defaultCarABP_C_7' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_defaultBW_C_82' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_defaultBW_C_81' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_defaultFW_C_86' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_defaultFW_C_85' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_defaultCarBP_C_84' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_defaultCarBP_C_83' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_defaultCarABP_C_8' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_defaultCarABP_C_3' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_defaultCarABP_C_2' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_defaultBW_C_1' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:612][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_defaultBW_C_0' or package '/Engine/Transient'.
+[2017.03.01-22.00.20:613][ 19]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.03.01-22.00.32:410][448]LogMaterial: Missing cached shader map for material Chrome_2, compiling. 
+[2017.03.01-22.00.33:255][448]LogMaterial: Missing cached shader map for material lambert1_2, compiling. 
+[2017.03.01-22.00.33:324][448]LogMaterial: Missing cached shader map for material Rubber_2, compiling. 
+[2017.03.01-22.00.38:584][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultBW_2.SKEL_defaultBW_2_C' ref from Metadata '/Game/base_car/defaultBW_2.PackageMetaData'
+[2017.03.01-22.00.38:584][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultBW_2.defaultBW_2_C' ref from Metadata '/Game/base_car/defaultBW_2.PackageMetaData'
+[2017.03.01-22.00.38:661][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarABP_2.SKEL_defaultCarABP_2_C:ExecuteUbergraph_defaultCarABP_2' ref from Metadata '/Game/base_car/defaultCarABP_2.PackageMetaData'
+[2017.03.01-22.00.38:662][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarABP_2.SKEL_defaultCarABP_2_C' ref from Metadata '/Game/base_car/defaultCarABP_2.PackageMetaData'
+[2017.03.01-22.00.38:662][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarABP_2.defaultCarABP_2_C' ref from Metadata '/Game/base_car/defaultCarABP_2.PackageMetaData'
+[2017.03.01-22.00.38:662][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarABP_2.defaultCarABP_2_C:ExecuteUbergraph_defaultCarABP_2' ref from Metadata '/Game/base_car/defaultCarABP_2.PackageMetaData'
+[2017.03.01-22.00.38:675][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.SKEL_defaultCarBP_2_C:InpAxisEvt_Forward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.SKEL_defaultCarBP_2_C:InpAxisEvt_Right_K2Node_InputAxisEvent_2' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.SKEL_defaultCarBP_2_C:ExecuteUbergraph_defaultCarBP_2' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.SKEL_defaultCarBP_2_C:UserConstructionScript' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.SKEL_defaultCarBP_2_C:Camera' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.SKEL_defaultCarBP_2_C:SpringArm' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.SKEL_defaultCarBP_2_C' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.defaultCarBP_2_C' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.defaultCarBP_2_C:SpringArm' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.defaultCarBP_2_C:Camera' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.defaultCarBP_2_C:UserConstructionScript' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.defaultCarBP_2_C:ExecuteUbergraph_defaultCarBP_2' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.defaultCarBP_2_C:InpAxisEvt_Right_K2Node_InputAxisEvent_2' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:676][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultCarBP_2.defaultCarBP_2_C:InpAxisEvt_Forward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/base_car/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.00.38:688][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultFW_2.SKEL_defaultFW_2_C' ref from Metadata '/Game/base_car/defaultFW_2.PackageMetaData'
+[2017.03.01-22.00.38:688][628]LogMetaData: Removing '/Game/base_car/AIDefaultCar/defaultFW_2.defaultFW_2_C' ref from Metadata '/Game/base_car/defaultFW_2.PackageMetaData'
+[2017.03.01-22.00.39:053][628]LogSavePackage: Save=137.31ms
+[2017.03.01-22.00.39:053][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Chrome_25612E1974CA6D707BE295F80172B1C79.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/Chrome_2.uasset'
+[2017.03.01-22.00.39:063][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/Chrome_2.uasset
+[2017.03.01-22.00.39:086][628]LogSavePackage: Save=11.58ms
+[2017.03.01-22.00.39:086][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultBW_2407ACA7A444666B4D6E52BA74A333B0C.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultBW_2.uasset'
+[2017.03.01-22.00.39:096][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultBW_2.uasset
+[2017.03.01-22.00.39:438][628]LogSavePackage: Save=279.63ms
+[2017.03.01-22.00.39:438][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCar2_22D0CD5DD438C91BF4B66D6B02AEFD991.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCar2_2.uasset'
+[2017.03.01-22.00.39:447][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCar2_2.uasset
+[2017.03.01-22.00.39:471][628]LogSavePackage: Save=11.50ms
+[2017.03.01-22.00.39:471][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCar2_PhysicsAsset_20C3776B3416886CC79D3B1B1B5FE307F.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCar2_PhysicsAsset_2.uasset'
+[2017.03.01-22.00.39:482][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCar2_PhysicsAsset_2.uasset
+[2017.03.01-22.00.39:499][628]LogSavePackage: Save=7.30ms
+[2017.03.01-22.00.39:499][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCar2_Skeleton_2936FF8EC422AF41E93E7FD8A7EAE98E2.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCar2_Skeleton_2.uasset'
+[2017.03.01-22.00.39:510][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCar2_Skeleton_2.uasset
+[2017.03.01-22.00.39:636][628]LogSavePackage: Save=53.69ms
+[2017.03.01-22.00.39:636][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCarABP_2FC58349446BA03976BBD5D85B3C4456F.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCarABP_2.uasset'
+[2017.03.01-22.00.39:644][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCarABP_2.uasset
+[2017.03.01-22.00.39:702][628]LogSavePackage: Save=38.55ms
+[2017.03.01-22.00.39:702][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCarBP_2E654E12847A1CF50D0AA45B429436C9F.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCarBP_2.uasset'
+[2017.03.01-22.00.39:712][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultCarBP_2.uasset
+[2017.03.01-22.00.39:732][628]LogSavePackage: Save=8.16ms
+[2017.03.01-22.00.39:733][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultFW_2BFC43B7E46BCA1E1A0291FBBA9C77ADE.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultFW_2.uasset'
+[2017.03.01-22.00.39:743][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/defaultFW_2.uasset
+[2017.03.01-22.00.41:368][628]LogSavePackage: Save=25.89ms
+[2017.03.01-22.00.41:368][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/lambert1_286662C1543BCD6E7DBC47987914D3159.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/lambert1_2.uasset'
+[2017.03.01-22.00.41:377][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/lambert1_2.uasset
+[2017.03.01-22.00.43:551][628]LogSavePackage: Save=24.62ms
+[2017.03.01-22.00.43:551][628]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Rubber_2B1B4D457491B35BC56AF5694F9FEC82C.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/Rubber_2.uasset'
+[2017.03.01-22.00.43:571][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/Rubber_2.uasset
+[2017.03.01-22.01.00:204][221]LogMetaData: Removing '/Game/base_car/AIDefaultCar/AICar.AICar_C' ref from Metadata '/Game/base_car/AIDefaultCar/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.01.00:204][221]LogMetaData: Removing '/Game/base_car/AIDefaultCar/AICar.SKEL_AICar_C' ref from Metadata '/Game/base_car/AIDefaultCar/defaultCarBP_2.PackageMetaData'
+[2017.03.01-22.01.00:290][221]LogSavePackage: Save=39.31ms
+[2017.03.01-22.01.00:290][221]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AICar53DC4D2544855684C2B13CB9A4A1B831.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset'
+[2017.03.01-22.01.00:298][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset
+[2017.03.01-22.01.03:627][290]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 111 classes and 0 folders.
+[2017.03.01-22.01.34:677][825]LogSavePackage: Save=295.02ms
+[2017.03.01-22.01.34:677][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/demolitionLevel_Auto1B1B4531A4F64145A069484AE5F1B2D45.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/SwanCar/demolitionLevel_Auto1.umap'
+[2017.03.01-22.01.34:680][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/SwanCar/demolitionLevel_Auto1.umap
+[2017.03.01-22.01.34:712][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.510
+[2017.03.01-22.01.34:712][825]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.510
+[2017.03.01-22.01.34:722][825]LogSavePackage: Save=5.10ms
+[2017.03.01-22.01.34:723][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Chrome_2_Auto1E227BD8A49FDEDD9B901F4ADBE578EA3.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/Chrome_2_Auto1.uasset'
+[2017.03.01-22.01.34:725][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/Chrome_2_Auto1.uasset
+[2017.03.01-22.01.34:734][825]LogSavePackage: Save=4.91ms
+[2017.03.01-22.01.34:734][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultBW_2_Auto18C8A3C214827FD6A837A7389FAB909A2.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultBW_2_Auto1.uasset'
+[2017.03.01-22.01.34:736][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultBW_2_Auto1.uasset
+[2017.03.01-22.01.34:746][825]LogSavePackage: Save=5.00ms
+[2017.03.01-22.01.34:746][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCar2_2_Auto1CF2753AE48790A34313476AC25C19A3C.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCar2_2_Auto1.uasset'
+[2017.03.01-22.01.34:748][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCar2_2_Auto1.uasset
+[2017.03.01-22.01.34:757][825]LogSavePackage: Save=5.20ms
+[2017.03.01-22.01.34:757][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCar2_PhysicsAsset_2_Auto1C21741BA4C00FD7881B1C691F1069DA9.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCar2_PhysicsAsset_2_Auto1.uasset'
+[2017.03.01-22.01.34:759][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCar2_PhysicsAsset_2_Auto1.uasset
+[2017.03.01-22.01.34:768][825]LogSavePackage: Save=5.22ms
+[2017.03.01-22.01.34:768][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCar2_Skeleton_2_Auto15A70AFEF4B594913758B308534316064.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCar2_Skeleton_2_Auto1.uasset'
+[2017.03.01-22.01.34:770][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCar2_Skeleton_2_Auto1.uasset
+[2017.03.01-22.01.34:780][825]LogSavePackage: Save=5.40ms
+[2017.03.01-22.01.34:780][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCarABP_2_Auto1584B09B9432AA3106EE25FACA76CBAF4.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCarABP_2_Auto1.uasset'
+[2017.03.01-22.01.34:782][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCarABP_2_Auto1.uasset
+[2017.03.01-22.01.34:791][825]LogSavePackage: Save=4.85ms
+[2017.03.01-22.01.34:791][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultCarBP_2_Auto173992B384C4061D1E415AAA00661192C.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCarBP_2_Auto1.uasset'
+[2017.03.01-22.01.34:794][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultCarBP_2_Auto1.uasset
+[2017.03.01-22.01.34:802][825]LogSavePackage: Save=4.87ms
+[2017.03.01-22.01.34:803][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/defaultFW_2_Auto1A12BAC6749504725F367F2858D455BF8.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultFW_2_Auto1.uasset'
+[2017.03.01-22.01.34:804][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/defaultFW_2_Auto1.uasset
+[2017.03.01-22.01.34:813][825]LogSavePackage: Save=5.04ms
+[2017.03.01-22.01.34:814][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/lambert1_2_Auto15C648BE84998E93CE472C3AA8B096167.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/lambert1_2_Auto1.uasset'
+[2017.03.01-22.01.34:816][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/lambert1_2_Auto1.uasset
+[2017.03.01-22.01.34:834][825]LogSavePackage: Save=5.35ms
+[2017.03.01-22.01.34:834][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Rubber_2_Auto1D15279E34AF634308C5CA880D7FA6D49.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/Rubber_2_Auto1.uasset'
+[2017.03.01-22.01.34:836][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/Rubber_2_Auto1.uasset
+[2017.03.01-22.01.34:838][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/base_car/AIDefaultCar/AICar] ([1] browsable assets)...
+[2017.03.01-22.01.34:845][825]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/base_car/AIDefaultCar/AICar.AICar]
+[2017.03.01-22.01.34:845][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/base_car/AIDefaultCar/AICar]
+[2017.03.01-22.01.34:888][825]LogSavePackage: Save=21.61ms
+[2017.03.01-22.01.34:888][825]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AICar_Auto14296E47E4353982DAA894F8DC0D7BF20.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AICar_Auto1.uasset'
+[2017.03.01-22.01.34:890][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AICar_Auto1.uasset
+[2017.03.01-22.01.34:890][825]LogFileHelpers: Auto-saving content packages took 0.177
+[2017.03.01-22.11.43:892][777]LogClass:Warning: Type mismatch in Distance of SKEL_AICar_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2017.03.01-22.14.22:148][513]BlueprintLog: New page: Compile AICar
+[2017.03.01-22.14.31:668][959]BlueprintLog: New page: Compile AICar
+[2017.03.01-22.15.31:949][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.021
+[2017.03.01-22.15.31:952][904]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/base_car/AIDefaultCar/AICar] ([1] browsable assets)...
+[2017.03.01-22.15.31:959][904]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/base_car/AIDefaultCar/AICar.AICar]
+[2017.03.01-22.15.31:959][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/base_car/AIDefaultCar/AICar]
+[2017.03.01-22.15.32:015][904]LogSavePackage: Save=31.73ms
+[2017.03.01-22.15.32:016][904]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AICar_Auto224FE80DD4E7914F76AC985BDAA83E366.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AICar_Auto2.uasset'
+[2017.03.01-22.15.32:018][904]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AICar_Auto2.uasset
+[2017.03.01-22.15.32:018][904]LogFileHelpers: Auto-saving content packages took 0.068
+[2017.03.01-22.16.26:574][522]LogEditorTransaction: Undo Add Node
+[2017.03.01-22.21.08:966][337]Cmd: TRANSACTION UNDO
+[2017.03.01-22.21.08:966][337]LogEditorTransaction: Undo Add Node
+[2017.03.01-22.34.16:144][867]LogEditorTransaction: Undo Move Node
+[2017.03.01-22.34.20:093][ 44]LogEditorTransaction: Undo Create Pin Link
+[2017.03.01-22.39.06:902][ 44]BlueprintLog: New page: Compile AICar
+[2017.03.01-22.39.56:912][168]LogEnum:Warning: In asset 'None', there is an enum property of type 'AICarMovementState' with an invalid value of 'AICarMovementState::NewEnumerator0'
+[2017.03.01-22.40.07:065][653]LogEnum:Warning: In asset 'None', there is an enum property of type 'AICarMovementState' with an invalid value of 'AICarMovementState::NewEnumerator1'
+[2017.03.01-22.40.15:705][ 89]LogEnum:Warning: In asset 'None', there is an enum property of type 'AICarMovementState' with an invalid value of 'AICarMovementState::NewEnumerator2'
+[2017.03.01-22.40.20:738][339]LogSavePackage: Save=17.94ms
+[2017.03.01-22.40.20:738][339]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AICarMovementState26E83EAC449C30BB1C4ED5A9CB422D4C.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/AICarMovementState.uasset'
+[2017.03.01-22.40.20:748][339]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/AICarMovementState.uasset
+[2017.03.01-22.41.09:576][593]BlueprintLog: New page: Compile AICar
+[2017.03.01-22.43.33:169][596]BlueprintLog: New page: Compile AICar
+[2017.03.01-22.44.01:010][947]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.020
+[2017.03.01-22.44.01:013][947]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/base_car/AIDefaultCar/AICar] ([1] browsable assets)...
+[2017.03.01-22.44.01:020][947]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/base_car/AIDefaultCar/AICar.AICar]
+[2017.03.01-22.44.01:020][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/base_car/AIDefaultCar/AICar]
+[2017.03.01-22.44.01:101][947]LogSavePackage: Save=53.89ms
+[2017.03.01-22.44.01:101][947]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AICar_Auto3F25D4D4149552029D40759ADC96BD2D9.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AICar_Auto3.uasset'
+[2017.03.01-22.44.02:540][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AICar_Auto3.uasset
+[2017.03.01-22.44.02:540][947]LogFileHelpers: Auto-saving content packages took 1.529
+[2017.03.01-22.48.40:478][736]BlueprintLog: New page: Compile AICar
+[2017.03.01-22.48.45:474][953]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:171813).
+[2017.03.01-22.49.00:845][665]LogSavePackage: Save=59.65ms
+[2017.03.01-22.49.00:845][665]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AICar3C2DD35A44EE7FBCD9BDFFB357D21809.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset'
+[2017.03.01-22.49.00:899][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/AICar.uasset
+[2017.03.01-22.50.34:308][887]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:178825).
+[2017.03.01-22.51.04:295][338]BlueprintLog: New page: Compile CarController
+[2017.03.01-22.52.20:244][764]LogSavePackage: Save=7.96ms
+[2017.03.01-22.52.20:244][764]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AI_CarData94AFD87B4B729EFEB9DF1A9C2321A715.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/AI_CarData.uasset'
+[2017.03.01-22.52.20:261][764]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Content/base_car/AIDefaultCar/AI_CarData.uasset
+[2017.03.01-22.52.37:375][532]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.01-22.53.17:593][404]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.01-22.54.08:040][858]LogBehaviorTree:Warning: Can't initialize task: BTTask_MoveTo_0, make sure that behavior tree specifies blackboard asset!
+[2017.03.01-22.54.25:259][695]LogBehaviorTree:Warning: Can't initialize task: BTTask_MoveTo_1, make sure that behavior tree specifies blackboard asset!
+[2017.03.01-22.55.33:990][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SwanCar/demolitionLevel' took 0.026
+[2017.03.01-22.55.33:993][ 40]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/base_car/AIDefaultCar/CarController] ([1] browsable assets)...
+[2017.03.01-22.55.33:993][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/base_car/AIDefaultCar/CarController]
+[2017.03.01-22.55.34:015][ 40]LogSavePackage: Save=16.71ms
+[2017.03.01-22.55.34:015][ 40]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/CarController_Auto4F7674D1B43BE0B1FC61A10BF0704EEA3.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/CarController_Auto4.uasset'
+[2017.03.01-22.55.34:017][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/CarController_Auto4.uasset
+[2017.03.01-22.55.34:020][ 40]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/base_car/AIDefaultCar/AI_Run] ([1] browsable assets)...
+[2017.03.01-22.55.34:020][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/base_car/AIDefaultCar/AI_Run]
+[2017.03.01-22.55.34:035][ 40]LogSavePackage: Save=10.77ms
+[2017.03.01-22.55.34:035][ 40]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AI_Run_Auto468A8B40F4B6C4EE1A3918CB808F0BB49.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AI_Run_Auto4.uasset'
+[2017.03.01-22.55.34:039][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AI_Run_Auto4.uasset
+[2017.03.01-22.55.34:049][ 40]LogSavePackage: Save=5.83ms
+[2017.03.01-22.55.34:049][ 40]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/NewBlackboardData_Auto4C1C47D6C4B44F6FBB87D309542136E70.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/NewBlackboardData_Auto4.uasset'
+[2017.03.01-22.55.34:052][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/NewBlackboardData_Auto4.uasset
+[2017.03.01-22.55.34:053][ 40]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/base_car/AIDefaultCar/AI_CarData] ([1] browsable assets)...
+[2017.03.01-22.55.34:053][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/base_car/AIDefaultCar/AI_CarData]
+[2017.03.01-22.55.34:081][ 40]LogSavePackage: Save=6.82ms
+[2017.03.01-22.55.34:081][ 40]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/AI_CarData_Auto42C79734F44CD8C1D6188508CDFCBE531.tmp' to '../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AI_CarData_Auto4.uasset'
+[2017.03.01-22.55.34:084][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Luke/Documents/GitHub/FairyTaleRacing/Temp Unreal Project/vehicleTest/Saved/Autosaves/Game/base_car/AIDefaultCar/AI_CarData_Auto4.uasset
+[2017.03.01-22.55.34:084][ 40]LogFileHelpers: Auto-saving content packages took 0.093
+[2017.03.01-22.56.20:683][709]LogCrashTracker: 
+
+
+[2017.03.01-22.56.20:683][709]LogCrashTracker: 
+
+
+[2017.03.01-22.56.20:683][709]LogWindows:Error: === Critical error: ===
+[2017.03.01-22.56.20:683][709]LogWindows:Error: 
+[2017.03.01-22.56.20:683][709]LogWindows:Error: Fatal error!
+[2017.03.01-22.56.20:683][709]LogWindows:Error: 
+[2017.03.01-22.56.20:683][709]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2017.03.01-22.56.20:683][709]LogWindows:Error: 
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-Engine.dll!UEdGraphNode::PostLoad() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:393]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-BlueprintGraph.dll!UK2Node::PostLoad() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\blueprintgraph\private\k2node.cpp:61]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!UObject::ConditionalPostLoad() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:832]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!StaticDuplicateObjectEx() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:2082]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-UnrealEd.dll!FEdGraphUtilities::CloneGraph() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:209]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-UnrealEd.dll!FEdGraphUtilities::CloneAndMergeGraphIn() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:252]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-KismetCompiler.dll!FKismetCompilerContext::MergeUbergraphPagesIn() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:2620]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-KismetCompiler.dll!FKismetCompilerContext::CreateAndProcessUbergraph() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:2838]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-KismetCompiler.dll!FKismetCompilerContext::CreateFunctionList() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:3378]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-KismetCompiler.dll!FKismetCompilerContext::Compile() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:3632]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-KismetCompiler.dll!FKismet2CompilerModule::CompileBlueprintInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompilermodule.cpp:100]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-KismetCompiler.dll!FKismet2CompilerModule::CompileBlueprint() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompilermodule.cpp:200]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-UnrealEd.dll!FKismetEditorUtilities::GenerateBlueprintSkeleton() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\kismet2\kismet2.cpp:921]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::RegenerateBlueprintClass() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\unrealed\private\kismet2\blueprinteditorutils.cpp:1545]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::RegenerateBlueprintClass() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:385]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeBlueprint() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1358]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3461]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4111]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4334]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3807]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2884]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3023]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1271]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1423]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2561]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2609]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2105]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2015]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:699]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linker.cpp:657]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1196]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1423]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2561]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2609]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2105]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2015]
+[2017.03.01-22.56.20:683][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:699]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linker.cpp:657]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1196]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1423]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2561]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2609]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2105]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2015]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:699]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linker.cpp:657]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1196]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1423]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2561]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2609]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2327]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2105]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2015]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:699]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\linker.cpp:657]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1196]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-CoreUObject.dll!LoadPackage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1437]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-AIGraph.dll!FGraphNodeClassData::GetClass() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\aigraph\private\aigraphtypes.cpp:93]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-AIGraph.dll!UAIGraphNode::PostPlacedNewNode() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\aigraph\private\aigraphnode.cpp:25]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-AIGraph.dll!FAISchemaAction_NewNode::PerformAction() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\aigraph\private\aigraphschema.cpp:45]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-AIGraph.dll!FAISchemaAction_NewNode::PerformAction() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\aigraph\private\aigraphschema.cpp:81]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-GraphEditor.dll!SGraphEditorActionMenu::OnActionSelected() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\grapheditor\private\sgrapheditoractionmenu.cpp:82]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<0,SGraphEditorActionMenu,0,TTypeWrapper<void> __cdecl(TArray<TSharedPtr<FEdGraphSchemaAction,0>,FDefaultAllocator> const & __ptr64,enum ESelectInfo::Type)>::Execute() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:318]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-GraphEditor.dll!SGraphActionMenu::HandleSelection() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\grapheditor\private\sgraphactionmenu.cpp:1326]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-GraphEditor.dll!SGraphActionMenu::TryToSpawnActiveSuggestion() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\grapheditor\private\sgraphactionmenu.cpp:911]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-GraphEditor.dll!SGraphActionMenu::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\editor\grapheditor\private\sgraphactionmenu.cpp:1239]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphActionMenu,FReply (__cdecl SGraphActionMenu::*)(FGeometry const & __ptr64,FKeyEvent const & __ptr64) __ptr64>::operator()<FGeometry const & __ptr64,FKeyEvent const & __ptr64>() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:161]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-GraphEditor.dll!TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SGraphActionMenu,FReply (__cdecl SGraphActionMenu::*)(FGeometry const & __ptr64,FKeyEvent const & __ptr64) __ptr64>,FGeometry const & __ptr64,FKeyEvent const & __ptr64>() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\tuple.h:116]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<0,SGraphActionMenu,0,FReply __cdecl(FGeometry const & __ptr64,FKeyEvent const & __ptr64)>::Execute() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:318]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Slate.dll!TBaseDelegate<FReply,FGeometry const & __ptr64,FKeyEvent const & __ptr64>::Execute() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:522]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Slate.dll!SEditableText::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:182]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Slate.dll!<lambda_2afcd964c763e269e2d1a63f3a72f846>::operator()() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4626]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_2afcd964c763e269e2d1a63f3a72f846> >() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:215]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_2afcd964c763e269e2d1a63f3a72f846>,FKeyEvent>() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:197]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4624]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4539]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1487]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2071]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.14+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:814]
+[2017.03.01-22.56.20:684][709]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.14+co
+[2017.03.01-22.56.20:724][709]LogExit: Executing StaticShutdownAfterError
+[2017.03.01-22.56.20:732][709]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.03.01-22.56.20:732][709]Log file closed, 03/01/17 17:56:20
