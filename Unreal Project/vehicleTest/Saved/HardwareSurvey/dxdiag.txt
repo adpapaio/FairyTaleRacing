@@ -1,8 +1,8 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 4/10/2017, 16:39:37
-             Machine name: UMD-CIS239-A51C
+      Time of this report: 4/17/2017, 20:59:58
+             Machine name: UMD-CIS239-A51B
          Operating System: Windows 10 Pro 64-bit (10.0, Build 10240) (10240.th1_st1.161024-1820)
                  Language: English (Regional Setting: English)
       System Manufacturer: Alienware
@@ -11,7 +11,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (12 CPUs), ~3.3GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16274MB RAM
-                Page File: 6906MB used, 11799MB available
+                Page File: 8292MB used, 10413MB available
               Windows Dir: C:\Windows
           DirectX Version: 12
       DX Setup Parameters: Not found
@@ -72,7 +72,7 @@ Graphics Preemption: DMA
 Hybrid Graphics GPU: Not Supported
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: 2/21/2017 17:54:54, 17799424 bytes
+   Driver Date/Size: 2/21/2017 16:04:11, 17799424 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
   Device Identifier: {D7B71E3E-5082-11CF-6569-3C311BC2D835}
@@ -157,7 +157,7 @@ Graphics Preemption: DMA
 Hybrid Graphics GPU: Not Supported
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: 2/21/2017 17:54:54, 17799424 bytes
+   Driver Date/Size: 2/21/2017 16:04:11, 17799424 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
   Device Identifier: {D7B71E3E-5082-11CF-6569-3C311BC2D835}
@@ -271,6 +271,16 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
+            Description: What U Hear (Sound Blaster Recon3Di)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: cthda.sys
+         Driver Version: 6.00.0101.1042 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 10/27/2015 20:44:31, 1067304 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
 ---------------------
 Video Capture Devices
 Number of Devices: 0
@@ -370,13 +380,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 1300.0 GB
+ Free Space: 1324.7 GB
 Total Space: 1907.3 GB
 File System: NTFS
       Model: TOSHIBA DT01ACA200
 
       Drive: D:
- Free Space: 52.5 GB
+ Free Space: 47.5 GB
 Total Space: 107.4 GB
 File System: NTFS
       Model: LITEON CV3-CE128-11 SATA 128GB
@@ -460,71 +470,71 @@ Device ID: PCI\VEN_8086&DEV_8D47&SUBSYS_064C1028&REV_05\3&11583659&0&F8
 
      Name: NVIDIA GeForce GTX 970
 Device ID: PCI\VEN_10DE&DEV_13C2&SUBSYS_11311028&REV_A1\4&1CB79EB0&0&0010
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 21.21.0013.6909 (English), 2/21/2017 17:54:52, 474040 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 2/21/2017 17:54:54, 1341292 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddwu.inf_amd64_22a22f778ced373c\NvCplSetupInt.exe, 1.00.0005.0000 (English), 2/21/2017 17:54:54, 97078976 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\detoured.dll, 2.01.0000.0207 (English), 2/21/2017 17:54:54, 36288 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvd3d9wrap.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:54, 207912 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvdxgiwrap.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:54, 134840 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\detoured.dll, 2.01.0000.0207 (English), 2/21/2017 17:54:54, 37944 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvd3d9wrapx.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:54, 238384 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvdxgiwrapx.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:54, 155704 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\license.txt, 2/21/2017 17:54:53, 26629 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (English), 2/21/2017 17:54:53, 865720 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.6909 (English), 2/21/2017 17:54:54, 429096 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 2/21/2017 17:54:55, 74003 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.6909 (English), 2/21/2017 17:54:55, 467504 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.6909 (English), 2/21/2017 17:54:56, 836152 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 1.02.0011.0000 (English), 2/21/2017 17:54:59, 219064 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 1.02.0011.0000 (English), 2/21/2017 17:54:59, 233008 bytes
-   Driver: C:\Windows\system32\DRIVERS\nvlddmkm.sys, 21.21.0013.6909 (English), 2/21/2017 17:54:56, 13754928 bytes
-   Driver: C:\Windows\system32\NvFBC64.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:55, 1021496 bytes
-   Driver: C:\Windows\system32\NvIFR64.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:55, 946112 bytes
-   Driver: C:\Windows\system32\NvIFROpenGL.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:55, 460216 bytes
-   Driver: C:\Windows\system32\nv-vk64.json, 2/21/2017 17:54:53, 594 bytes
-   Driver: C:\Windows\system32\nvDecMFTMjpeg.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:54, 403512 bytes
-   Driver: C:\Windows\system32\nvEncMFTH264.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:55, 835088 bytes
-   Driver: C:\Windows\system32\nvEncMFThevc.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:55, 834064 bytes
-   Driver: C:\Windows\system32\nvEncodeAPI64.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:55, 438296 bytes
-   Driver: C:\Windows\system32\nvapi64.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:53, 3912112 bytes
-   Driver: C:\Windows\system32\nvcompiler.dll, 2/21/2017 17:54:54, 39996984 bytes
-   Driver: C:\Windows\system32\nvcuda.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:54, 10374488 bytes
-   Driver: C:\Windows\system32\nvcuvid.dll, 7.17.0013.6909 (English), 2/21/2017 17:54:54, 2889272 bytes
-   Driver: C:\Windows\system32\nvd3dumx.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:54, 17799424 bytes
-   Driver: C:\Windows\system32\nvfatbinaryLoader.dll, 2/21/2017 17:54:55, 724376 bytes
-   Driver: C:\Windows\system32\nvinfo.pb, 2/21/2017 17:54:55, 40296 bytes
-   Driver: C:\Windows\system32\nvinitx.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:55, 200888 bytes
-   Driver: C:\Windows\system32\nvmcumd.dll, 2/21/2017 17:54:56, 640624 bytes
-   Driver: C:\Windows\system32\nvoglshim64.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:57, 173872 bytes
-   Driver: C:\Windows\system32\nvoglv64.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:57, 31704112 bytes
-   Driver: C:\Windows\system32\nvopencl.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:57, 10840312 bytes
-   Driver: C:\Windows\system32\nvptxJitCompiler.dll, 2/21/2017 17:54:57, 10864440 bytes
-   Driver: C:\Windows\system32\nvumdshimx.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:58, 598288 bytes
-   Driver: C:\Windows\system32\nvwgf2umx.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:58, 20853856 bytes
-   Driver: C:\Windows\SysWow64\NvFBC.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:55, 929840 bytes
-   Driver: C:\Windows\SysWow64\NvIFR.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:55, 869424 bytes
-   Driver: C:\Windows\SysWow64\NvIFROpenGL.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:55, 412208 bytes
-   Driver: C:\Windows\SysWow64\nv-vk32.json, 2/21/2017 17:54:53, 594 bytes
-   Driver: C:\Windows\SysWow64\nvDecMFTMjpeg.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:54, 364472 bytes
-   Driver: C:\Windows\SysWow64\nvEncMFTH264.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:55, 673464 bytes
-   Driver: C:\Windows\SysWow64\nvEncMFThevc.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:55, 671832 bytes
-   Driver: C:\Windows\SysWow64\nvEncodeAPI.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:55, 369680 bytes
-   Driver: C:\Windows\SysWow64\nvapi.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:53, 3460816 bytes
-   Driver: C:\Windows\SysWow64\nvcompiler.dll, 2/21/2017 17:54:54, 35133376 bytes
-   Driver: C:\Windows\SysWow64\nvcuda.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:54, 8737968 bytes
-   Driver: C:\Windows\SysWow64\nvcuvid.dll, 7.17.0013.6909 (English), 2/21/2017 17:54:54, 2518576 bytes
-   Driver: C:\Windows\SysWow64\nvd3dum.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:54, 14767816 bytes
-   Driver: C:\Windows\SysWow64\nvfatbinaryLoader.dll, 2/21/2017 17:54:55, 611600 bytes
-   Driver: C:\Windows\SysWow64\nvinit.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:55, 179088 bytes
-   Driver: C:\Windows\SysWow64\nvoglshim32.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:56, 151608 bytes
-   Driver: C:\Windows\SysWow64\nvoglv32.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:57, 25465280 bytes
-   Driver: C:\Windows\SysWow64\nvopencl.dll, 6.14.0013.6909 (English), 2/21/2017 17:54:57, 9151448 bytes
-   Driver: C:\Windows\SysWow64\nvptxJitCompiler.dll, 2/21/2017 17:54:57, 8916512 bytes
-   Driver: C:\Windows\SysWow64\nvumdshim.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:58, 493720 bytes
-   Driver: C:\Windows\SysWow64\nvwgf2um.dll, 21.21.0013.6909 (English), 2/21/2017 17:54:58, 18140232 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddwu.inf_amd64_22a22f778ced373c\VulkanRT-Installer.exe, 1.00.0011.0001 (English), 2/21/2017 17:55:00, 13622896 bytes
-   Driver: C:\Windows\system32\nvdispco6436909.dll, 2.00.0045.0004 (English), 2/21/2017 17:54:54, 1956400 bytes
-   Driver: C:\Windows\system32\nvdispgenco6436909.dll, 2.00.0022.0002 (English), 2/21/2017 17:54:54, 1604144 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 21.21.0013.6909 (English), 2/21/2017 16:04:08, 474040 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 2/21/2017 16:04:11, 1341292 bytes
+   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddwu.inf_amd64_22a22f778ced373c\NvCplSetupInt.exe, 1.00.0005.0000 (English), 2/21/2017 16:04:10, 97078976 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\detoured.dll, 2.01.0000.0207 (English), 2/21/2017 16:04:11, 36288 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvd3d9wrap.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:10, 207912 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvdxgiwrap.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 134840 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\detoured.dll, 2.01.0000.0207 (English), 2/21/2017 16:04:11, 37944 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvd3d9wrapx.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:10, 238384 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvdxgiwrapx.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 155704 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\license.txt, 2/21/2017 16:04:09, 26629 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (English), 2/21/2017 16:04:09, 865720 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.6909 (English), 2/21/2017 16:04:11, 429096 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 2/21/2017 16:04:12, 74003 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.6909 (English), 2/21/2017 16:04:12, 467504 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.6909 (English), 2/21/2017 16:04:13, 836152 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 1.02.0011.0000 (English), 2/21/2017 16:04:17, 219064 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 1.02.0011.0000 (English), 2/21/2017 16:04:17, 233008 bytes
+   Driver: C:\Windows\system32\DRIVERS\nvlddmkm.sys, 21.21.0013.6909 (English), 2/21/2017 16:04:13, 13754928 bytes
+   Driver: C:\Windows\system32\NvFBC64.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:11, 1021496 bytes
+   Driver: C:\Windows\system32\NvIFR64.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:12, 946112 bytes
+   Driver: C:\Windows\system32\NvIFROpenGL.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:12, 460216 bytes
+   Driver: C:\Windows\system32\nv-vk64.json, 2/21/2017 16:04:09, 594 bytes
+   Driver: C:\Windows\system32\nvDecMFTMjpeg.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 403512 bytes
+   Driver: C:\Windows\system32\nvEncMFTH264.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 835088 bytes
+   Driver: C:\Windows\system32\nvEncMFThevc.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 834064 bytes
+   Driver: C:\Windows\system32\nvEncodeAPI64.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:11, 438296 bytes
+   Driver: C:\Windows\system32\nvapi64.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:09, 3912112 bytes
+   Driver: C:\Windows\system32\nvcompiler.dll, 2/21/2017 16:04:10, 39996984 bytes
+   Driver: C:\Windows\system32\nvcuda.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:10, 10374488 bytes
+   Driver: C:\Windows\system32\nvcuvid.dll, 7.17.0013.6909 (English), 2/21/2017 16:04:10, 2889272 bytes
+   Driver: C:\Windows\system32\nvd3dumx.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 17799424 bytes
+   Driver: C:\Windows\system32\nvfatbinaryLoader.dll, 2/21/2017 16:04:11, 724376 bytes
+   Driver: C:\Windows\system32\nvinfo.pb, 2/21/2017 16:04:12, 40296 bytes
+   Driver: C:\Windows\system32\nvinitx.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:12, 200888 bytes
+   Driver: C:\Windows\system32\nvmcumd.dll, 2/21/2017 16:04:13, 640624 bytes
+   Driver: C:\Windows\system32\nvoglshim64.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:14, 173872 bytes
+   Driver: C:\Windows\system32\nvoglv64.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:14, 31704112 bytes
+   Driver: C:\Windows\system32\nvopencl.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:14, 10840312 bytes
+   Driver: C:\Windows\system32\nvptxJitCompiler.dll, 2/21/2017 16:04:14, 10864440 bytes
+   Driver: C:\Windows\system32\nvumdshimx.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:16, 598288 bytes
+   Driver: C:\Windows\system32\nvwgf2umx.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:16, 20853856 bytes
+   Driver: C:\Windows\SysWow64\NvFBC.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:11, 929840 bytes
+   Driver: C:\Windows\SysWow64\NvIFR.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:12, 869424 bytes
+   Driver: C:\Windows\SysWow64\NvIFROpenGL.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:12, 412208 bytes
+   Driver: C:\Windows\SysWow64\nv-vk32.json, 2/21/2017 16:04:09, 594 bytes
+   Driver: C:\Windows\SysWow64\nvDecMFTMjpeg.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 364472 bytes
+   Driver: C:\Windows\SysWow64\nvEncMFTH264.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 673464 bytes
+   Driver: C:\Windows\SysWow64\nvEncMFThevc.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:11, 671832 bytes
+   Driver: C:\Windows\SysWow64\nvEncodeAPI.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:11, 369680 bytes
+   Driver: C:\Windows\SysWow64\nvapi.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:09, 3460816 bytes
+   Driver: C:\Windows\SysWow64\nvcompiler.dll, 2/21/2017 16:04:10, 35133376 bytes
+   Driver: C:\Windows\SysWow64\nvcuda.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:10, 8737968 bytes
+   Driver: C:\Windows\SysWow64\nvcuvid.dll, 7.17.0013.6909 (English), 2/21/2017 16:04:10, 2518576 bytes
+   Driver: C:\Windows\SysWow64\nvd3dum.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:10, 14767816 bytes
+   Driver: C:\Windows\SysWow64\nvfatbinaryLoader.dll, 2/21/2017 16:04:11, 611600 bytes
+   Driver: C:\Windows\SysWow64\nvinit.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:12, 179088 bytes
+   Driver: C:\Windows\SysWow64\nvoglshim32.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:14, 151608 bytes
+   Driver: C:\Windows\SysWow64\nvoglv32.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:14, 25465280 bytes
+   Driver: C:\Windows\SysWow64\nvopencl.dll, 6.14.0013.6909 (English), 2/21/2017 16:04:14, 9151448 bytes
+   Driver: C:\Windows\SysWow64\nvptxJitCompiler.dll, 2/21/2017 16:04:14, 8916512 bytes
+   Driver: C:\Windows\SysWow64\nvumdshim.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:16, 493720 bytes
+   Driver: C:\Windows\SysWow64\nvwgf2um.dll, 21.21.0013.6909 (English), 2/21/2017 16:04:16, 18140232 bytes
+   Driver: C:\Windows\System32\DriverStore\FileRepository\nvddwu.inf_amd64_22a22f778ced373c\VulkanRT-Installer.exe, 1.00.0011.0001 (English), 2/21/2017 16:04:17, 13622896 bytes
+   Driver: C:\Windows\system32\nvdispco6436909.dll, 2.00.0045.0004 (English), 2/21/2017 16:04:11, 1956400 bytes
+   Driver: C:\Windows\system32\nvdispgenco6436909.dll, 2.00.0022.0002 (English), 2/21/2017 16:04:11, 1604144 bytes
 
      Name: System Interrupt Controller
 Device ID: PCI\VEN_8086&DEV_2F2C&SUBSYS_064C1028&REV_02\3&11583659&0&2C
@@ -882,6 +892,9 @@ GSM 6.10,0x00200000,1,1,quartz.dll,10.00.10240.17113
 CCITT A-Law,0x00200000,1,1,quartz.dll,10.00.10240.17113
 CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.10240.17113
 MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.10240.17113
+
+Audio Capture Sources:
+What U Hear (Sound Blaster Recon3Di),0x00200000,0,0,qcap.dll,10.00.10240.16384
 
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.10240.17113
