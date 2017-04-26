@@ -1,9 +1,9 @@
-﻿Log file open, 04/26/17 18:30:49
+﻿Log file open, 04/26/17 18:35:26
 LogInit:Display: Running engine for game: vehicleTest
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-617462079) SRandInit(-617462079).
+LogInit:Display: RandInit(273473398) SRandInit(273473398).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.109294
+LogStats: Stats thread started at 0.103264
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -143,769 +143,1228 @@ LogInit: Base directory: C:/Program Files/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.26-22.30.49:346][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.26-22.30.49:346][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.26-22.30.49:376][  0]LogInit: Computer: UMD-CIS239LAB10
-[2017.04.26-22.30.49:376][  0]LogInit: User: adpapaio
-[2017.04.26-22.30.49:376][  0]LogInit: CPU Page size=65536, Cores=6
-[2017.04.26-22.30.49:376][  0]LogInit: High frequency timer resolution =3.215208 MHz
-[2017.04.26-22.30.49:376][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.04.26-22.30.49:376][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.26-22.30.49:376][  0]LogMemory: Process Physical Memory: 266.98 MB used, 266.98 MB peak
-[2017.04.26-22.30.49:376][  0]LogMemory: Process Virtual Memory: 269.41 MB used, 269.41 MB peak
-[2017.04.26-22.30.49:376][  0]LogMemory: Physical Memory: 6569.89 MB used,  9704.14 MB free, 16274.04 MB total
-[2017.04.26-22.30.49:376][  0]LogMemory: Virtual Memory: 685.00 MB used,  9704.14 MB free, 134217728.00 MB total
-[2017.04.26-22.30.49:404][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.04.26-22.30.49:993][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.26-22.30.50:022][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.04.26-22.30.50:022][  0]LogD3D11RHI:       4058/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.04.26-22.30.50:023][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.26-22.30.50:023][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.26-22.30.50:023][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.26-22.30.50:028][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.26-22.30.50:028][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.26-22.30.50:028][  0]LogWindows: EnumDisplayDevices:
-[2017.04.26-22.30.50:028][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2017.04.26-22.30.50:028][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.04.26-22.30.50:029][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.04.26-22.30.50:029][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.04.26-22.30.50:029][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.04.26-22.30.50:029][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.04.26-22.30.50:029][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
-[2017.04.26-22.30.50:029][  0]LogD3D11RHI:      Driver Date: 8-1-2016
-[2017.04.26-22.30.50:029][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.26-22.30.50:049][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.26-22.30.50:065][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.04.26-22.30.50:066][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Intermediate/Shaders/WorkingDirectory/16636/).
-[2017.04.26-22.30.50:066][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/adpapaio/AppData/Local/Temp/UnrealShaderWorkingDir/4794EA0A43F6D6E1DDD573ABFABF713E/'.
-[2017.04.26-22.30.50:066][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.26-22.30.51:173][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.26-22.30.51:229][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.26-22.30.51:282][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.26-22.30.51:336][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.26-22.30.51:389][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.26-22.30.51:442][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.26-22.30.51:495][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.26-22.30.51:549][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.26-22.30.51:597][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.26-22.30.51:662][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.26-22.30.51:713][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.26-22.30.51:764][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.26-22.30.51:819][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.26-22.30.51:888][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.26-22.30.51:944][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.26-22.30.52:046][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.26-22.30.52:046][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.26-22.30.52:082][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.26-22.30.52:162][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.26-22.30.52:204][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.26-22.30.52:276][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.26-22.30.52:374][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.26-22.30.52:431][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.26-22.30.52:481][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.26-22.30.52:481][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.26-22.30.52:946][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.26-22.30.52:997][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/adpapaio/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.26-22.30.52:997][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/adpapaio/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.04.26-22.30.52:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.26-22.30.52:997][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.26-22.30.52:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.26-22.30.52:997][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.26-22.30.53:012][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.26-22.30.53:024][  0]LogDerivedDataCache: Using Local data cache path C:/Users/adpapaio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.26-22.30.53:229][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.26-22.30.53:231][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.26-22.30.53:424][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.26-22.30.53:464][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.26-22.30.53:510][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.26-22.30.53:510][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.26-22.30.53:510][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.26-22.30.54:033][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
-[2017.04.26-22.30.54:085][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
-[2017.04.26-22.30.54:137][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.031932 seconds
-[2017.04.26-22.30.54:141][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.04.26-22.30.54:141][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
-[2017.04.26-22.30.54:141][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.26-22.30.54:212][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.26-22.30.55:031][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.26-22.30.55:031][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.26-22.30.55:031][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.26-22.30.55:862][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.26-22.30.55:909][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.26-22.30.56:282][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.26-22.30.56:663][  0]SourceControl: Info Source control is disabled
-[2017.04.26-22.30.56:711][  0]SourceControl: Info Source control is disabled
-[2017.04.26-22.30.56:757][  0]SourceControl: Info Source control is disabled
-[2017.04.26-22.30.56:800][  0]SourceControl: Info Source control is disabled
-[2017.04.26-22.30.58:194][  0]LogEngine: Initializing Engine...
-[2017.04.26-22.30.58:194][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.04.26-22.30.58:414][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.26-22.30.58:423][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.26-22.30.58:433][  0]LogInit: FAudioDevice initialized.
-[2017.04.26-22.30.58:457][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/adpapaio/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.26-22.30.58:468][  0]LogInit: Texture streaming: Enabled
-[2017.04.26-22.30.58:646][  0]LogInit: Transaction tracking system initialized
-[2017.04.26-22.30.59:043][  0]BlueprintLog: New page: Editor Load
-[2017.04.26-22.30.59:982][  0]LocalizationService: Info Localization service is disabled
-[2017.04.26-22.31.00:724][  0]LogConsoleResponse:Display: 
-[2017.04.26-22.31.00:852][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.26-22.31.00:852][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.26-22.31.01:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/' took 0.02s
-[2017.04.26-22.31.01:790][  0]SourceControl: Info Source control is disabled
-[2017.04.26-22.31.01:790][  0]Cmd: MAP LOAD FILE="../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/RTTH.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.26-22.31.01:790][  0]LightingResults: New page: Lighting Build
-[2017.04.26-22.31.01:828][  0]MapCheck: New page: Map Check
-[2017.04.26-22.31.01:828][  0]LightingResults: New page: Lighting Build
-[2017.04.26-22.31.05:361][  0]LogAIModule: Creating AISystem for world RTTH
-[2017.04.26-22.31.05:385][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor needed to have new flag set bUsedWithSplineMeshes !
-[2017.04.26-22.31.05:388][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
-[2017.04.26-22.31.05:440][  0]MapCheck:Warning: Warning M_Basic_Floor Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor was missing the usage flag bUsedWithSplineMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2017.04.26-22.31.05:440][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.04.26-22.31.05:794][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2017.04.26-22.31.05:855][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.26-22.31.05:946][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 90.538ms to complete.
-[2017.04.26-22.31.05:968][  0]LogFileHelpers: Loading map 'RTTH' took 4.178
-[2017.04.26-22.31.06:039][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.26-22.31.06:673][  0]LogCollectionManager: Loaded 1 collections in 0.004344 seconds
-[2017.04.26-22.31.06:772][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Collections/' took 0.01s
-[2017.04.26-22.31.06:772][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Developers/adpapaio/Collections/' took 0.01s
-[2017.04.26-22.31.06:772][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Collections/' took 0.01s
-[2017.04.26-22.31.06:772][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
-[2017.04.26-22.31.06:772][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
-[2017.04.26-22.31.06:783][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2190 classes and 428 folders.
-[2017.04.26-22.31.06:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.26-22.31.06:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.26-22.31.06:841][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
-[2017.04.26-22.31.06:929][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.04.26-22.31.06:983][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.04.26-22.31.07:050][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.04.26-22.31.07:108][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.26-22.31.07:117][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.26-22.31.07:207][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.04.26-22.31.07:208][  0]LogLoad: (Engine Initialization) Total time: 19.84 seconds
-[2017.04.26-22.31.07:208][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.72 seconds
-[2017.04.26-22.31.07:208][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.04.26-22.31.07:208][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.04.26-22.31.07:217][  0]LogOcInput: OculusInput pre-init called
-[2017.04.26-22.31.07:238][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.26-22.31.07:397][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.04.26-22.31.07:824][  1]LogAssetRegistry: Asset discovery search completed in 13.7601 seconds
-[2017.04.26-22.31.07:824][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000007 seconds (found 0 objects)
-[2017.04.26-22.31.07:824][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000017 seconds (updated 0 objects)
-[2017.04.26-22.31.12:752][136]LogAIModule: Creating AISystem for world WheelsInSky
-[2017.04.26-22.31.12:755][136]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled needed to have new flag set bUsedWithSplineMeshes !
-[2017.04.26-22.31.12:761][136]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
-[2017.04.26-22.31.12:795][136]MapCheck:Warning: Warning M_Brick_Clay_Beveled Material /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled was missing the usage flag bUsedWithSplineMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2017.04.26-22.31.12:806][136]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.04.26-22.31.12:916][136]Cmd: MAP LOAD FILE="../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.26-22.31.12:916][136]LightingResults: New page: Lighting Build
-[2017.04.26-22.31.12:917][136]LoadErrors: New page: Loading map: WheelsInSky.umap
-[2017.04.26-22.31.12:985][136]MapCheck: New page: Map Check
-[2017.04.26-22.31.12:985][136]LightingResults: New page: Lighting Build
-[2017.04.26-22.31.13:186][136]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.26-22.31.13:257][136]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.26-22.31.13:352][136]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.021ms to complete.
-[2017.04.26-22.31.13:353][136]LogFileHelpers: Loading map 'WheelsInSky' took 0.439
-[2017.04.26-22.31.16:871][415]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
-[2017.04.26-22.31.55:371][857]BlueprintLog: New page: Compile WheelsInSky
-[2017.04.26-22.31.59:100][255]LogTemp: Repeting last play command: Simulate
-[2017.04.26-22.31.59:133][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky' with GeneratedClass '/Game/Levels/WheelsInSky.WheelsInSky_C' with ClassGeneratedBy '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky'
-[2017.04.26-22.31.59:133][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.26-22.31.59:133][255]PIE: New page: SIE session: WheelsInSky (Apr 26, 2017, 2:31:59 PM)
-[2017.04.26-22.31.59:134][255]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_WheelsInSky
-[2017.04.26-22.31.59:190][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056083s)
-[2017.04.26-22.31.59:190][255]LogAIModule: Creating AISystem for world WheelsInSky
-[2017.04.26-22.31.59:190][255]LogPlayLevel: PIE: World Init took: (0.000561s)
-[2017.04.26-22.31.59:191][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/WheelsInSky.WheelsInSky to /Game/Levels/UEDPIE_0_WheelsInSky.WheelsInSky (0.056970s)
-[2017.04.26-22.31.59:224][255]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.26-22.31.59:231][255]LogInit: FAudioDevice initialized.
-[2017.04.26-22.31.59:274][255]LogLoad: Game class is 'defaultCarLevel_C'
-[2017.04.26-22.31.59:287][255]LogWorld: Bringing World /Game/Levels/UEDPIE_0_WheelsInSky.WheelsInSky up for play (max tick rate 0) at 2017.04.26-18.31.59
-[2017.04.26-22.31.59:297][255]LogWorld: Bringing up level for play took: 0.021294
-[2017.04.26-22.31.59:297][255]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.04.26-22.31.59:338][255]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2017.04.26-22.31.59:391][255]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_WheelsInSky 0.806
-[2017.04.26-22.31.59:396][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky' with GeneratedClass '/Game/Levels/WheelsInSky.WheelsInSky_C' with ClassGeneratedBy '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky'
-[2017.04.26-22.31.59:415][255]LogAudio:Warning: Detected orphaned looping sound '150413_Too_Adventurous-free_download'.
-[2017.04.26-22.31.59:432][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.35.26:539][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-22.35.26:539][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.26-22.35.26:564][  0]LogInit: Computer: UMD-CIS239LAB10
+[2017.04.26-22.35.26:564][  0]LogInit: User: adpapaio
+[2017.04.26-22.35.26:564][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.04.26-22.35.26:564][  0]LogInit: High frequency timer resolution =3.215208 MHz
+[2017.04.26-22.35.26:564][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.26-22.35.26:564][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.26-22.35.26:564][  0]LogMemory: Process Physical Memory: 266.53 MB used, 266.53 MB peak
+[2017.04.26-22.35.26:564][  0]LogMemory: Process Virtual Memory: 269.22 MB used, 269.22 MB peak
+[2017.04.26-22.35.26:564][  0]LogMemory: Physical Memory: 6690.24 MB used,  9583.80 MB free, 16274.04 MB total
+[2017.04.26-22.35.26:564][  0]LogMemory: Virtual Memory: 685.00 MB used,  9583.80 MB free, 134217728.00 MB total
+[2017.04.26-22.35.26:584][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.26-22.35.27:161][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.26-22.35.27:187][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.04.26-22.35.27:187][  0]LogD3D11RHI:       4058/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.26-22.35.27:189][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.26-22.35.27:189][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.26-22.35.27:189][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.26-22.35.27:194][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.26-22.35.27:194][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.26-22.35.27:194][  0]LogWindows: EnumDisplayDevices:
+[2017.04.26-22.35.27:194][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.04.26-22.35.27:194][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.04.26-22.35.27:194][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.04.26-22.35.27:195][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.04.26-22.35.27:195][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.26-22.35.27:195][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.04.26-22.35.27:195][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.04.26-22.35.27:195][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.04.26-22.35.27:195][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.26-22.35.27:206][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.26-22.35.27:216][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.26-22.35.27:217][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Intermediate/Shaders/WorkingDirectory/16236/).
+[2017.04.26-22.35.27:217][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/adpapaio/AppData/Local/Temp/UnrealShaderWorkingDir/2DDCE6594720EC7CF71D9CAB84CCCFF3/'.
+[2017.04.26-22.35.27:217][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.26-22.35.28:279][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.26-22.35.28:341][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.26-22.35.28:393][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.26-22.35.28:460][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.26-22.35.28:513][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.26-22.35.28:565][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.26-22.35.28:618][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.26-22.35.28:707][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.26-22.35.28:758][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.26-22.35.28:809][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.26-22.35.28:859][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.26-22.35.28:910][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.26-22.35.28:960][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.26-22.35.29:021][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.26-22.35.29:090][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.26-22.35.29:200][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.26-22.35.29:200][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.26-22.35.29:234][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.26-22.35.29:337][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.26-22.35.29:373][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.26-22.35.29:433][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.26-22.35.29:508][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.26-22.35.29:559][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.26-22.35.29:609][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.26-22.35.29:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.26-22.35.29:979][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.26-22.35.30:031][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/adpapaio/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.26-22.35.30:031][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/adpapaio/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.26-22.35.30:031][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.26-22.35.30:031][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.26-22.35.30:031][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.26-22.35.30:031][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.26-22.35.30:046][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.26-22.35.30:058][  0]LogDerivedDataCache: Using Local data cache path C:/Users/adpapaio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.26-22.35.30:233][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-22.35.30:235][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.26-22.35.30:429][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.26-22.35.30:471][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.26-22.35.30:544][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.26-22.35.30:544][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.26-22.35.30:544][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.26-22.35.31:125][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vehicletest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2596361115
+[2017.04.26-22.35.31:178][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.04.26-22.35.31:224][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026549 seconds
+[2017.04.26-22.35.31:228][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.04.26-22.35.31:228][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.04.26-22.35.31:228][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.26-22.35.31:285][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.26-22.35.32:000][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.26-22.35.32:000][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-22.35.32:000][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-22.35.32:819][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.26-22.35.32:858][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.26-22.35.33:172][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.26-22.35.33:543][  0]SourceControl: Info Source control is disabled
+[2017.04.26-22.35.33:586][  0]SourceControl: Info Source control is disabled
+[2017.04.26-22.35.33:634][  0]SourceControl: Info Source control is disabled
+[2017.04.26-22.35.33:703][  0]SourceControl: Info Source control is disabled
+[2017.04.26-22.35.35:010][  0]LogEngine: Initializing Engine...
+[2017.04.26-22.35.35:010][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.26-22.35.35:264][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.26-22.35.35:272][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-22.35.35:283][  0]LogInit: FAudioDevice initialized.
+[2017.04.26-22.35.35:308][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/adpapaio/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.26-22.35.35:319][  0]LogInit: Texture streaming: Enabled
+[2017.04.26-22.35.35:486][  0]LogInit: Transaction tracking system initialized
+[2017.04.26-22.35.35:814][  0]BlueprintLog: New page: Editor Load
+[2017.04.26-22.35.36:725][  0]LocalizationService: Info Localization service is disabled
+[2017.04.26-22.35.37:404][  0]LogConsoleResponse:Display: 
+[2017.04.26-22.35.37:525][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.26-22.35.37:525][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.26-22.35.38:477][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/' took 0.02s
+[2017.04.26-22.35.38:519][  0]SourceControl: Info Source control is disabled
+[2017.04.26-22.35.38:519][  0]Cmd: MAP LOAD FILE="../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/RTTH.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-22.35.38:519][  0]LightingResults: New page: Lighting Build
+[2017.04.26-22.35.38:556][  0]MapCheck: New page: Map Check
+[2017.04.26-22.35.38:556][  0]LightingResults: New page: Lighting Build
+[2017.04.26-22.35.41:826][  0]LogAIModule: Creating AISystem for world RTTH
+[2017.04.26-22.35.41:848][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor needed to have new flag set bUsedWithSplineMeshes !
+[2017.04.26-22.35.41:852][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2017.04.26-22.35.41:907][  0]MapCheck:Warning: Warning M_Basic_Floor Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor was missing the usage flag bUsedWithSplineMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.04.26-22.35.41:907][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-22.35.42:209][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.04.26-22.35.42:265][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-22.35.42:339][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 74.066ms to complete.
+[2017.04.26-22.35.42:355][  0]LogFileHelpers: Loading map 'RTTH' took 3.836
+[2017.04.26-22.35.42:427][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.26-22.35.43:017][  0]LogCollectionManager: Loaded 1 collections in 0.004374 seconds
+[2017.04.26-22.35.43:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Collections/' took 0.01s
+[2017.04.26-22.35.43:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Developers/adpapaio/Collections/' took 0.01s
+[2017.04.26-22.35.43:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Collections/' took 0.01s
+[2017.04.26-22.35.43:114][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.04.26-22.35.43:115][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.04.26-22.35.43:123][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2190 classes and 428 folders.
+[2017.04.26-22.35.43:178][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.26-22.35.43:178][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.26-22.35.43:178][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.04.26-22.35.43:259][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.26-22.35.43:311][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.26-22.35.43:363][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.26-22.35.43:423][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.26-22.35.43:432][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.26-22.35.43:522][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.26-22.35.43:522][  0]LogLoad: (Engine Initialization) Total time: 19.05 seconds
+[2017.04.26-22.35.43:522][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.65 seconds
+[2017.04.26-22.35.43:522][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.26-22.35.43:522][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.26-22.35.43:532][  0]LogOcInput: OculusInput pre-init called
+[2017.04.26-22.35.43:552][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.26-22.35.43:711][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.26-22.35.44:137][  1]LogAssetRegistry: Asset discovery search completed in 12.9807 seconds
+[2017.04.26-22.35.44:137][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000008 seconds (found 0 objects)
+[2017.04.26-22.35.44:137][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000021 seconds (updated 0 objects)
+[2017.04.26-22.35.56:026][327]LogLinker:Warning: Can't find file '/Game/Levels/demolitionLevel_BuiltData'
+[2017.04.26-22.35.56:026][327]LogLinker:Warning: Can't find file for asset '/Game/Levels/demolitionLevel_BuiltData' while loading ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/demolitionLevel.umap.
+[2017.04.26-22.35.56:026][327]LoadErrors:Error: Error /Game/Levels/demolitionLevel : Can't find file for asset. /Game/Levels/demolitionLevel_BuiltData
+[2017.04.26-22.35.56:415][327]LogLinker:Warning: Can't find file '/Game/Levels/demolitionLevel_BuiltData'
+[2017.04.26-22.35.56:415][327]LogLinker:Warning: Can't find file for asset '/Game/Levels/demolitionLevel_BuiltData' while loading ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/demolitionLevel.umap.
+[2017.04.26-22.35.56:430][327]LogLinker:Warning: Can't find file '/Game/Levels/demolitionLevel_BuiltData'
+[2017.04.26-22.35.56:430][327]LogLinker:Warning: Can't find file for asset '/Game/Levels/demolitionLevel_BuiltData' while loading NULL.
+[2017.04.26-22.35.56:430][327]LogLinker:Warning: Can't find file '/Game/Levels/demolitionLevel_BuiltData'
+[2017.04.26-22.35.56:430][327]LogLinker:Warning: Can't find file for asset '/Game/Levels/demolitionLevel_BuiltData' while loading NULL.
+[2017.04.26-22.35.56:658][327]LogLinker:Warning: Can't find file '/Game/Levels/demolitionLevel_BuiltData'
+[2017.04.26-22.35.56:658][327]LoadErrors: Info Failed to load /Game/Levels/demolitionLevel_BuiltData.demolitionLevel_BuiltData Referenced by PersistentLevel
+[2017.04.26-22.35.56:658][327]LogLinker:Warning: Can't find file for asset '/Game/Levels/demolitionLevel_BuiltData' while loading NULL.
+[2017.04.26-22.35.57:495][327]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.04.26-22.35.57:624][327]Cmd: MAP LOAD FILE="../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/demolitionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-22.35.57:624][327]LightingResults: New page: Lighting Build
+[2017.04.26-22.35.57:625][327]LoadErrors: New page: Loading map: demolitionLevel.umap
+[2017.04.26-22.35.57:679][327]MapCheck: New page: Map Check
+[2017.04.26-22.35.57:679][327]LightingResults: New page: Lighting Build
+[2017.04.26-22.35.57:812][327]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-22.35.57:869][327]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-22.35.57:958][327]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.303ms to complete.
+[2017.04.26-22.35.57:958][327]LogFileHelpers: Loading map 'demolitionLevel' took 0.335
+[2017.04.26-22.36.01:974][783]LogTemp: Repeting last play command: Simulate
+[2017.04.26-22.36.02:001][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/Levels/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.04.26-22.36.02:001][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-22.36.02:001][783]PIE: New page: SIE session: demolitionLevel (Apr 26, 2017, 2:36:02 PM)
+[2017.04.26-22.36.02:002][783]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_demolitionLevel
+[2017.04.26-22.36.02:049][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046417s)
+[2017.04.26-22.36.02:049][783]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.04.26-22.36.02:049][783]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2017.04.26-22.36.02:049][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/demolitionLevel.demolitionLevel to /Game/Levels/UEDPIE_0_demolitionLevel.demolitionLevel (0.047165s)
+[2017.04.26-22.36.02:069][783]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-22.36.02:077][783]LogInit: FAudioDevice initialized.
+[2017.04.26-22.36.02:116][783]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.04.26-22.36.02:156][783]LogVehicles:Warning: Cannot create vehicle for /Game/Levels/UEDPIE_0_demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP_176.MovementComp. Wheel 0 is not set.
+[2017.04.26-22.36.02:161][783]LogWorld: Bringing World /Game/Levels/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.04.26-18.36.02
+[2017.04.26-22.36.02:167][783]LogWorld: Bringing up level for play took: 0.048403
+[2017.04.26-22.36.02:167][783]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.26-22.36.02:229][783]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.26-22.36.02:256][783]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_demolitionLevel -0.33
+[2017.04.26-22.36.02:262][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/Levels/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.04.26-22.36.02:272][783]LogAudio:Warning: Detected orphaned looping sound '150413_Too_Adventurous-free_download'.
+[2017.04.26-22.36.02:289][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:432][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:289][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:432][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:289][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:289][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:289][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:289][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:289][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:289][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:290][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:290][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:290][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:433][255]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:290][783]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:486][256]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:339][784]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:486][256]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:339][784]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:486][256]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:339][784]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:486][256]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:339][784]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:486][256]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:339][784]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:486][256]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:339][784]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:512][257]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:357][785]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:512][257]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:357][785]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:512][257]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:357][785]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:512][257]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:357][785]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:512][257]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:357][785]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:512][257]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:357][785]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:543][258]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:375][786]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:544][258]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:375][786]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:544][258]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:375][786]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:544][258]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:375][786]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:544][258]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:375][786]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:544][258]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:375][786]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:572][259]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:393][787]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:572][259]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:393][787]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:572][259]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:393][787]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:572][259]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:393][787]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:572][259]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:393][787]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:572][259]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:393][787]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:597][260]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:412][788]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:597][260]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:412][788]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:597][260]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:412][788]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:597][260]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:412][788]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:597][260]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:412][788]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:597][260]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:412][788]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:627][261]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:435][789]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:627][261]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:436][789]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:627][261]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:436][789]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:627][261]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:436][789]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:627][261]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:436][789]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:627][261]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:436][789]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:654][262]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:458][790]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:654][262]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:458][790]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:654][262]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:459][790]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:654][262]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:459][790]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:654][262]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:459][790]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:654][262]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:459][790]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:680][263]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:486][791]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:680][263]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:486][791]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:680][263]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:486][791]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:680][263]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:486][791]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:680][263]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:486][791]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:680][263]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:486][791]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:702][264]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:508][792]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:702][264]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:508][792]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:702][264]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:509][792]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:702][264]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:509][792]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:702][264]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:509][792]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:702][264]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:509][792]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:727][265]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:534][793]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:728][265]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:534][793]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:728][265]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:534][793]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:728][265]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:534][793]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:728][265]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:534][793]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:728][265]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:534][793]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:754][266]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:554][794]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:754][266]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:554][794]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:754][266]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:554][794]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:755][266]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:554][794]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:755][266]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:554][794]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:755][266]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:554][794]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:783][267]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:573][795]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:783][267]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:573][795]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:783][267]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:573][795]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:783][267]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:573][795]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:783][267]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:573][795]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:783][267]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:574][795]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:807][268]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:593][796]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:807][268]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:593][796]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:807][268]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:593][796]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:807][268]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:593][796]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:807][268]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:593][796]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:807][268]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:593][796]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:831][269]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:612][797]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:831][269]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:612][797]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:831][269]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:612][797]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:831][269]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:612][797]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:831][269]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:612][797]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:831][269]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:612][797]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:855][270]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:631][798]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_0
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:855][270]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:631][798]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_1
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:855][270]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:631][798]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_2
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:855][270]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:631][798]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_3
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:855][270]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:631][798]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_4
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.31.59:855][270]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+[2017.04.26-22.36.02:631][798]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
 	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_0.HUD_C_5
 	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
-[2017.04.26-22.32.02:426][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky' with GeneratedClass '/Game/Levels/WheelsInSky.WheelsInSky_C' with ClassGeneratedBy '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky'
-[2017.04.26-22.32.02:476][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky' with GeneratedClass '/Game/Levels/WheelsInSky.WheelsInSky_C' with ClassGeneratedBy '/Game/Levels/WheelsInSky.WheelsInSky:PersistentLevel.WheelsInSky'
-[2017.04.26-22.32.05:569][571]LogSavePackage: Save=958.81ms
-[2017.04.26-22.32.05:569][571]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/WheelsInSky89397A8D403DEB05BD7733A942C5EA1F.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap'
-[2017.04.26-22.32.05:573][571]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap
-[2017.04.26-22.32.05:632][571]LogFileHelpers: Saving map 'WheelsInSky' took 1.161
-[2017.04.26-22.34.05:325][326]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit)
-[2017.04.26-22.34.10:017][662]LogSavePackage: Save=949.28ms
-[2017.04.26-22.34.10:017][662]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/WheelsInSky6C510B654A12830ECDCA3BA0F564893C.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap'
-[2017.04.26-22.34.10:022][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap
-[2017.04.26-22.34.10:093][662]LogFileHelpers: Saving map 'WheelsInSky' took 1.124
-[2017.04.26-22.34.11:693][803]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.26-22.34.11:912][804]Cmd: QUIT_EDITOR
-[2017.04.26-22.34.11:974][804]LogExit: Preparing to exit.
-[2017.04.26-22.34.13:124][804]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/' was aborted.
-[2017.04.26-22.34.13:196][804]LogExit: Editor shut down
-[2017.04.26-22.34.13:197][804]LogExit: Transaction tracking system shut down
-[2017.04.26-22.34.13:355][804]LogObj: Freed 0b from 0 cluster array pools.
-[2017.04.26-22.34.13:355][804]LogExit: Object subsystem successfully closed.
-[2017.04.26-22.34.13:378][804]LogD3D11RHI: Shutdown
-[2017.04.26-22.34.13:378][804]LogD3D11RHI: CleanupD3DDevice
-[2017.04.26-22.34.13:499][804]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.04.26-22.34.13:512][804]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.04.26-22.34.13:512][804]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6F94F214-4782-7DC3-14B3-9097390CFA90%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd8d9cf048bfd28b9bb7a9a49b394d3b%7C494047d02eb044c0b2933fd6473f3065%7C953b6e70-6a04-4b6b-a326-609a2a97aa0b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.04.26-22.34.13:542][804]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (244)
-[2017.04.26-22.34.13:542][804]LogModuleManager: Shutting down and abandoning module BlueprintGraph (243)
-[2017.04.26-22.34.13:542][804]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (242)
-[2017.04.26-22.34.13:542][804]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
-[2017.04.26-22.34.13:542][804]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
-[2017.04.26-22.34.13:542][804]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
-[2017.04.26-22.34.13:542][804]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
-[2017.04.26-22.34.13:542][804]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
-[2017.04.26-22.34.13:542][804]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.14/FeaturePacks/' was aborted.
-[2017.04.26-22.34.13:544][804]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
-[2017.04.26-22.34.13:544][804]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
-[2017.04.26-22.34.13:544][804]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
-[2017.04.26-22.34.13:544][804]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Collections/' was aborted.
-[2017.04.26-22.34.13:544][804]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Developers/adpapaio/Collections/' was aborted.
-[2017.04.26-22.34.13:544][804]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Collections/' was aborted.
-[2017.04.26-22.34.13:544][804]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
-[2017.04.26-22.34.13:544][804]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
-[2017.04.26-22.34.13:544][804]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module BspMode (226)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module Media (215)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module SessionServices (208)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
-[2017.04.26-22.34.13:545][804]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
-[2017.04.26-22.34.13:546][804]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
-[2017.04.26-22.34.13:546][804]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
-[2017.04.26-22.34.13:546][804]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module MergeActors (193)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module SizeMap (192)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module TreeMap (191)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
-[2017.04.26-22.34.14:416][804]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module XmlParser (183)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module Blutility (182)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
-[2017.04.26-22.34.14:417][804]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
-[2017.04.26-22.34.14:469][804]LogModuleManager: Shutting down and abandoning module AutomationController (172)
-[2017.04.26-22.34.14:469][804]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
-[2017.04.26-22.34.14:469][804]LogModuleManager: Shutting down and abandoning module Layers (170)
-[2017.04.26-22.34.14:469][804]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
-[2017.04.26-22.34.14:469][804]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
-[2017.04.26-22.34.14:469][804]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
-[2017.04.26-22.34.14:470][804]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
-[2017.04.26-22.34.14:470][804]LogModuleManager: Shutting down and abandoning module Persona (165)
-[2017.04.26-22.34.14:470][804]LogModuleManager: Shutting down and abandoning module Kismet (164)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module Toolbox (161)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module OutputLog (158)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module GammaUI (157)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module Documentation (156)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module Niagara (155)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module PortalServices (152)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
-[2017.04.26-22.34.14:487][804]LogModuleManager: Shutting down and abandoning module AIModule (147)
-[2017.04.26-22.34.14:488][804]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
-[2017.04.26-22.34.14:605][804]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
-[2017.04.26-22.34.14:605][804]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
-[2017.04.26-22.34.14:605][804]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
-[2017.04.26-22.34.14:605][804]LogModuleManager: Shutting down and abandoning module SteamVR (142)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module OculusInput (138)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module CableComponent (135)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module SourceControl (115)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
-[2017.04.26-22.34.14:606][804]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
-[2017.04.26-22.34.14:607][804]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
-[2017.04.26-22.34.14:607][804]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
-[2017.04.26-22.34.14:607][804]LogModuleManager: Shutting down and abandoning module HotReload (108)
-[2017.04.26-22.34.14:608][804]LogModuleManager: Shutting down and abandoning module MainFrame (107)
-[2017.04.26-22.34.14:608][804]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
-[2017.04.26-22.34.14:609][804]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
-[2017.04.26-22.34.14:611][804]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
-[2017.04.26-22.34.14:611][804]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
-[2017.04.26-22.34.14:712][804]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
-[2017.04.26-22.34.14:812][804]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2017.04.26-22.34.14:812][804]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2017.04.26-22.34.14:812][804]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2017.04.26-22.34.14:812][804]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2017.04.26-22.34.14:812][804]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2017.04.26-22.34.14:812][804]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2017.04.26-22.34.14:813][804]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2017.04.26-22.34.14:819][804]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2017.04.26-22.34.14:819][804]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2017.04.26-22.34.14:819][804]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2017.04.26-22.34.14:819][804]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2017.04.26-22.34.14:819][804]LogModuleManager: Shutting down and abandoning module Core (75)
-[2017.04.26-22.34.14:819][804]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2017.04.26-22.34.14:819][804]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.04.26-22.34.14:819][804]LogDirectoryWatcher: A directory notification for '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/' was aborted.
-[2017.04.26-22.34.14:819][804]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.04.26-22.34.14:820][804]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2017.04.26-22.34.14:970][804]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2017.04.26-22.34.14:970][804]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2017.04.26-22.34.14:970][804]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2017.04.26-22.34.14:970][804]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2017.04.26-22.34.14:970][804]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2017.04.26-22.34.14:970][804]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2017.04.26-22.34.14:970][804]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.04.26-22.34.14:970][804]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.04.26-22.34.14:986][804]LogDerivedDataCache: Shutdown
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.04.26-22.34.14:986][804]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2017.04.26-22.34.14:987][804]LogOnline:Display: Unloading online subsystem: NULL
-[2017.04.26-22.34.14:987][804]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2017.04.26-22.34.14:989][804]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.04.26-22.34.14:989][804]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.04.26-22.34.14:990][804]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.04.26-22.34.14:990][804]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.04.26-22.34.14:990][804]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.04.26-22.34.14:990][804]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.04.26-22.34.14:995][804]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.04.26-22.34.14:995][804]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.04.26-22.34.14:995][804]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.04.26-22.34.14:995][804]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.04.26-22.34.14:995][804]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.04.26-22.34.14:995][804]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.04.26-22.34.14:996][804]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.04.26-22.34.14:996][804]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.04.26-22.34.14:996][804]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.04.26-22.34.14:996][804]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.04.26-22.34.14:999][804]LogExit: Exiting.
-[2017.04.26-22.34.15:002][804]Log file closed, 04/26/17 18:34:15
+[2017.04.26-22.36.09:936][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/Levels/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.04.26-22.36.09:987][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/Levels/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.04.26-22.36.12:404][508]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2017.04.26-22.36.21:689][537]LogTemp: Repeting last play command: Simulate
+[2017.04.26-22.36.21:716][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/Levels/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.04.26-22.36.21:716][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-22.36.21:716][537]PIE: New page: SIE session: demolitionLevel (Apr 26, 2017, 2:36:21 PM)
+[2017.04.26-22.36.21:716][537]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_demolitionLevel
+[2017.04.26-22.36.21:763][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046311s)
+[2017.04.26-22.36.21:764][537]LogAIModule: Creating AISystem for world demolitionLevel
+[2017.04.26-22.36.21:764][537]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.04.26-22.36.21:764][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/demolitionLevel.demolitionLevel to /Game/Levels/UEDPIE_0_demolitionLevel.demolitionLevel (0.047100s)
+[2017.04.26-22.36.21:788][537]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-22.36.21:794][537]LogInit: FAudioDevice initialized.
+[2017.04.26-22.36.21:825][537]LogLoad: Game class is 'defaultCarLevel_C'
+[2017.04.26-22.36.21:847][537]LogVehicles:Warning: Cannot create vehicle for /Game/Levels/UEDPIE_0_demolitionLevel.demolitionLevel:PersistentLevel.swanCarBP_176.MovementComp. Wheel 0 is not set.
+[2017.04.26-22.36.21:850][537]LogWorld: Bringing World /Game/Levels/UEDPIE_0_demolitionLevel.demolitionLevel up for play (max tick rate 0) at 2017.04.26-18.36.21
+[2017.04.26-22.36.21:855][537]LogWorld: Bringing up level for play took: 0.028783
+[2017.04.26-22.36.21:855][537]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.26-22.36.21:884][537]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_demolitionLevel -0.703
+[2017.04.26-22.36.21:886][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/Levels/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.04.26-22.36.21:893][537]LogAudio:Warning: Detected orphaned looping sound '150413_Too_Adventurous-free_download'.
+[2017.04.26-22.36.21:916][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:917][537]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:950][538]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:950][538]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:951][538]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:951][538]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:951][538]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:951][538]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:971][539]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:971][539]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:971][539]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:971][539]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:971][539]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:971][539]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:990][540]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:990][540]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:990][540]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:990][540]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:990][540]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.21:990][540]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:010][541]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:010][541]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:010][541]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:010][541]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:010][541]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:010][541]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:029][542]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:029][542]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:029][542]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:029][542]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:029][542]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:029][542]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:050][543]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:050][543]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:050][543]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:050][543]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:050][543]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:050][543]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:082][544]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:082][544]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:082][544]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:082][544]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:082][544]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:082][544]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:107][545]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:107][545]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:107][545]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:107][545]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:107][545]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:107][545]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:146][546]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:146][546]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:146][546]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:146][546]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:146][546]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:146][546]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:178][547]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:178][547]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:179][547]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:179][547]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:179][547]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:179][547]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:211][548]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:211][548]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:211][548]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:211][548]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:211][548]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:211][548]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:235][549]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:235][549]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:235][549]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:235][549]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:235][549]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:235][549]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:261][550]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:261][550]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:262][550]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:262][550]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:262][550]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:262][550]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:288][551]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:288][551]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:288][551]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:288][551]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:288][551]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:288][551]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:312][552]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_6
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:312][552]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_7
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:312][552]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_8
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:312][552]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_9
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:312][552]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_10
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.22:313][552]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsDefault_Car_BP2
+	HUD_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1.HUD_C_11
+	Function /Game/GUI/HUD.HUD_C:GetHealth:0213
+[2017.04.26-22.36.37:417][601]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/Levels/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.04.26-22.36.37:474][601]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel' with GeneratedClass '/Game/Levels/demolitionLevel.demolitionLevel_C' with ClassGeneratedBy '/Game/Levels/demolitionLevel.demolitionLevel:PersistentLevel.demolitionLevel'
+[2017.04.26-22.36.40:744][761]LogSavePackage: Save=671.71ms
+[2017.04.26-22.36.40:744][761]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/demolitionLevelBF9EEF904999FFB5E38152ACD0AD6630.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/demolitionLevel.umap'
+[2017.04.26-22.36.40:754][761]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/demolitionLevel.umap
+[2017.04.26-22.36.40:841][761]LogFileHelpers: Saving map 'demolitionLevel' took 0.884
+[2017.04.26-22.36.47:449][453]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.04.26-22.37.00:328][127]LogAudioDerivedData:Display: Building compressed audio format OGG wave 150413_Fated_To_Fight---free_download...
+[2017.04.26-22.37.01:812][127]LogAudioDerivedData:Display: Building compressed audio format OGG wave 150413_Speeding-free_download...
+[2017.04.26-22.37.04:550][127]LogAudioDerivedData:Display: Building compressed audio format OGG wave 150413_Wrath_Of_Sin-free_download...
+[2017.04.26-22.37.33:714][ 95]BlueprintLog: New page: Compile demolitionLevel
+[2017.04.26-22.37.44:932][801]LogSavePackage: Save=736.48ms
+[2017.04.26-22.37.44:933][801]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/demolitionLevelA47A5DBA41B2E8AA8CF82AB6AAEACB2D.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/demolitionLevel.umap'
+[2017.04.26-22.37.44:942][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/demolitionLevel.umap
+[2017.04.26-22.37.45:035][801]LogFileHelpers: Saving map 'demolitionLevel' took 0.986
+[2017.04.26-22.37.52:272][357]LogAIModule: Creating AISystem for world WheelsInSky
+[2017.04.26-22.37.52:273][357]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled needed to have new flag set bUsedWithSplineMeshes !
+[2017.04.26-22.37.52:280][357]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2017.04.26-22.37.52:320][357]MapCheck:Warning: Warning M_Brick_Clay_Beveled Material /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled was missing the usage flag bUsedWithSplineMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.04.26-22.37.52:332][357]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-22.37.52:431][357]Cmd: MAP LOAD FILE="../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-22.37.52:431][357]LightingResults: New page: Lighting Build
+[2017.04.26-22.37.52:432][357]LoadErrors: New page: Loading map: WheelsInSky.umap
+[2017.04.26-22.37.52:536][357]MapCheck: New page: Map Check
+[2017.04.26-22.37.52:536][357]LightingResults: New page: Lighting Build
+[2017.04.26-22.37.52:655][357]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-22.37.52:725][357]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-22.37.52:827][357]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.913ms to complete.
+[2017.04.26-22.37.52:827][357]LogFileHelpers: Loading map 'WheelsInSky' took 0.398
+[2017.04.26-22.38.09:779][273]MapCheck: New page: Map Check
+[2017.04.26-22.38.09:945][273]Cmd: MAP REBUILD ALLVISIBLE
+[2017.04.26-22.38.09:946][273]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.04.26-22.38.10:289][273]LightingResults: New page: Lighting Build - Apr 26, 2017, 2:38:10 PM
+[2017.04.26-22.38.10:694][273]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.26-22.38.10:874][273]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.26-22.38.10:894][273]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.26-22.38.12:531][273]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.26-22.38.12:531][273]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16236
+[2017.04.26-22.38.17:987][273]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.04.26-22.38.17:988][273]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.26-22.38.17:988][273]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.26-22.38.17:988][273]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.26-22.38.17:988][273]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.26-22.38.17:988][273]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.26-22.38.18:500][273]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.04.26-22.38.18:500][273]MapCheck: New page: WheelsInSky - Apr 26, 2017, 2:38:18 PM
+[2017.04.26-22.38.18:567][273]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.04.26-22.38.18:685][273]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 184.91ms to complete.
+[2017.04.26-22.38.18:707][273]LogEditorBuildUtils: Build time 0:08
+[2017.04.26-22.38.18:997][275]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Beveled, compiling. 
+[2017.04.26-22.38.19:041][275]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Beveled, compiling. 
+[2017.04.26-22.38.19:055][276]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer black_mat, compiling. 
+[2017.04.26-22.38.19:062][276]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer black_mat, compiling. 
+[2017.04.26-22.38.19:097][277]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer red_mat, compiling. 
+[2017.04.26-22.38.19:104][277]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer red_mat, compiling. 
+[2017.04.26-22.38.19:123][278]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blue_mat, compiling. 
+[2017.04.26-22.38.19:130][278]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer blue_mat, compiling. 
+[2017.04.26-22.38.19:147][279]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Gold, compiling. 
+[2017.04.26-22.38.19:153][279]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Gold, compiling. 
+[2017.04.26-22.38.19:166][280]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer white_mat, compiling. 
+[2017.04.26-22.38.19:173][280]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer white_mat, compiling. 
+[2017.04.26-22.38.19:187][281]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer newClouds_Mat, compiling. 
+[2017.04.26-22.38.19:192][281]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer newClouds_Mat, compiling. 
+[2017.04.26-22.38.19:208][282]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer cloud_Mat, compiling. 
+[2017.04.26-22.38.19:214][282]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer cloud_Mat, compiling. 
+[2017.04.26-22.38.19:299][284]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Old, compiling. 
+[2017.04.26-22.38.19:305][284]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Old, compiling. 
+[2017.04.26-22.38.19:318][285]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2017.04.26-22.38.19:324][285]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2017.04.26-22.38.25:690][501]Job is a success!
+[2017.04.26-22.38.25:922][502]LogMaterial:Warning: Material /Game/StarterContent/Textures/newClouds_Mat.newClouds_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.04.26-22.38.25:936][502]LogMaterial: Missing cached shader map for material newClouds_Mat, compiling. 
+[2017.04.26-22.38.25:984][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-22.38.25:984][502]LogMaterial:Warning: Material /Game/StarterContent/Textures/cloud_Mat.cloud_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.04.26-22.38.25:987][502]LogMaterial: Missing cached shader map for material cloud_Mat, compiling. 
+[2017.04.26-22.38.26:103][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2017.04.26-22.38.26:544][502]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2017.04.26-22.38.26:990][502]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2017.04.26-22.38.27:113][502]LogStaticLightingSystem: Illumination: 16.7 sec (414 ms encoding lightmaps, 447 ms encoding shadowmaps)
+[2017.04.26-22.38.27:113][502]LogStaticLightingSystem: Lightmap texture memory:  4.8 MB (4.3 MB streaming, 0.5 MB non-streaming), 20 textures
+[2017.04.26-22.38.27:113][502]LogStaticLightingSystem: Shadowmap texture memory: 6.4 MB (5.7 MB streaming, 0.7 MB non-streaming), 10 textures
+[2017.04.26-22.38.27:953][502]DumpUnbuiltLightIteractions
+[2017.04.26-22.38.27:953][502]Lights with unbuilt interactions: 0
+[2017.04.26-22.38.27:953][502]
+[2017.04.26-22.38.27:953][502]Primitives with unbuilt interactions: 0
+[2017.04.26-22.38.27:960][503]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.26-22.38.27:960][503]MapCheck: New page: WheelsInSky - Apr 26, 2017, 2:38:27 PM
+[2017.04.26-22.38.28:049][503]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.718ms to complete.
+[2017.04.26-22.38.44:426][526]LogSavePackage: Save=946.54ms
+[2017.04.26-22.38.44:426][526]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/WheelsInSky02AA9E1D40818AA20AD811B221A1361E.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap'
+[2017.04.26-22.38.44:430][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap
+[2017.04.26-22.38.44:497][526]LogFileHelpers: Saving map 'WheelsInSky' took 1.168
+[2017.04.26-22.38.44:618][526]LogSavePackage: Save=116.19ms
+[2017.04.26-22.38.44:618][526]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/WheelsInSky_BuiltData3D99721144ABB1246952E49064BE21A0.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky_BuiltData.uasset'
+[2017.04.26-22.38.44:620][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky_BuiltData.uasset
+[2017.04.26-22.38.44:737][526]LogSavePackage: Save=55.31ms
+[2017.04.26-22.38.44:737][526]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/cloud_MatCD1B41AB46539D12AAD56C805DD5CCDA.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/StarterContent/Textures/cloud_Mat.uasset'
+[2017.04.26-22.38.44:742][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/StarterContent/Textures/cloud_Mat.uasset
+[2017.04.26-22.38.44:837][526]LogSavePackage: Save=36.14ms
+[2017.04.26-22.38.44:837][526]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/newClouds_MatC835F0BB4CE8F71200337DB1F5E6C790.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/StarterContent/Textures/newClouds_Mat.uasset'
+[2017.04.26-22.38.44:843][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/StarterContent/Textures/newClouds_Mat.uasset
+[2017.04.26-22.39.09:273][811]BlueprintLog: New page: Compile WheelsInSky
+[2017.04.26-22.39.16:134][139]LogSavePackage: Save=980.41ms
+[2017.04.26-22.39.16:134][139]LogSavePackage: Moving '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/WheelsInSkyE9EF2EDB487F1BE25D76669B2DB912D7.tmp' to '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap'
+[2017.04.26-22.39.16:140][139]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Levels/WheelsInSky.umap
+[2017.04.26-22.39.16:251][139]LogFileHelpers: Saving map 'WheelsInSky' took 1.206
+[2017.04.26-22.39.16:475][139]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.26-22.39.16:706][140]Cmd: QUIT_EDITOR
+[2017.04.26-22.39.17:361][140]LogExit: Preparing to exit.
+[2017.04.26-22.39.18:084][140]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/' was aborted.
+[2017.04.26-22.39.18:140][140]LogExit: Editor shut down
+[2017.04.26-22.39.18:140][140]LogExit: Transaction tracking system shut down
+[2017.04.26-22.39.18:296][140]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.26-22.39.18:296][140]LogExit: Object subsystem successfully closed.
+[2017.04.26-22.39.18:308][140]LogD3D11RHI: Shutdown
+[2017.04.26-22.39.18:308][140]LogD3D11RHI: CleanupD3DDevice
+[2017.04.26-22.39.18:448][140]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.26-22.39.18:462][140]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.26-22.39.18:462][140]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FA51F89-4C19-8E1E-F1D4-22B52DFA1896%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=dd8d9cf048bfd28b9bb7a9a49b394d3b%7C494047d02eb044c0b2933fd6473f3065%7C953b6e70-6a04-4b6b-a326-609a2a97aa0b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (245)
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.04.26-22.39.18:469][140]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.04.26-22.39.18:469][140]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.04.26-22.39.18:471][140]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.04.26-22.39.18:471][140]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.04.26-22.39.18:471][140]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.04.26-22.39.18:471][140]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Collections/' was aborted.
+[2017.04.26-22.39.18:471][140]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/Developers/adpapaio/Collections/' was aborted.
+[2017.04.26-22.39.18:471][140]LogDirectoryWatcher: A directory notification for 'C:/Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Saved/Collections/' was aborted.
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.04.26-22.39.18:472][140]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.04.26-22.39.18:473][140]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.04.26-22.39.19:161][140]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.04.26-22.39.19:162][140]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.04.26-22.39.19:162][140]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.04.26-22.39.19:162][140]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.04.26-22.39.19:162][140]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.04.26-22.39.19:162][140]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.04.26-22.39.19:162][140]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.04.26-22.39.19:162][140]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.04.26-22.39.19:162][140]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.04.26-22.39.19:215][140]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.04.26-22.39.19:215][140]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.04.26-22.39.19:215][140]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.04.26-22.39.19:215][140]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.04.26-22.39.19:215][140]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.04.26-22.39.19:215][140]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.04.26-22.39.19:216][140]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.04.26-22.39.19:216][140]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.04.26-22.39.19:216][140]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.04.26-22.39.19:235][140]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.04.26-22.39.19:244][140]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.04.26-22.39.19:245][140]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.04.26-22.39.19:245][140]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.04.26-22.39.19:247][140]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.04.26-22.39.19:247][140]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.04.26-22.39.19:247][140]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.04.26-22.39.19:348][140]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.04.26-22.39.19:449][140]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.04.26-22.39.19:450][140]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.04.26-22.39.19:450][140]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.04.26-22.39.19:450][140]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.04.26-22.39.19:450][140]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.04.26-22.39.19:454][140]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.04.26-22.39.19:454][140]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.04.26-22.39.19:454][140]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.04.26-22.39.19:454][140]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.04.26-22.39.19:454][140]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.04.26-22.39.19:454][140]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.04.26-22.39.19:454][140]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.26-22.39.19:454][140]LogDirectoryWatcher: A directory notification for '../../../../../../Users/adpapaio/Desktop/GitHub/FairyTaleRacing/Unreal Project/vehicleTest/Content/' was aborted.
+[2017.04.26-22.39.19:455][140]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.26-22.39.19:455][140]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.04.26-22.39.19:602][140]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.04.26-22.39.19:602][140]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.04.26-22.39.19:602][140]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.04.26-22.39.19:602][140]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.04.26-22.39.19:602][140]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.04.26-22.39.19:602][140]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.04.26-22.39.19:602][140]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.04.26-22.39.19:602][140]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.04.26-22.39.19:693][140]LogDerivedDataCache: Shutdown
+[2017.04.26-22.39.19:693][140]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.04.26-22.39.19:693][140]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.04.26-22.39.19:693][140]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.04.26-22.39.19:693][140]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.04.26-22.39.19:693][140]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.04.26-22.39.19:693][140]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.04.26-22.39.19:693][140]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.04.26-22.39.19:693][140]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.04.26-22.39.19:694][140]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.26-22.39.19:694][140]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.04.26-22.39.19:695][140]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.26-22.39.19:695][140]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.26-22.39.19:695][140]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.26-22.39.19:695][140]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.26-22.39.19:695][140]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.26-22.39.19:695][140]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.26-22.39.19:699][140]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.26-22.39.19:702][140]LogExit: Exiting.
+[2017.04.26-22.39.19:706][140]Log file closed, 04/26/17 18:39:19
